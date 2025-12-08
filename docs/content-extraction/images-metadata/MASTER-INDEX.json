@@ -6,11 +6,12 @@
   "source_site": "site-2005-2025/",
   "categories": {
     "wildlife": {
-      "status": "pending",
+      "status": "completed",
       "index_file": "images-metadata/wildlife/index.json",
       "source_directory": "site-2005-2025/images-wildlife/",
-      "estimated_count": 150,
-      "processed": false,
+      "total_images": 82,
+      "processed": true,
+      "processed_date": "2025-12-08",
       "notes": "Batch 1 - Wildlife images including birds, mammals, insects, plants"
     },
     "history": {
@@ -47,32 +48,45 @@
       "notes": "Batch 4 - General site images including logos, maps, committee photos, walks"
     },
     "fungi": {
-      "status": "pending",
+      "status": "completed",
       "index_file": "images-metadata/fungi/index.json",
       "source_directory": "site-2005-2025/Fungi-011114/",
-      "estimated_count": 30,
-      "processed": false,
-      "notes": "Batch 5 - Fungi foray images from November 2014"
+      "total_images": 29,
+      "total_thumbnails": 29,
+      "total_size_bytes": 12251851,
+      "total_thumbnail_size_bytes": 2134014,
+      "processed": true,
+      "processed_date": "2025-12-08",
+      "event_details": {
+        "event_name": "Fungus Foray",
+        "date": "2014-11-01",
+        "recorder": "Ray Tantram",
+        "species_count": 45
+      },
+      "notes": "Batch 5 - Fungi foray images from November 2014, with species identifications"
     }
   },
   "summary": {
     "total_categories": 5,
-    "categories_completed": 3,
-    "categories_pending": 2,
-    "images_processed": 62,
-    "images_pending_estimate": 180,
-    "total_processed_size_bytes": 10548776,
-    "completion_percentage": 60
+    "categories_completed": 5,
+    "categories_pending": 0,
+    "total_images_processed": 173,
+    "total_thumbnails": 69,
+    "completion_percentage": 100
   },
   "quality_analysis": {
-    "needs_review_count": 14,
+    "needs_review_count": 17,
     "duplicate_candidates": {
       "logo_variants": 8,
       "cross_folder_duplicates": 4,
       "recommendation": "Consolidate during migration to reduce redundancy"
     },
     "human_remains_images": 2,
-    "human_remains_note": "SkeletonHeads.jpg and Skeletons3.jpg contain human remains - review for public display appropriateness"
+    "human_remains_note": "SkeletonHeads.jpg and Skeletons3.jpg contain human remains - review for public display appropriateness",
+    "poisonous_fungi_images": 3,
+    "poisonous_fungi_note": "Images of Agaricus xanthodermus, Mycena pura, and Hypholoma fasciculare should be clearly labelled as poisonous",
+    "copyright_concern": 1,
+    "copyright_note": "Kestrel Alamy INFRINGEMENT.jpg in wildlife folder may have licensing issues"
   },
   "migration_recommendations": [
     {
@@ -86,6 +100,11 @@
       "description": "Images duplicated between history-images/ and images/ should be stored in one location"
     },
     {
+      "priority": "high",
+      "action": "Resolve copyright issue",
+      "description": "Review Kestrel Alamy INFRINGEMENT.jpg - may need to be removed or properly licensed"
+    },
+    {
       "priority": "medium",
       "action": "Verify QR codes",
       "description": "FoFD-QR.jpg and ScanMe.jpg need verification that they link to correct URLs"
@@ -94,6 +113,11 @@
       "priority": "medium",
       "action": "Review human remains images",
       "description": "SkeletonHeads.jpg and Skeletons3.jpg may not be suitable for prominent display"
+    },
+    {
+      "priority": "medium",
+      "action": "Add poisonous fungi warnings",
+      "description": "Clearly label poisonous species in fungi gallery with appropriate warnings"
     },
     {
       "priority": "low",
@@ -108,6 +132,8 @@
     "/about/projects": ["cairn-project", "station-greening"],
     "/history": ["aerial-1944", "tea-rooms", "fairdean-heights", "stone-age-axe"],
     "/explore/archaeology": ["excavation-photos", "artifact-illustrations", "site-plans"],
+    "/explore/wildlife": ["wildlife-photos"],
+    "/explore/fungi": ["fungi-foray-photos"],
     "/explore/walks": ["walk-maps", "trail-guides"],
     "/visit": ["getting-there-maps", "car-park"],
     "/gallery": ["all-high-quality-images"]
@@ -118,6 +144,13 @@
       "action": "Initial processing",
       "batches_completed": ["history", "archaeology", "general"],
       "batches_pending": ["wildlife", "fungi"]
+    },
+    {
+      "date": "2025-12-08",
+      "action": "Phase 0B completion",
+      "batches_completed": ["wildlife", "fungi"],
+      "batches_pending": [],
+      "notes": "All 5 image categories now processed. 173 images catalogued with metadata."
     }
   ]
 }
