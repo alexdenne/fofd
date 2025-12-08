@@ -1,0 +1,39 @@
+---
+title: "Chalk Grassland"
+source_pdf: "site-2005-2025/FoFD-HV-POSTSXXX/Post 5.pdf"
+category: "fofdhv-posts"
+post_number: 5
+date_converted: "2025-12-08"
+themes: ["geology", "chalk", "grassland", "wildflowers", "field-scabious", "yellow-rattle", "round-headed-rampion", "north-downs", "cretaceous"]
+---
+
+# Post 5: Chalk Grassland
+
+## Geology of the Downs
+
+Farthing Downs, like the whole of the North Downs, is composed of chalk. This is a fine white limestone, made mostly from the broken fragments of 'coccospheres'. These are the skeletons of microscopic plants, which were laid down between 70 and 100 million years ago, when the whole of the London area was submerged beneath the sea.
+
+The picture at the top of the page is a cross-section of the local landscape running from north to south. It shows how the chalk fits into the overall geology of the area. The picture to the left shows the thickness and age of the different rock types.
+
+## Chalk and Vegetation
+
+Chalk is a permeable rock which means that rainwater can pass through it. In the summer when there is less rainfall, the surface becomes very dry, and plants must be able to withstand drought conditions. Many of the plants found on the Downs are specialists, being tolerant of dry, chalky soil conditions and of being repeatedly grazed by livestock.
+
+On the gentler slopes, however, where little of the soil has been lost by soil-creep, the effects of the alkaline chalk are minimised and more generalist plants thrive.
+
+Thus the vegetation of Farthing Downs includes not only plants which are specific to chalk grassland, but also species which will grow on a wide range of soil types.
+
+## Chalk Grassland Wildflowers
+
+### Field Scabious
+A distinctive wildflower of chalk grassland with purple-blue flowers.
+
+### Greater Yellow Rattle
+Yellow flowers with an inflated calyx. The ripe seeds rattle in their capsules, giving the plant its name.
+
+### Round-headed Rampion
+A striking plant with distinctive deep blue, globe-shaped flower heads.
+
+## Directions
+
+Continue straight ahead along the same grassy path (Do not take the path which runs uphill to the right) and cross over the bridleway. You will see post 6 on the slope of a diagonal path heading uphill (see map below).
