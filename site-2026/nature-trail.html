@@ -1,0 +1,1273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Nature Trail - 29 audio stops narrated by Roger McGough CBE exploring the wildlife, history and archaeology of Farthing Downs and Happy Valley">
+  <meta name="keywords" content="Nature Trail, Roger McGough, Farthing Downs, Happy Valley, audio tour, wildlife, archaeology, chalk grassland">
+  <title>The Nature Trail | Farthing Downs & Happy Valley</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="The Nature Trail - 29 Audio Stops">
+  <meta property="og:description" content="Narrated by Roger McGough CBE. Available in English, French, Hindi, and Polish.">
+  <meta property="og:type" content="website">
+
+  <style>
+    /* Additional styles for Nature Trail specific elements */
+    .language-selector {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-sm);
+      flex-wrap: wrap;
+      margin: var(--space-md) 0;
+    }
+
+    .language-btn {
+      padding: var(--space-xs) var(--space-md);
+      border: 2px solid var(--color-primary);
+      background: var(--color-white);
+      color: var(--color-primary);
+      border-radius: var(--border-radius);
+      font-weight: 600;
+      cursor: pointer;
+      transition: all var(--transition);
+    }
+
+    .language-btn:hover {
+      background: var(--color-primary);
+      color: var(--color-white);
+    }
+
+    .language-btn.active {
+      background: var(--color-primary);
+      color: var(--color-white);
+    }
+
+    .badge {
+      display: inline-block;
+      padding: var(--space-xs) var(--space-sm);
+      background: var(--color-secondary);
+      color: var(--color-text);
+      border-radius: var(--border-radius);
+      font-size: 0.875rem;
+      font-weight: 600;
+      margin-top: var(--space-sm);
+    }
+
+    .trail-stop {
+      position: relative;
+      border-left: 3px solid var(--color-primary);
+      padding-left: var(--space-md);
+      margin-bottom: var(--space-lg);
+    }
+
+    .stop-number {
+      position: absolute;
+      left: -20px;
+      top: 0;
+      width: 40px;
+      height: 40px;
+      background: var(--color-primary);
+      color: var(--color-white);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.125rem;
+    }
+
+    .stop-content {
+      background: var(--color-white);
+      padding: var(--space-md);
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .stop-header {
+      margin-bottom: var(--space-sm);
+    }
+
+    .stop-title {
+      margin-bottom: var(--space-xs);
+      color: var(--color-primary);
+    }
+
+    .stop-description {
+      color: var(--color-text-light);
+      margin-bottom: var(--space-sm);
+    }
+
+    .audio-player {
+      width: 100%;
+      margin: var(--space-sm) 0;
+    }
+
+    .expandable-content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+    }
+
+    .expandable-content.expanded {
+      max-height: 2000px;
+    }
+
+    .expand-btn {
+      background: none;
+      border: none;
+      color: var(--color-primary);
+      font-weight: 600;
+      cursor: pointer;
+      padding: var(--space-xs) 0;
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      transition: color var(--transition);
+    }
+
+    .expand-btn:hover {
+      color: var(--color-primary-dark);
+    }
+
+    .expand-icon {
+      transition: transform var(--transition);
+    }
+
+    .expand-btn.active .expand-icon {
+      transform: rotate(180deg);
+    }
+
+    .map-placeholder {
+      background: var(--color-cream);
+      border: 2px dashed var(--color-primary);
+      border-radius: var(--border-radius);
+      padding: var(--space-lg);
+      text-align: center;
+      margin: var(--space-md) 0;
+    }
+
+    .info-box {
+      background: var(--color-cream);
+      border-left: 4px solid var(--color-secondary);
+      padding: var(--space-md);
+      border-radius: var(--border-radius);
+      margin: var(--space-md) 0;
+    }
+
+    .coming-soon {
+      opacity: 0.7;
+      font-style: italic;
+      color: var(--color-text-light);
+    }
+
+    .trail-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: var(--space-md);
+      margin: var(--space-md) 0;
+    }
+
+    .stat-box {
+      text-align: center;
+      padding: var(--space-md);
+      background: var(--color-white);
+      border-radius: var(--border-radius);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .stat-number {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      display: block;
+    }
+
+    .stat-label {
+      color: var(--color-text-light);
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Farthing Downs <span>&</span> Happy Valley</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html" class="nav-cta">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&q=80" alt="Nature trail through chalk downland" class="hero-image">
+    <div class="hero-content">
+      <h1>The Nature Trail</h1>
+      <p>29 audio stops narrated by Roger McGough CBE</p>
+      <span class="badge">Available in 4 languages</span>
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section>
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2>Discover the Story of Our Land</h2>
+        <p class="text-light" style="max-width: 700px; margin: 0 auto;">
+          Follow in the footsteps of ancient peoples, discover rare wildlife, and explore 2000 years of history on this interactive audio trail. Narrated by the celebrated poet Roger McGough CBE, each stop reveals the fascinating stories hidden in this ancient landscape.
+        </p>
+      </div>
+
+      <!-- Trail Stats -->
+      <div class="trail-stats">
+        <div class="stat-box">
+          <span class="stat-number">29</span>
+          <span class="stat-label">Audio Stops</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">3.5</span>
+          <span class="stat-label">Hours Walking</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">4</span>
+          <span class="stat-label">Languages</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-number">2000+</span>
+          <span class="stat-label">Years of History</span>
+        </div>
+      </div>
+
+      <!-- Language Selector -->
+      <div class="text-center mt-lg">
+        <h3>Select your language:</h3>
+        <div class="language-selector">
+          <button class="language-btn active" data-lang="english">English</button>
+          <button class="language-btn" data-lang="french">Français</button>
+          <button class="language-btn" data-lang="hindi">हिन्दी</button>
+          <button class="language-btn" data-lang="polish">Polski</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trail Map Section -->
+  <section style="background: var(--color-cream);">
+    <div class="container">
+      <h2 class="text-center">Trail Map</h2>
+      <div class="map-placeholder">
+        <h3>Interactive Map Coming Soon</h3>
+        <p class="text-light">Follow the red discs on wooden posts along the trail</p>
+        <a href="#" class="btn btn-primary mt-md">Download PDF Map</a>
+      </div>
+
+      <div class="info-box">
+        <h4>Two Sections</h4>
+        <p><strong>Farthing Downs (Posts 1-10):</strong> Reasonably flat, approximately 1.5 hours</p>
+        <p><strong>Happy Valley (Posts 11-29):</strong> Includes steep hills and steps, approximately 2 hours</p>
+        <p style="margin-bottom: 0;"><em>Each section can be walked independently or combine both for the full experience.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trail Stops -->
+  <section>
+    <div class="container">
+      <h2 class="text-center mb-lg">All 29 Trail Stops</h2>
+
+      <!-- STOP 1 -->
+      <div class="trail-stop">
+        <div class="stop-number">1</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Welcome to the Happy Valley and Farthing Downs Nature Trail</h3>
+            <p class="stop-description">Discover the fascinating wildlife and history of this beautiful area of countryside with our interactive walk.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post01English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p>The trail can be walked in one go or as two sections. The Farthing Downs section (posts 1 to 10) is reasonably flat and takes roughly 1½ hours. The Happy Valley section (posts 11 to 29) includes some steep hills and steps and takes roughly 2 hours to walk.</p>
+
+            <h4>How to follow the trail:</h4>
+            <ol>
+              <li>The route is shown by red discs mounted on wooden posts.</li>
+              <li>At each numbered post, tap on the appropriate number on the nature trail home page to discover the features at each location.</li>
+              <li>Using the back arrow on your phone or browser should return you to the nature trail home page at each stop. Alternatively you can scan the QR code at each post to return to the home page.</li>
+              <li>To help you follow the trail, a map and directions are given below the text for each post.</li>
+            </ol>
+
+            <h4>GPS Navigation</h4>
+            <p>You can also follow the trail using your smartphone's GPS, by using one of two free apps: Viewranger or TiCL.</p>
+
+            <h4>Wildlife spotter game</h4>
+            <p>You may like to try to spot some of the wildlife shown in this guide. You score points for each plant or animal seen and add up your score at the end of the trail. Rarer plants & animals score more points.</p>
+
+            <h4>Directions</h4>
+            <p><strong>To walk the Farthing Downs section:</strong> Go along the top of the Downs towards the wooden fence, keeping the road to your right. Post 2 is next to the red dog bin, near to the cattle grid. There are several visitor information boards in this area which give more details of the history and wildlife of Farthing Downs and the surrounding area.</p>
+            <p><strong>To walk the Happy Valley section:</strong> Cross over the road, heading back towards the cottages. Look out for an arrowed post pointing through the trees on your left to post 11.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 2 -->
+      <div class="trail-stop">
+        <div class="stop-number">2</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Green Belt Land</h3>
+            <p class="stop-description">Learn about the preservation of this beautiful landscape and the conservation efforts that saved it from development.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post02English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p>Facing across the road, you have a commanding view of New Hill. These 34 hectares were bought by the City of London Corporation in 2002 to preserve the area for recreation and wildlife. Looking to the right you will see Happy Valley. In 1937 this area was described as 'one of the most beautiful valleys in the district' and just over 100 hectares of land were bought by the local authority for its preservation.</p>
+
+            <p>New Hill had been allocated for housing in the 1940's, but was saved from development when the area was designated as green belt land.</p>
+
+            <h4>Development History</h4>
+            <p>The area still belonged to a property developer until 2002. During the intervening years, the land had been used for agriculture and horse grazing, but had eventually fallen into neglect. Young trees and scrub colonised the fields, leading to the loss of many of the open wild flower meadows.</p>
+
+            <h4>Conservation Efforts</h4>
+            <p>The grassland that survived was very rich in places, with 8 species of orchid and other rarities being recorded. Some of the larger areas of scrub have since been cleared and livestock grazing has been introduced to keep an open aspect.</p>
+
+            <h4>Directions</h4>
+            <p>Now pass through the gate and turn left down the diagonal path, looking out for a directional marker to take you to post 3.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 3 -->
+      <div class="trail-stop">
+        <div class="stop-number">3</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Iron Age Field System</h3>
+            <p class="stop-description">Discover the ancient field boundaries and farming methods from over 2000 years ago.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post03English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p>The bank near to the path that you have been walking on dates back to the Iron Age, and was originally part of an ancient track or droveway, produced by the people who farmed Farthing Downs over 2000 years ago.</p>
+
+            <h4>Field Boundaries</h4>
+            <p>Other banks found on Farthing Downs are Iron Age field boundaries. The fields were usually less than 2 acres (0.8 hectares) in size, and rectangular in shape, running down both slopes from the track which ran roughly along the summit.</p>
+
+            <p>The banks were formed by the downward movement of soil following ploughing. This hollowed out some of the material on the slope leaving a 'negative lynchet' and accumulated soil at the foot of each field, building up a 'positive lynchet'. If you drove to the start of the trail along the top of Farthing Downs you may have noticed the bumps in the road which are caused by these lynchets.</p>
+
+            <h4>Ancient Agriculture</h4>
+            <p>The thin soils found over the chalk are not very fertile, but the Iron Age people were able to clear the natural vegetation and cultivate these areas using primitive ploughs - merely a crooked piece of wood drawn through the soil by a pair of oxen guided by a ploughman.</p>
+
+            <h4>Later History</h4>
+            <p>The Romano-British settlers of the 1st and 2nd centuries A.D. used the top of the Downs for growing wheat. Their successors, the Saxons, farmed the valley bottoms where, with their improved plough, they could cultivate the deeper, richer soils. The top of the Downs was then abandoned and used only as a cemetery. Since that time Farthing Downs received little or no cultivation and so the Iron Age field lines can still be seen.</p>
+
+            <h4>Woodplace Farm Fields</h4>
+            <p>The path to post 4 veers off to the left and after a short distance crosses a positive lynchet. Look for a directional marker.</p>
+
+            <p>Pause at this post to admire the view across the valley to Woodplace Farm Fields. These two fields were saved from the threat of development in 2004 after a public appeal led by local residents raised enough money to assist the City of London in purchasing the land.</p>
+
+            <h4>Directions</h4>
+            <p>Head directly down the slope to the hedgerow and post 4.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 4 -->
+      <div class="trail-stop">
+        <div class="stop-number">4</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Hedgerows and Boundaries</h3>
+            <p class="stop-description">Explore the wildlife-rich hedgerows that mark ancient boundaries.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post04English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 5 -->
+      <div class="trail-stop">
+        <div class="stop-number">5</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Chalk Grassland Flora</h3>
+            <p class="stop-description">Discover the rare wildflowers and orchids that thrive on chalk grassland.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post05English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 6 -->
+      <div class="trail-stop">
+        <div class="stop-number">6</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Butterflies and Insects</h3>
+            <p class="stop-description">Learn about the incredible diversity of butterflies and insects on the Downs.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post06English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 7 -->
+      <div class="trail-stop">
+        <div class="stop-number">7</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Birds of the Downland</h3>
+            <p class="stop-description">Spot skylarks, red kites, and other birds that call this landscape home.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post07English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 8 -->
+      <div class="trail-stop">
+        <div class="stop-number">8</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Ancient Woodland Edge</h3>
+            <p class="stop-description">Explore where grassland meets woodland and the species that thrive here.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post08English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 9 -->
+      <div class="trail-stop">
+        <div class="stop-number">9</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Grazing and Land Management</h3>
+            <p class="stop-description">Understand how traditional grazing helps preserve this precious habitat.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post09English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 10 -->
+      <div class="trail-stop">
+        <div class="stop-number">10</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Views Across London</h3>
+            <p class="stop-description">Enjoy panoramic views from the top of Farthing Downs towards the capital.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post10English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOPS 11-29 -->
+      <div class="info-box mt-lg">
+        <h3>Happy Valley Section (Posts 11-29)</h3>
+        <p>The Happy Valley section includes steep hills and steps. This section explores the valley's unique ecology, ancient woodlands, and Saxon burial mounds. Audio guides are available for all stops below.</p>
+      </div>
+
+      <!-- STOP 11 -->
+      <div class="trail-stop">
+        <div class="stop-number">11</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Entering Happy Valley</h3>
+            <p class="stop-description">Begin your descent into this ancient and beautiful valley.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post11English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 12 -->
+      <div class="trail-stop">
+        <div class="stop-number">12</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Valley Flora</h3>
+            <p class="stop-description">Discover the plants that thrive in the sheltered valley environment.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post12English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 13 -->
+      <div class="trail-stop">
+        <div class="stop-number">13</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Ancient Trackways</h3>
+            <p class="stop-description">Follow paths used for thousands of years by traders and travelers.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post13English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 14 -->
+      <div class="trail-stop">
+        <div class="stop-number">14</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Woodland Wildlife</h3>
+            <p class="stop-description">Learn about the mammals and birds that inhabit the valley woodlands.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post14English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 15 -->
+      <div class="trail-stop">
+        <div class="stop-number">15</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Saxon Heritage</h3>
+            <p class="stop-description">Explore the Saxon burial mounds that dot this ancient landscape.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post15English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 16 -->
+      <div class="trail-stop">
+        <div class="stop-number">16</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Spring Flora</h3>
+            <p class="stop-description">Discover the spectacular spring wildflower displays.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post16English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 17 -->
+      <div class="trail-stop">
+        <div class="stop-number">17</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Valley Views</h3>
+            <p class="stop-description">Take in the sweeping views across Happy Valley.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post17English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 18 -->
+      <div class="trail-stop">
+        <div class="stop-number">18</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Scrubland and Succession</h3>
+            <p class="stop-description">Understand natural succession and habitat management.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post18English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 19 -->
+      <div class="trail-stop">
+        <div class="stop-number">19</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Invertebrate Haven</h3>
+            <p class="stop-description">Learn about the incredible diversity of insects and invertebrates.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post19English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 20 -->
+      <div class="trail-stop">
+        <div class="stop-number">20</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Chalk Stream Ecology</h3>
+            <p class="stop-description">Explore the unique ecology of chalk streams.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post20English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 21 -->
+      <div class="trail-stop">
+        <div class="stop-number">21</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Valley Mammals</h3>
+            <p class="stop-description">Discover the deer, foxes, and other mammals of Happy Valley.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post21English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 22 -->
+      <div class="trail-stop">
+        <div class="stop-number">22</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Historic Landscape Features</h3>
+            <p class="stop-description">Identify traces of past land use in the landscape.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post22English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 23 -->
+      <div class="trail-stop">
+        <div class="stop-number">23</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Orchid Meadows</h3>
+            <p class="stop-description">Find some of the 8 species of orchid recorded here.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post23English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 24 -->
+      <div class="trail-stop">
+        <div class="stop-number">24</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Birds of Prey</h3>
+            <p class="stop-description">Watch for red kites, kestrels, and buzzards soaring overhead.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post24English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 25 -->
+      <div class="trail-stop">
+        <div class="stop-number">25</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Woodland Edge Habitat</h3>
+            <p class="stop-description">Explore the transitional zone between woodland and grassland.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post25English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 26 -->
+      <div class="trail-stop">
+        <div class="stop-number">26</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Valley Geology</h3>
+            <p class="stop-description">Understand the geological forces that shaped Happy Valley.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post26English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 27 -->
+      <div class="trail-stop">
+        <div class="stop-number">27</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Conservation Success Stories</h3>
+            <p class="stop-description">Learn about the ongoing conservation work protecting this landscape.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post27English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 28 -->
+      <div class="trail-stop">
+        <div class="stop-number">28</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Future of the Downs</h3>
+            <p class="stop-description">Discover how you can help protect this landscape for future generations.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post28English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- STOP 29 -->
+      <div class="trail-stop">
+        <div class="stop-number">29</div>
+        <div class="stop-content">
+          <div class="stop-header">
+            <h3 class="stop-title">Trail End - Thank You</h3>
+            <p class="stop-description">Complete your journey through this ancient landscape.</p>
+          </div>
+
+          <audio controls class="audio-player" data-lang="english">
+            <source src="../site-2005-2025/NatureTrail/NTEnglish/Audio/Post29English.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+
+          <button class="expand-btn" onclick="toggleExpand(this)">
+            Read more <span class="expand-icon">▼</span>
+          </button>
+
+          <div class="expandable-content">
+            <hr style="margin: var(--space-sm) 0; border: none; border-top: 1px solid var(--color-background);">
+            <p class="coming-soon">Full content coming soon. The audio guide is available above.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Getting Started Section -->
+  <section style="background: var(--color-cream);">
+    <div class="container">
+      <h2 class="text-center mb-md">How to Use the Trail</h2>
+
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-content">
+            <h3>🚶 Follow the Posts</h3>
+            <p>Look for red discs mounted on wooden posts along the trail. Each numbered post marks an audio stop.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>🎧 Listen & Learn</h3>
+            <p>Tap the audio player at each stop to hear Roger McGough CBE narrate the story of that location.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>📱 QR Codes</h3>
+            <p>Scan the QR code at each post to return to this page and access the audio for your location.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>🗺️ GPS Navigation</h3>
+            <p>Use smartphone GPS apps like Viewranger or TiCL for turn-by-turn navigation along the trail.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>📥 Download Audio</h3>
+            <p>Right-click any audio player and select 'Download' to save audio files for offline use.</p>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-content">
+            <h3>🌍 Choose Your Language</h3>
+            <p>Select your preferred language at the top of this page. All 29 stops are available in 4 languages.</p>
+          </div>
+        </article>
+      </div>
+
+      <div class="info-box mt-lg">
+        <h3>📝 Wildlife Spotter Game</h3>
+        <p>Try to spot the wildlife mentioned in the trail! Score points for each plant or animal you see. Rarer species score more points. Add up your total at the end of the trail.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Support the Nature Trail</h2>
+      <p>Help us maintain the trail, create new content, and protect this ancient landscape for future generations.</p>
+      <a href="join.html" class="btn btn-primary btn-large">Join Friends of Farthing Downs</a>
+      <a href="join.html#donate" class="btn btn-secondary btn-large" style="margin-left: 1rem;">Make a donation</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="visit.html#getting-here">Getting here</a></li>
+            <li><a href="visit.html#walks">Walks & trails</a></li>
+            <li><a href="visit.html#parking">Parking</a></li>
+            <li><a href="visit.html#safety">Safety info</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="nature-trail.html">Nature Trail</a></li>
+            <li><a href="explore.html#wildlife">Wildlife</a></li>
+            <li><a href="explore.html#archaeology">Archaeology</a></li>
+            <li><a href="explore.html#history">History</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="join.html">Become a member</a></li>
+            <li><a href="join.html#donate">Donate</a></li>
+            <li><a href="join.html#volunteer">Volunteer</a></li>
+            <li><a href="join.html#events">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/groups/129749737166432" aria-label="Facebook Group">📘</a>
+            <a href="mailto:hello@farthingdowns.org.uk" aria-label="Email">✉️</a>
+            <a href="https://github.com/alexdenne/fofd" aria-label="Contribute on GitHub">💻</a>
+          </div>
+          <p class="mt-sm" style="color: rgba(255,255,255,0.6); font-size: 0.875rem;">
+            Farthing Downs is owned by the<br>
+            <a href="https://www.cityoflondon.gov.uk/things-to-do/green-spaces/the-coulsdon-commons">City of London Corporation</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Friends of Farthing Downs & Happy Valley. Registered charity.</p>
+        <p><a href="about.html#privacy">Privacy</a> · <a href="about.html#constitution">Constitution</a> · <a href="https://github.com/alexdenne/fofd">View source</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Mobile menu toggle
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Language selector
+    const languageBtns = document.querySelectorAll('.language-btn');
+    const audioPlayers = document.querySelectorAll('.audio-player');
+
+    languageBtns.forEach(btn => {
+      btn.addEventListener('click', function() {
+        // Update active state
+        languageBtns.forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+
+        // Get selected language
+        const selectedLang = this.dataset.lang;
+
+        // Update audio sources
+        audioPlayers.forEach((player, index) => {
+          const postNum = String(index + 1).padStart(2, '0');
+          let audioPath = '';
+
+          switch(selectedLang) {
+            case 'english':
+              audioPath = `../site-2005-2025/NatureTrail/NTEnglish/Audio/Post${postNum}English.mp3`;
+              break;
+            case 'french':
+              audioPath = `../site-2005-2025/NatureTrail/NTFrench/Audio/Post${postNum}French.mp3`;
+              break;
+            case 'hindi':
+              audioPath = `../site-2005-2025/NatureTrail/NTHindi/Audio/Post${postNum}Hindi.mp3`;
+              break;
+            case 'polish':
+              audioPath = `../site-2005-2025/NatureTrail/NTPolish/Audio/Post${postNum}Polish.mp3`;
+              break;
+          }
+
+          // Update source and reload
+          const source = player.querySelector('source');
+          source.src = audioPath;
+          player.load();
+        });
+      });
+    });
+
+    // Expand/collapse functionality
+    function toggleExpand(button) {
+      const content = button.nextElementSibling;
+      const isExpanded = content.classList.contains('expanded');
+
+      if (isExpanded) {
+        content.classList.remove('expanded');
+        button.classList.remove('active');
+        button.innerHTML = 'Read more <span class="expand-icon">▼</span>';
+      } else {
+        content.classList.add('expanded');
+        button.classList.add('active');
+        button.innerHTML = 'Read less <span class="expand-icon">▼</span>';
+      }
+    }
+
+    // Smooth scroll to stops when clicking on numbered links (future enhancement)
+    document.querySelectorAll('a[href^="#stop-"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
