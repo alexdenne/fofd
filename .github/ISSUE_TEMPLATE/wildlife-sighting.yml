@@ -1,0 +1,63 @@
+name: "Wildlife Sighting"
+description: "Report something interesting you've spotted"
+title: "Spotted: "
+labels: ["wildlife-sighting", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## What did you see?
+
+        Help us keep track of the wildlife at Farthing Downs and Happy Valley!
+
+        Photos are great but not essential - even a description helps.
+
+  - type: input
+    id: species
+    attributes:
+      label: "What did you spot?"
+      description: "Don't worry if you're not sure exactly what it was!"
+      placeholder: "e.g. Red kite, Chalkhill Blue butterfly, Fox, Orchid"
+    validations:
+      required: true
+
+  - type: textarea
+    id: photo
+    attributes:
+      label: "Photo (if you have one)"
+      description: "Drag and drop an image here - totally optional"
+      placeholder: "Drag photo here, or leave empty"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: "Where did you see it?"
+      options:
+        - Farthing Downs - near car park
+        - Farthing Downs - The Folly
+        - Farthing Downs - along the ridge
+        - Happy Valley - main path
+        - Happy Valley - woodland area
+        - On the Nature Trail
+        - Not sure exactly
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: "When?"
+      placeholder: "Today / Yesterday / Last week"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: "Any other details?"
+      description: "Behaviour, how many, anything interesting?"
+      placeholder: "e.g. 'Saw three together, seemed to be feeding on the wildflowers'"
+    validations:
+      required: false
