@@ -1,7 +1,7 @@
 # Phase 1: Content Extraction
 
 **Status:** Not Started
-**Parallel Streams:** 4
+**Parallel Streams:** 5
 **Dependencies:** None (can start immediately)
 **Output Location:** `/fofd-website-new/content-extraction/`
 
@@ -192,6 +192,46 @@ Extract all content from the legacy HTML files into clean, portable formats (Mar
 
 ---
 
+## Stream 1E: Legal & Infrastructure Audit
+
+**Goal:** Document current setup and compliance requirements
+**Output:** `/content-extraction/audit/`
+**Can parallelize with:** 1A, 1B, 1C, 1D
+**Owner:** Requires YOUR input (Claude cannot access external systems)
+
+### Tasks
+
+#### Current Infrastructure
+- [ ] **1E.01** Document current hosting provider details
+- [ ] **1E.02** Document domain registrar (who controls DNS?)
+- [ ] **1E.03** **[YOU]** Check if @friendsoffarthingdowns.co.uk emails exist
+- [ ] **1E.04** **[YOU]** Document who receives current form submissions
+- [ ] **1E.05** **[YOU]** Check Google Analytics - is it set up? Get property ID
+
+#### Data Collection Audit
+- [ ] **1E.06** List all forms on current site (contact, membership, etc.)
+- [ ] **1E.07** Document what data each form collects
+- [ ] **1E.08** Identify where form data is stored/sent
+- [ ] **1E.09** Check for existing privacy policy
+- [ ] **1E.10** Check for existing cookie notice
+
+#### Legal Requirements
+- [ ] **1E.11** Draft privacy policy requirements checklist
+- [ ] **1E.12** Determine if cookie consent needed (analytics = yes)
+- [ ] **1E.13** Document GDPR considerations for membership data
+- [ ] **1E.14** Check charity/nonprofit disclosure requirements (if applicable)
+
+#### Content Rights
+- [ ] **1E.15** **[YOU]** Confirm ownership of all photos
+- [ ] **1E.16** Document Nature Trail audio attribution requirements
+- [ ] **1E.17** Check for any third-party content requiring attribution
+
+**Stream 1E Total:** 17 tasks
+
+**Note:** Tasks marked **[YOU]** require human action - Claude cannot access external accounts or contact people.
+
+---
+
 ## Phase 1 Completion Checklist
 
 - [ ] All 23 main pages extracted to Markdown
@@ -202,6 +242,9 @@ Extract all content from the legacy HTML files into clean, portable formats (Mar
 - [ ] All Nature Trail audio verified (116 files)
 - [ ] Nature Trail data structure created
 - [ ] All JSON data files populated
+- [ ] Infrastructure audit complete (hosting, domain, email)
+- [ ] Legal requirements documented (GDPR, privacy policy needs)
+- [ ] Content rights confirmed
 - [ ] Phase 1 review meeting held
 
 ---
@@ -239,10 +282,11 @@ content-extraction/
 
 ## Notes
 
-- **Parallel execution:** All 4 streams can run simultaneously
-- **Recommended order if solo:** 1D → 1B → 1C → 1A (schemas first, then inventory, then extraction)
+- **Parallel execution:** All 5 streams can run simultaneously
+- **Recommended order if solo:** 1E → 1D → 1B → 1C → 1A (audit first, then schemas, inventory, extraction)
 - **Automation opportunity:** Page extraction (1A) could be scripted
+- **Human dependencies:** Stream 1E has tasks only YOU can complete (marked [YOU])
 
 ---
 
-*Total Phase 1 Tasks: 47*
+*Total Phase 1 Tasks: 64 (41 + 18 + 16 + 11 + 17 = 103, with some overlap = ~64 unique)*

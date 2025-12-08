@@ -30,7 +30,8 @@ fofd-website-new/
 ├── content-extraction/      # Extracted content from legacy site
 │   ├── pages/              # Markdown versions of all pages
 │   ├── data/               # Structured data (JSON/YAML)
-│   └── inventory/          # Asset inventories and mappings
+│   ├── inventory/          # Asset inventories and mappings
+│   └── audit/              # Infrastructure & legal audit (Stream 1E)
 │
 ├── design/                  # Design assets and specifications
 │   ├── wireframes/         # Page layouts
@@ -54,21 +55,21 @@ fofd-website-new/
 ## Phase Overview & Dependencies
 
 ```
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                           PHASE 1: CONTENT EXTRACTION                        │
-│                              (Can run in parallel)                           │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐  ┌──────────────┐    │
-│  │  1A: Pages   │  │  1B: Media   │  │  1C: Nature  │  │  1D: Data    │    │
-│  │  Extraction  │  │  Inventory   │  │  Trail Audit │  │  Structures  │    │
-│  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘  └──────┬───────┘    │
-│         │                 │                 │                 │             │
-└─────────┼─────────────────┼─────────────────┼─────────────────┼─────────────┘
-          │                 │                 │                 │
-          └────────────────┬┴─────────────────┴─────────────────┘
-                           │
-                           ▼
+┌─────────────────────────────────────────────────────────────────────────────────────┐
+│                           PHASE 1: CONTENT EXTRACTION                                │
+│                              (Can run in parallel)                                   │
+├─────────────────────────────────────────────────────────────────────────────────────┤
+│                                                                                      │
+│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────────────┐      │
+│  │ 1A:Pages │  │ 1B:Media │  │1C:Nature │  │ 1D:Data  │  │ 1E:Legal/Infra   │      │
+│  │ [CLAUDE] │  │ [CLAUDE] │  │Trail[YOU]│  │ [CLAUDE] │  │ [YOU + CLAUDE]   │      │
+│  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘  └────────┬─────────┘      │
+│       │             │             │             │                  │                │
+└───────┼─────────────┼─────────────┼─────────────┼──────────────────┼────────────────┘
+        │             │             │             │                  │
+        └─────────────┴──────┬──────┴─────────────┴──────────────────┘
+                             │
+                             ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                           PHASE 2: PLATFORM SETUP                            │
 │                         (Can run parallel to Phase 1)                        │
@@ -169,11 +170,48 @@ main
 
 | Phase | Total Tasks | Parallel Streams | Est. Complexity |
 |-------|-------------|------------------|-----------------|
-| Phase 1 | 47 tasks | 4 streams | Medium |
+| Phase 1 | 64 tasks | 5 streams | Medium |
 | Phase 2 | 28 tasks | 2 streams | Medium |
 | Phase 3 | 52 tasks | 3→1 streams | High |
 | Phase 4 | 24 tasks | Sequential | Low |
-| **Total** | **151 tasks** | - | - |
+| **Total** | **~168 tasks** | - | - |
+
+---
+
+## Human vs Claude Task Division
+
+### Claude Can Do (Autonomous)
+| Task Type | Examples |
+|-----------|----------|
+| Code writing | HTML, CSS, JS, config files |
+| Content extraction | Parse HTML → Markdown |
+| File operations | Create, edit, organize files |
+| Documentation | Write guides, READMEs |
+| Data transformation | Create JSON from HTML |
+| Git operations | Commit, branch, push |
+
+### YOU Must Do (Human Required)
+| Task Type | Examples |
+|-----------|----------|
+| **Visual verification** | Check if site looks correct |
+| **Audio testing** | Verify MP3s play correctly |
+| **Account creation** | Netlify, Stripe, hosting |
+| **External access** | Log into current hosting |
+| **DNS changes** | Update domain records |
+| **Payment testing** | Test actual money flow |
+| **Email testing** | Verify form notifications arrive |
+| **Committee liaison** | Get approvals, feedback |
+| **Browser testing** | Test on real devices |
+| **Accessibility audit** | Run WAVE, Lighthouse |
+
+### Collaboration Tasks
+| Task | Claude Does | You Do |
+|------|-------------|--------|
+| Design system | Write CSS, describe layout | View and approve |
+| Forms | Write form HTML/JS | Test submissions |
+| Audio player | Write player code | Test playback |
+| Payments | Write integration code | Test in sandbox |
+| Launch | Prepare everything | Execute DNS change |
 
 ---
 
@@ -183,6 +221,10 @@ main
 - [Phase 2: Platform Setup](./tasks/PHASE-2-PLATFORM-SETUP.md)
 - [Phase 3: Migration](./tasks/PHASE-3-MIGRATION.md)
 - [Phase 4: Testing & Launch](./tasks/PHASE-4-LAUNCH.md)
+
+## Additional Documentation
+
+- [Gaps & Limitations](./docs/GAPS-AND-LIMITATIONS.md) - Known gaps and Claude Code limitations
 
 ---
 
