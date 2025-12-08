@@ -17,37 +17,34 @@
 ## Folder Structure
 
 ```
-fofd-website-new/
-├── PROJECT-PLAN.md          # This file - master overview
-├── README.md                # Repository documentation
+/
+├── site-2005-2025/              # Legacy website (source content)
+├── site-2026/                   # New website (destination)
 │
-├── tasks/                   # Task lists by phase (WIP tracking)
-│   ├── PHASE-1-CONTENT-EXTRACTION.md
-│   ├── PHASE-2-PLATFORM-SETUP.md
-│   ├── PHASE-3-MIGRATION.md
-│   └── PHASE-4-LAUNCH.md
-│
-├── content-extraction/      # Extracted content from legacy site
-│   ├── pages/              # Markdown versions of all pages
-│   ├── data/               # Structured data (JSON/YAML)
-│   ├── inventory/          # Asset inventories and mappings
-│   └── audit/              # Infrastructure & legal audit (Stream 1E)
-│
-├── design/                  # Design assets and specifications
-│   ├── wireframes/         # Page layouts
-│   ├── components/         # Component designs
-│   └── brand/              # Colors, fonts, logo assets
-│
-├── src/                     # New website source code
-│   ├── layouts/            # Page templates
-│   ├── components/         # Reusable components
-│   ├── styles/             # CSS/SCSS
-│   ├── scripts/            # JavaScript
-│   └── content/            # Content files (markdown)
-│
-└── docs/                    # Additional documentation
-    ├── decisions/          # Architecture Decision Records
-    └── guides/             # How-to guides for committee
+└── docs/
+    ├── WEBSITE_STRATEGY.md      # High-level vision & goals
+    ├── deep-research/           # Background research
+    │
+    ├── migration/               # This folder
+    │   ├── MIGRATION-PLAN.md    # Comprehensive plan (START HERE)
+    │   ├── PROJECT-PLAN.md      # This file - master overview
+    │   ├── STREAMS.md           # Active work streams
+    │   ├── README.md            # Architecture documentation
+    │   ├── GAPS-AND-LIMITATIONS.md
+    │   └── tasks/               # Task lists by phase
+    │       ├── PHASE-0-ASSET-PREPARATION.md
+    │       ├── PHASE-1-CONTENT-EXTRACTION.md
+    │       ├── PHASE-2-PLATFORM-SETUP.md
+    │       ├── PHASE-3-MIGRATION.md
+    │       └── PHASE-4-LAUNCH.md
+    │
+    └── content-extraction/      # Extracted content from legacy site
+        ├── pdfs-markdown/       # Phase 0A - PDF conversions
+        ├── images-metadata/     # Phase 0B - Image metadata
+        ├── pages/               # Phase 1A - HTML→MD conversions
+        ├── data/                # Phase 1D - Structured data
+        ├── inventory/           # Phase 1B - Asset inventories
+        └── audit/               # Phase 1E - Legal/infra audit
 ```
 
 ---
@@ -226,7 +223,7 @@ main
 
 ## Additional Documentation
 
-- [Gaps & Limitations](./docs/GAPS-AND-LIMITATIONS.md) - Known gaps and Claude Code limitations
+- [Gaps & Limitations](./GAPS-AND-LIMITATIONS.md) - Known gaps and Claude Code limitations
 
 ---
 

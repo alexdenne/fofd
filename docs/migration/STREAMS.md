@@ -27,14 +27,14 @@ This file tracks the status of all parallel work streams. Update this when switc
 #### Stream 0A: PDF to Markdown Conversion
 - **What:** Convert 93 PDFs to structured Markdown with frontmatter
 - **Owner:** Claude (autonomous)
-- **Output:** `/content-extraction/pdfs-markdown/`
+- **Output:** `docs/content-extraction/pdfs-markdown/`
 - **Priority:** HIGH - Nature Trail & Post PDFs first
 - **Start command:** Work on branch `stream/0a-pdf-conversion`
 
 #### Stream 0B: Image Metadata Enrichment
 - **What:** Catalog 498 images with metadata, alt-text, categorization
 - **Owner:** Claude (autonomous)
-- **Output:** `/content-extraction/images-metadata/`
+- **Output:** `docs/content-extraction/images-metadata/`
 - **Notes:** Creates MASTER-INDEX.json, DUPLICATES.json, REVIEW-NEEDED.json
 - **Start command:** Work on branch `stream/0b-image-metadata`
 

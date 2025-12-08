@@ -1,8 +1,0 @@
-# Stream 2A: Design System
-# Output directory for design assets
-# See: ../tasks/PHASE-2-PLATFORM-SETUP.md (Stream 2A)
-
-# Subdirectories:
-# - brand/      : Colors, fonts, logo
-# - wireframes/ : Page layouts
-# - components/ : Component designs

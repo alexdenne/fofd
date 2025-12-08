@@ -5,8 +5,8 @@
 **Purpose:** Convert raw assets into structured, enriched formats before content extraction begins.
 **Dependencies:** None (this is the foundation phase)
 **Outputs:**
-- `content-extraction/pdfs-markdown/` - Converted PDF content
-- `content-extraction/images-metadata/` - Enriched image metadata
+- `docs/content-extraction/pdfs-markdown/` - Converted PDF content
+- `docs/content-extraction/images-metadata/` - Enriched image metadata
 
 ---
 
@@ -14,13 +14,13 @@
 
 **Owner:** Claude (autonomous)
 **Input:** 93 PDF files in `site-2005-2025/`
-**Output:** `fofd-website-new/content-extraction/pdfs-markdown/`
+**Output:** `docs/content-extraction/pdfs-markdown/`
 
 ### Setup Tasks
 
 - [ ] **0A.1** Create directory structure
   ```
-  mkdir -p content-extraction/pdfs-markdown/{nature-trail,posts,strategy,agm,maps,history,misc}
+  mkdir -p docs/content-extraction/pdfs-markdown/{nature-trail,posts,strategy,agm,maps,history,misc}
   ```
 
 ### Nature Trail PDFs (HIGH PRIORITY)
@@ -140,13 +140,13 @@
 
 **Owner:** Claude (autonomous)
 **Input:** 498 images in `site-2005-2025/`
-**Output:** `fofd-website-new/content-extraction/images-metadata/`
+**Output:** `docs/content-extraction/images-metadata/`
 
 ### Setup Tasks
 
 - [ ] **0B.1** Create directory structure
   ```
-  mkdir -p content-extraction/images-metadata/{wildlife,history,archaeology,general,fungi}
+  mkdir -p docs/content-extraction/images-metadata/{wildlife,history,archaeology,general,fungi}
   ```
 
 ### Wildlife Images (~150 files)

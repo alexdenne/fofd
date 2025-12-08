@@ -88,7 +88,7 @@ Convert raw assets into structured, searchable, enriched formats BEFORE content 
 ### Stream 0A: PDF to Markdown Conversion
 
 **Input:** 93 PDF files across `site-2005-2025/`
-**Output:** `fofd-website-new/content-extraction/pdfs-markdown/`
+**Output:** `docs/content-extraction/pdfs-markdown/`
 **Owner:** Claude (autonomous)
 
 #### PDF Categories & Priorities
@@ -107,7 +107,7 @@ Convert raw assets into structured, searchable, enriched formats BEFORE content 
 
 ```markdown
 - [ ] 0A.1: Create output directory structure
-      fofd-website-new/content-extraction/pdfs-markdown/
+      docs/content-extraction/pdfs-markdown/
       ├── nature-trail/
       ├── posts/
       ├── strategy/
@@ -172,7 +172,7 @@ related_audio: "NatureTrail/NTEnglish/Audio/Post01.mp3"
 ### Stream 0B: Image Metadata Enrichment
 
 **Input:** 498 images across `site-2005-2025/`
-**Output:** `fofd-website-new/content-extraction/images-metadata/`
+**Output:** `docs/content-extraction/images-metadata/`
 **Owner:** Claude (autonomous)
 
 #### Image Categories
@@ -190,7 +190,7 @@ related_audio: "NatureTrail/NTEnglish/Audio/Post01.mp3"
 
 ```markdown
 - [ ] 0B.1: Create metadata output structure
-      fofd-website-new/content-extraction/images-metadata/
+      docs/content-extraction/images-metadata/
       ├── wildlife/
       ├── history/
       ├── archaeology/
@@ -331,49 +331,54 @@ No change from original plan. Phase 0 outputs provide:
 ## Output Directory Structure
 
 ```
-fofd-website-new/
-├── MIGRATION-PLAN.md              # THIS FILE
-├── PROJECT-PLAN.md                # Original master plan (reference)
-├── STREAMS.md                     # Active work streams
-├── README.md                      # Architecture docs
+/
+├── site-2005-2025/                # Legacy website (source)
+├── site-2026/                     # New website (destination)
 │
-├── content-extraction/
-│   ├── pdfs-markdown/             # NEW - Phase 0A output
-│   │   ├── nature-trail/          # 30 converted post MDs
-│   │   ├── posts/                 # 29 FoFD-HV posts
-│   │   ├── strategy/              # Policy documents
-│   │   ├── agm/                   # AGM presentations
-│   │   ├── maps/                  # INDEX only (visual PDFs)
-│   │   ├── history/               # Historical documents
-│   │   ├── misc/                  # Other PDFs
-│   │   └── MANIFEST.json          # Conversion tracking
-│   │
-│   ├── images-metadata/           # NEW - Phase 0B output
-│   │   ├── wildlife/              # Wildlife image metadata
-│   │   ├── history/               # History image metadata
-│   │   ├── archaeology/           # Archaeology image metadata
-│   │   ├── general/               # General site images
-│   │   ├── fungi/                 # Fungi foray images
-│   │   ├── MASTER-INDEX.json      # All images combined
-│   │   ├── DUPLICATES.json        # Duplicate detection
-│   │   └── REVIEW-NEEDED.json     # Human review queue
-│   │
-│   ├── pages/                     # Phase 1A - HTML→MD conversions
-│   ├── data/                      # Phase 1D - Structured data
-│   ├── inventory/                 # Phase 1B - Asset inventories
-│   │   └── nature-trail/          # Phase 1C - Audio audit
-│   └── audit/                     # Phase 1E - Legal/infra audit
-│
-├── design/                        # Phase 2A outputs
-├── src/                           # Phase 2B+ website source
-├── docs/                          # Additional documentation
-│   └── GAPS-AND-LIMITATIONS.md
-└── tasks/                         # Detailed task lists
-    ├── PHASE-0-ASSET-PREPARATION.md  # NEW
-    ├── PHASE-1-CONTENT-EXTRACTION.md
-    ├── PHASE-2-PLATFORM-SETUP.md
-    ├── PHASE-3-MIGRATION.md
-    └── PHASE-4-LAUNCH.md
+└── docs/
+    ├── WEBSITE_STRATEGY.md        # High-level vision & goals
+    ├── FoFD Meeting Notes...      # Committee decisions
+    ├── deep-research/             # Background research (14 docs)
+    │
+    ├── migration/                 # Migration planning
+    │   ├── MIGRATION-PLAN.md      # THIS FILE - Start here!
+    │   ├── PROJECT-PLAN.md        # Original master plan
+    │   ├── STREAMS.md             # Active work streams
+    │   ├── README.md              # Architecture docs
+    │   ├── GAPS-AND-LIMITATIONS.md
+    │   └── tasks/                 # Detailed task lists
+    │       ├── PHASE-0-ASSET-PREPARATION.md
+    │       ├── PHASE-1-CONTENT-EXTRACTION.md
+    │       ├── PHASE-2-PLATFORM-SETUP.md
+    │       ├── PHASE-3-MIGRATION.md
+    │       └── PHASE-4-LAUNCH.md
+    │
+    └── content-extraction/        # Extracted/processed content
+        ├── pdfs-markdown/         # Phase 0A output
+        │   ├── nature-trail/      # 30 converted post MDs
+        │   ├── posts/             # 29 FoFD-HV posts
+        │   ├── strategy/          # Policy documents
+        │   ├── agm/               # AGM presentations
+        │   ├── maps/              # INDEX only (visual PDFs)
+        │   ├── history/           # Historical documents
+        │   ├── misc/              # Other PDFs
+        │   └── MANIFEST.json      # Conversion tracking
+        │
+        ├── images-metadata/       # Phase 0B output
+        │   ├── wildlife/          # Wildlife image metadata
+        │   ├── history/           # History image metadata
+        │   ├── archaeology/       # Archaeology image metadata
+        │   ├── general/           # General site images
+        │   ├── fungi/             # Fungi foray images
+        │   ├── MASTER-INDEX.json  # All images combined
+        │   ├── DUPLICATES.json    # Duplicate detection
+        │   └── REVIEW-NEEDED.json # Human review queue
+        │
+        ├── pages/                 # Phase 1A - HTML→MD conversions
+        ├── data/                  # Phase 1D - Structured data
+        ├── inventory/             # Phase 1B - Asset inventories
+        │   └── nature-trail/      # Phase 1C - Audio audit
+        └── audit/                 # Phase 1E - Legal/infra audit
 ```
 
 ---
@@ -473,9 +478,9 @@ SEQUENTIAL (after Batch 2):
 |----------|----------|---------|
 | Website Strategy | `docs/WEBSITE_STRATEGY.md` | High-level vision & goals |
 | Meeting Notes | `docs/FoFD Meeting Notes - Sepetmber 2025.md` | Committee decisions |
-| Original Project Plan | `fofd-website-new/PROJECT-PLAN.md` | Detailed task breakdown |
-| Work Streams | `fofd-website-new/STREAMS.md` | Parallel work organization |
-| Gaps & Limitations | `fofd-website-new/docs/GAPS-AND-LIMITATIONS.md` | Known issues |
+| Original Project Plan | `docs/migration/PROJECT-PLAN.md` | Detailed task breakdown |
+| Work Streams | `docs/migration/STREAMS.md` | Parallel work organization |
+| Gaps & Limitations | `docs/migration/GAPS-AND-LIMITATIONS.md` | Known issues |
 | Deep Research | `docs/deep-research/` | Background research (14 docs) |
 
 ---
