@@ -27,6 +27,18 @@ This system coordinates the entire FoFD 2026 website build through a multi-agent
 │  3. ANALYSIS     → Build dependency graph                                    │
 │  4. DISPATCH     → Spawn agents via Task tool (/dispatch-sitebuilder)       │
 │  5. TRACKING     → Checkpoints + Message queues                              │
+This system coordinates the entire FoFD 2026 website build through an **Orchestrator** that discovers strategy documents, synthesizes tasks, and dispatches specialized **Sitebuilder Agents** for parallel execution.
+
+```
+┌─────────────────────────────────────────────────────────────────────────────┐
+│                           AGENTIC ORCHESTRATOR                               │
+│                           /orchestrate-site                                  │
+├─────────────────────────────────────────────────────────────────────────────┤
+│  1. DISCOVERY    → Scan all strategy & plan documents                        │
+│  2. SYNTHESIS    → Extract tasks with citations                              │
+│  3. ANALYSIS     → Build dependency graph                                    │
+│  4. DISPATCH     → Generate parallel sitebuilder prompts                     │
+│  5. TRACKING     → Maintain progress state                                   │
 └────────────┬────────────────────────┬────────────────────────┬──────────────┘
              │                        │                        │
              ▼                        ▼                        ▼
@@ -61,6 +73,7 @@ This system coordinates the entire FoFD 2026 website build through a multi-agent
 │                         MESSAGE QUEUE SYSTEM                                 │
 │  inbox-*/outbox-* files • Human escalations • Broadcasts                    │
 └─────────────────────────────────────────────────────────────────────────────┘
+└────────────────────┘  └────────────────────┘
 ```
 
 ## Quick Start
@@ -92,6 +105,30 @@ This system coordinates the entire FoFD 2026 website build through a multi-agent
 ### 4. Check Human Escalations
 
 Review `messages/human-escalations.md` for actions needed from the committee.
+In Claude Code:
+```
+/orchestrate-site
+```
+
+Or with arguments:
+```
+/orchestrate-site plan      # Generate execution plan
+/orchestrate-site status    # Show current progress
+/orchestrate-site dispatch content   # Spawn content sitebuilder
+/orchestrate-site all       # Full orchestration with all prompts
+```
+
+### 2. Review the Plan
+
+The orchestrator will:
+1. Discover all strategy documents in `docs/`
+2. Extract and consolidate tasks with citations
+3. Show dependency graph and parallel opportunities
+4. Recommend which sitebuilders can start immediately
+
+### 3. Dispatch Sitebuilders
+
+Copy the generated prompts to spawn sitebuilder agents. Sitebuilders that have no dependencies can run in parallel.
 
 ---
 
@@ -101,6 +138,7 @@ Review `messages/human-escalations.md` for actions needed from the committee.
 docs/agentic-orchestration/
 ├── README.md                          # This file
 ├── sitebuilders/                      # Agent definitions
+├── sitebuilders/                      # Sitebuilder agent definitions
 │   ├── sitebuilder-content.md        # Page creation (Harper)
 │   ├── sitebuilder-technical.md      # CSS/infrastructure (Devon)
 │   ├── sitebuilder-community.md      # Membership/engagement (Morgan)
@@ -132,6 +170,11 @@ docs/agentic-orchestration/
 ├── dispatch-sitebuilder.md   # Spawn sitebuilder agents
 ├── supervise.md              # Run supervisor checks
 └── review-site.md            # Existing review system
+│   └── sitebuilder-polish.md         # QA/launch prep (Quinn)
+├── prompts/                           # Generated dispatch prompts
+│   └── (generated at runtime)
+└── progress/                          # Progress tracking
+    └── STATUS.md                      # Current build status
 ```
 
 ---
