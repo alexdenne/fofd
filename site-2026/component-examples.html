@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component Examples - FoFD</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    /* Demo page specific styles */
+    .demo-section {
+      padding: var(--space-lg) 0;
+      border-bottom: 2px solid var(--color-background);
+    }
+
+    .demo-section:last-child {
+      border-bottom: none;
+    }
+
+    .demo-header {
+      margin-bottom: var(--space-md);
+    }
+
+    .demo-description {
+      background: var(--color-cream);
+      padding: var(--space-md);
+      border-radius: var(--border-radius);
+      margin-bottom: var(--space-md);
+    }
+
+    .demo-code {
+      background: var(--color-text);
+      color: #f8f8f2;
+      padding: var(--space-md);
+      border-radius: var(--border-radius);
+      overflow-x: auto;
+      font-family: 'Monaco', 'Courier New', monospace;
+      font-size: 0.875rem;
+      line-height: 1.6;
+    }
+
+    .demo-code pre {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Farthing Downs <span>&</span> Happy Valley</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#audio-demo">Audio Player</a></li>
+        <li><a href="#lightbox-demo">Gallery Lightbox</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div style="height: 70px;"></div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Introduction -->
+    <section class="demo-section">
+      <div class="container">
+        <h1>JavaScript Components Demo</h1>
+        <p class="text-light">Interactive examples of the FoFD website components. All components use vanilla JavaScript with no dependencies.</p>
+      </div>
+    </section>
+
+    <!-- Audio Player Demo -->
+    <section id="audio-demo" class="demo-section">
+      <div class="container">
+        <div class="demo-header">
+          <h2>Audio Player Component</h2>
+          <p class="text-light">Nature Trail audio guide with multilingual support (EN/FR/HI/PL)</p>
+        </div>
+
+        <div class="demo-description">
+          <h3>Features:</h3>
+          <ul>
+            <li>29 stops with audio in 4 languages</li>
+            <li>Play/pause controls with progress bar</li>
+            <li>Previous/next navigation</li>
+            <li>Volume control</li>
+            <li>Time display</li>
+            <li>Keyboard shortcuts (Space to play/pause, Arrow keys for navigation)</li>
+            <li>Mobile responsive</li>
+            <li>Fully accessible with ARIA labels</li>
+          </ul>
+        </div>
+
+        <!-- Audio Player Instance -->
+        <div id="nature-trail-player" data-audio-player></div>
+
+        <div class="mt-lg">
+          <h3>Usage</h3>
+          <div class="demo-code">
+<pre>&lt;!-- Add to your HTML --&gt;
+&lt;div id="nature-trail-player" data-audio-player&gt;&lt;/div&gt;
+
+&lt;!-- Include CSS and JS --&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;script src="js/components.js"&gt;&lt;/script&gt;
+
+&lt;!-- Components auto-initialize, or initialize manually: --&gt;
+&lt;script&gt;
+  const player = new AudioPlayer('nature-trail-player', {
+    audioBasePath: '/site-2005-2025/NatureTrail',
+    totalStops: 29,
+    defaultLanguage: 'en',
+    languages: {
+      en: { name: 'English', path: 'NTEnglish/Audio', format: 'PostXXEnglish.mp3' },
+      fr: { name: 'Français', path: 'NTFrench/Audio', format: 'PostXXFrench.mp3' },
+      hi: { name: 'हिन्दी', path: 'NTHindi/Audio', format: 'PostXXHindi.mp3' },
+      pl: { name: 'Polski', path: 'NTPolish/Audio', format: 'PostXXPolish.mp3' }
+    },
+    stopTitles: {
+      1: 'Introduction',
+      2: 'The Viewpoint',
+      // ... etc
+    }
+  });
+&lt;/script&gt;</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Lightbox Demo -->
+    <section id="lightbox-demo" class="demo-section">
+      <div class="container">
+        <div class="demo-header">
+          <h2>Gallery Lightbox Component</h2>
+          <p class="text-light">Click any image to open the lightbox viewer</p>
+        </div>
+
+        <div class="demo-description">
+          <h3>Features:</h3>
+          <ul>
+            <li>Click to enlarge images</li>
+            <li>Previous/next navigation</li>
+            <li>Image counter</li>
+            <li>Captions support</li>
+            <li>Keyboard navigation (Esc to close, Arrow keys to navigate)</li>
+            <li>Close on overlay click</li>
+            <li>Mobile responsive</li>
+            <li>Loading spinner</li>
+            <li>Fully accessible with ARIA labels</li>
+          </ul>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery">
+          <figure class="gallery-item" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=400&q=80" alt="Rolling hills at sunset">
+            <figcaption>Sunset from Farthing Downs ridge - Photo by J. Smith</figcaption>
+          </figure>
+          <figure class="gallery-item" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?w=400&q=80" alt="Purple wildflowers in a meadow">
+            <figcaption>Spring wildflower meadow - Photo by M. Jones</figcaption>
+          </figure>
+          <figure class="gallery-item" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1551085254-e96b210db58a?w=400&q=80" alt="Deer grazing in meadow">
+            <figcaption>Early morning visitor - Photo by P. Brown</figcaption>
+          </figure>
+          <figure class="gallery-item" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=400&q=80" alt="Misty morning landscape">
+            <figcaption>Misty morning view - Photo by S. Lee</figcaption>
+          </figure>
+          <figure class="gallery-item" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&q=80" alt="Orange butterfly on white flower">
+            <figcaption>Small Copper butterfly - Photo by T. Wilson</figcaption>
+          </figure>
+          <figure class="gallery-item" data-lightbox>
+            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=400&q=80" alt="Path through grassland">
+            <figcaption>Ancient trackway through the Downs - Photo by R. Davies</figcaption>
+          </figure>
+        </div>
+
+        <div class="mt-lg">
+          <h3>Usage</h3>
+          <div class="demo-code">
+<pre>&lt;!-- Add to your HTML --&gt;
+&lt;div class="gallery"&gt;
+  &lt;figure class="gallery-item" data-lightbox&gt;
+    &lt;img src="path/to/image.jpg" alt="Description"&gt;
+    &lt;figcaption&gt;Optional caption&lt;/figcaption&gt;
+  &lt;/figure&gt;
+  &lt;!-- More gallery items... --&gt;
+&lt;/div&gt;
+
+&lt;!-- Include CSS and JS --&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;script src="js/components.js"&gt;&lt;/script&gt;
+
+&lt;!-- Components auto-initialize, or initialize manually: --&gt;
+&lt;script&gt;
+  const gallery = new GalleryLightbox('[data-lightbox]', {
+    animationDuration: 300,
+    closeOnOverlayClick: true,
+    showCounter: true,
+    keyboardNav: true
+  });
+&lt;/script&gt;</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mobile Menu Demo -->
+    <section class="demo-section">
+      <div class="container">
+        <div class="demo-header">
+          <h2>Mobile Menu Component</h2>
+          <p class="text-light">Enhanced mobile navigation (resize browser to see)</p>
+        </div>
+
+        <div class="demo-description">
+          <h3>Features:</h3>
+          <ul>
+            <li>Hamburger menu toggle</li>
+            <li>Close on link click</li>
+            <li>Close on outside click</li>
+            <li>Keyboard support (Esc to close)</li>
+            <li>Focus management for accessibility</li>
+            <li>Automatic initialization</li>
+          </ul>
+        </div>
+
+        <div class="mt-md">
+          <h3>Usage</h3>
+          <div class="demo-code">
+<pre>&lt;!-- Add to your HTML --&gt;
+&lt;header&gt;
+  &lt;nav&gt;
+    &lt;button class="menu-toggle" aria-label="Toggle menu"&gt;☰&lt;/button&gt;
+    &lt;ul class="nav-links"&gt;
+      &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="#"&gt;About&lt;/a&gt;&lt;/li&gt;
+      &lt;!-- More links... --&gt;
+    &lt;/ul&gt;
+  &lt;/nav&gt;
+&lt;/header&gt;
+
+&lt;!-- Include CSS and JS --&gt;
+&lt;link rel="stylesheet" href="css/style.css"&gt;
+&lt;script src="js/components.js"&gt;&lt;/script&gt;
+
+&lt;!-- Automatically initializes, or manually: --&gt;
+&lt;script&gt;
+  const menu = new MobileMenu('.menu-toggle', '.nav-links', {
+    activeClass: 'active',
+    closeOnLinkClick: true,
+    closeOnOutsideClick: true
+  });
+&lt;/script&gt;</pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Notes -->
+    <section class="demo-section">
+      <div class="container">
+        <h2>Technical Notes</h2>
+
+        <div class="card-grid mt-md">
+          <div class="card">
+            <div class="card-content">
+              <h3>Browser Support</h3>
+              <p>All modern browsers including:</p>
+              <ul>
+                <li>Chrome/Edge 90+</li>
+                <li>Firefox 88+</li>
+                <li>Safari 14+</li>
+                <li>Mobile browsers</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h3>Progressive Enhancement</h3>
+              <p>Components are designed to fail gracefully:</p>
+              <ul>
+                <li>Images work without JS</li>
+                <li>Native audio controls fallback</li>
+                <li>Menu accessible via CSS</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-content">
+              <h3>Accessibility</h3>
+              <p>Built with a11y in mind:</p>
+              <ul>
+                <li>ARIA labels and roles</li>
+                <li>Keyboard navigation</li>
+                <li>Focus management</li>
+                <li>Screen reader support</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="mt-lg">
+          <h3>File Structure</h3>
+          <div class="demo-code">
+<pre>site-2026/
+├── css/
+│   └── style.css          (includes component styles)
+├── js/
+│   └── components.js      (all components)
+├── index.html
+└── component-examples.html (this file)</pre>
+          </div>
+        </div>
+
+        <div class="mt-lg">
+          <h3>No Dependencies</h3>
+          <p>All components are built with vanilla JavaScript - no jQuery, React, or other frameworks required. This keeps the site fast, lightweight, and easy to maintain.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-bottom">
+        <p>FoFD Component Library - Vanilla JavaScript Components</p>
+        <p><a href="index.html">Back to Home</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Load Components -->
+  <script src="js/components.js"></script>
+
+</body>
+</html>

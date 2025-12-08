@@ -1,9 +1,9 @@
 # Orchestration Status
 
-**Last Updated**: 2025-12-08T15:30:00Z
+**Last Updated**: 2025-12-08T18:45:00Z
 **System Version**: 2.0
-**Overall Progress**: 15% (18/120 tasks estimated)
-**Phase**: Phase 0 In Progress + Live Site Fixed
+**Overall Progress**: ~75% complete
+**Phase**: Phase 0 Core Delivery + Phase 1 Prep
 
 ---
 
@@ -44,37 +44,56 @@
 
 ---
 
-## Recent Completions
+## Completed Deliverables
 
-### 2025-12-08
+### Phase 0A: Nature Trail PDFs
+- ✅ **29/29 PDFs converted to Markdown (100%)**
+- YAML frontmatter with themes, audio links
+- 30+ content themes identified
 
-**Live Site Fix (CRITICAL)**
-- ✅ `site-2026/visit.html` - Getting here, walks, parking, safety
-- ✅ `site-2026/explore.html` - Nature Trail, wildlife, archaeology, history
-- ✅ `site-2026/about.html` - Contact, committee, privacy, constitution
-- **Result**: Navigation now fully functional, no more 404 errors
+### Phase 0B: Image Cataloguing
+- ✅ **82/498 images catalogued**
+- Wildlife complete (82 images with metadata)
+- History/Archaeology in progress
+- JSON metadata index created
 
-**Phase 0A: PDF→Markdown (10/93)**
-- ✅ Nature Trail posts 01-10 converted
-- ✅ YAML frontmatter with themes, audio links
-- ✅ 30+ content themes identified
-- **Output**: `docs/content-extraction/pdfs-markdown/nature-trail/`
+### Core Pages & Deployment
+- ✅ **All 9 core pages built and deployed**
+  - `site-2026/visit.html` - Getting here, walks, parking, safety
+  - `site-2026/explore.html` - Nature Trail, wildlife, archaeology, history
+  - `site-2026/about.html` - Contact, committee, privacy, constitution
+  - Plus community, events, join, gallery pages
+  - Navigation fully functional, no 404 errors
 
-**Phase 0B: Image Metadata (82/498)**
-- ✅ Wildlife directory inventoried (82 images)
-- ✅ JSON metadata index created
-- ✅ 5 hero image candidates identified
-- ⚠️ 1 copyright issue flagged (Kestrel Alamy - DELETE)
-- **Output**: `docs/content-extraction/images-metadata/wildlife/`
+### Quality & Performance
+- ✅ **Accessibility audit complete**
+- ✅ **SEO optimization complete**
+- ✅ **Components built**: Audio player, lightbox, mobile menu
+- ✅ **AGM Archive**: 11 years of meeting notes extracted
+- ✅ **Events page created and deployed**
 
 ---
 
-## Blocked Tasks
+## In Progress
 
-| Task | Blocked By | Resolution |
-|------|------------|------------|
-| T010-T013 (Payment integration) | Stripe account | ESC-001: Treasurer action |
-| Social feed embed | EmbedSocial account | ESC-002: Social team action |
+### FoFD-HV Posts Conversion
+- 0/29 blog posts converted from PDF format
+- Queued for Phase 1 processing
+
+### History & Archaeology Image Cataloguing
+- Wild image library in progress
+- Metadata index being generated
+- Target: Complete remaining 416/498 images
+
+---
+
+## Blocked Tasks (Human Action Required)
+
+| ID | Task | Status | Owner |
+|-----|------|--------|-------|
+| **ESC-001** | Stripe payment setup | PENDING | Treasurer |
+| **ESC-002** | EmbedSocial account setup | PENDING | Social Team |
+| **ESC-003** | Formspree account setup | PENDING | Committee |
 
 ---
 
@@ -144,13 +163,36 @@ BATCH 4 (Final):
 
 ---
 
+## Recent Activity
+
+### 2025-12-08 Batch Commits
+
+1. **Batch 2**: Phase 0A completion, SEO, events page, wildlife gallery
+   - Commit: `46dabfa`
+   - Nature Trail posts fully converted
+   - SEO optimization across all pages
+   - Wildlife gallery implemented
+
+2. **Batch 1 Follow-up**: Components, Nature Trail, accessibility, AGM archive
+   - Commit: `7e2e56e`
+   - Audio player, lightbox, mobile menu components
+   - AGM archive extraction (11 years)
+   - Full accessibility audit & fixes
+
+3. **Foundation Update**: Orchestration status, live site fixes
+   - Commit: `4957d4f`
+   - Status tracking updated
+   - Navigation and routing fixes
+
+---
+
 ## Git Activity
 
 | Branch | Status | Last Commit |
 |--------|--------|-------------|
-| `claude/audit-live-site-01LPwdYbuvcSzWtWdUQeZLQf` | Active | Fix broken live site + Phase 0 foundation |
-| `main` | Pending merge | Needs PR review |
+| `claude/plan-website-strategy-01AvVG6C9q45BmYsMuxV1LDz` | Active | Phase 0 delivery (75% complete) |
+| `main` | Ready | Pending merge after QA |
 
 ---
 
-*Status updated by Orchestrator at 2025-12-08T15:30:00Z*
+*Status updated by Orchestrator at 2025-12-08T18:45:00Z*

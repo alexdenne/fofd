@@ -1,0 +1,32 @@
+---
+title: "Aspen Trees"
+source_pdf: "site-2005-2025/NatureTrail/NTEnglish/Text/Post21English.pdf"
+category: "nature-trail"
+post_number: 21
+date_converted: "2025-12-08"
+themes: ["trees", "folklore", "hedgerows", "traditional-uses", "medicinal-plants"]
+related_audio: "site-2005-2025/NatureTrail/NTEnglish/Audio/Post21English.mp3"
+narrator: "Roger McGough CBE"
+---
+
+# Post 21: Aspen Trees
+
+## Aspen Trees
+
+The hedge to your right is composed of aspen trees, which are a member of the willow family. They grow on the wet clay soils here on the top of the downs, but are an unusual choice for a hedge. The leaves dangle from long thin stalks and so turn in the slightest breeze, giving rise to the phrase 'trembling like an aspen'.
+
+For this reason this tree was once associated with the curing of fevers.
+
+In 'Folklore of the Northern Counties' (1866), William Henderson wrote of a Lincolnshire girl who, seeking to be cured, pinned a lock of her hair to an aspen tree saying,
+
+"Aspen tree, aspen tree, I prithee to shake and shiver instead of me".
+
+The patient was then said to have returned home in silence and never again been troubled with fever. It was also believed that if a cutting of a finger nail was pressed into the bark of the aspen by someone suffering from a disease, they would be cured when the bark of the tree grew over the nail.
+
+## Blackthorn
+
+Further along, the hedge is mainly formed from blackthorn. This tree has very sharp thorns and produces suckers to form a thick, impenetrable hedge, favoured by birds for nesting. The round fruits have a purple bloom and are often used to make a sweet liqueur called 'sloe gin'.
+
+---
+
+**Navigation:** Follow the edge of the field around to the left to post 22.
