@@ -1,0 +1,123 @@
+{
+  "title": "Friends of Farthing Downs - Image Asset Master Index",
+  "description": "Comprehensive metadata index of all image assets from the legacy website",
+  "date_created": "2025-12-08",
+  "last_updated": "2025-12-08",
+  "source_site": "site-2005-2025/",
+  "categories": {
+    "wildlife": {
+      "status": "pending",
+      "index_file": "images-metadata/wildlife/index.json",
+      "source_directory": "site-2005-2025/images-wildlife/",
+      "estimated_count": 150,
+      "processed": false,
+      "notes": "Batch 1 - Wildlife images including birds, mammals, insects, plants"
+    },
+    "history": {
+      "status": "completed",
+      "index_file": "images-metadata/history/index.json",
+      "source_directory": "site-2005-2025/history-images/",
+      "total_images": 9,
+      "total_size_bytes": 3229428,
+      "processed": true,
+      "processed_date": "2025-12-08",
+      "notes": "Batch 2 - Historical images including aerial photos, tea rooms, archaeological finds"
+    },
+    "archaeology": {
+      "status": "completed",
+      "index_file": "images-metadata/archaeology/index.json",
+      "source_directory": "site-2005-2025/images-archaeology/",
+      "total_images": 8,
+      "total_size_bytes": 2276909,
+      "processed": true,
+      "processed_date": "2025-12-08",
+      "notes": "Batch 3 - Archaeological images from Saxon cemetery excavations and artifact illustrations"
+    },
+    "general": {
+      "status": "completed",
+      "index_file": "images-metadata/general/index.json",
+      "source_directory": "site-2005-2025/images/",
+      "total_images": 45,
+      "total_size_bytes": 5042439,
+      "processed": true,
+      "processed_date": "2025-12-08",
+      "additional_files": {
+        "thumbs_mapping": "images-metadata/general/thumbs-mapping.json"
+      },
+      "notes": "Batch 4 - General site images including logos, maps, committee photos, walks"
+    },
+    "fungi": {
+      "status": "pending",
+      "index_file": "images-metadata/fungi/index.json",
+      "source_directory": "site-2005-2025/Fungi-011114/",
+      "estimated_count": 30,
+      "processed": false,
+      "notes": "Batch 5 - Fungi foray images from November 2014"
+    }
+  },
+  "summary": {
+    "total_categories": 5,
+    "categories_completed": 3,
+    "categories_pending": 2,
+    "images_processed": 62,
+    "images_pending_estimate": 180,
+    "total_processed_size_bytes": 10548776,
+    "completion_percentage": 60
+  },
+  "quality_analysis": {
+    "needs_review_count": 14,
+    "duplicate_candidates": {
+      "logo_variants": 8,
+      "cross_folder_duplicates": 4,
+      "recommendation": "Consolidate during migration to reduce redundancy"
+    },
+    "human_remains_images": 2,
+    "human_remains_note": "SkeletonHeads.jpg and Skeletons3.jpg contain human remains - review for public display appropriateness"
+  },
+  "migration_recommendations": [
+    {
+      "priority": "high",
+      "action": "Consolidate logo variants",
+      "description": "Select one canonical FoFD logo and use consistently across new site"
+    },
+    {
+      "priority": "high",
+      "action": "Remove cross-folder duplicates",
+      "description": "Images duplicated between history-images/ and images/ should be stored in one location"
+    },
+    {
+      "priority": "medium",
+      "action": "Verify QR codes",
+      "description": "FoFD-QR.jpg and ScanMe.jpg need verification that they link to correct URLs"
+    },
+    {
+      "priority": "medium",
+      "action": "Review human remains images",
+      "description": "SkeletonHeads.jpg and Skeletons3.jpg may not be suitable for prominent display"
+    },
+    {
+      "priority": "low",
+      "action": "Evaluate UI elements",
+      "description": "Line breaker.jpg, Man.jpg, Woman.jpg may not be needed in modern design"
+    }
+  ],
+  "page_assignments": {
+    "/": ["logo", "welcome-banner"],
+    "/about": ["logo", "committee-photos", "city-of-london-logo"],
+    "/about/committee": ["committee-photos"],
+    "/about/projects": ["cairn-project", "station-greening"],
+    "/history": ["aerial-1944", "tea-rooms", "fairdean-heights", "stone-age-axe"],
+    "/explore/archaeology": ["excavation-photos", "artifact-illustrations", "site-plans"],
+    "/explore/walks": ["walk-maps", "trail-guides"],
+    "/visit": ["getting-there-maps", "car-park"],
+    "/gallery": ["all-high-quality-images"]
+  },
+  "processing_log": [
+    {
+      "date": "2025-12-08",
+      "action": "Initial processing",
+      "batches_completed": ["history", "archaeology", "general"],
+      "batches_pending": ["wildlife", "fungi"]
+    }
+  ]
+}

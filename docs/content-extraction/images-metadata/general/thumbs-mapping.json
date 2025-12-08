@@ -1,0 +1,283 @@
+{
+  "description": "Mapping of thumbnail images to their full-size counterparts",
+  "source_directory": "site-2005-2025/images/thumbs/",
+  "date_processed": "2025-12-08",
+  "total_thumbnails": 40,
+  "mappings": [
+    {
+      "thumbnail": "01 - FoFD Logo.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/01 - FoFD Logo.JPG.jpg",
+      "full_size": "01 - FoFD Logo.JPG",
+      "full_size_path": "site-2005-2025/images/01 - FoFD Logo.JPG",
+      "thumbnail_size_bytes": 4676
+    },
+    {
+      "thumbnail": "01 - FoFD Logo_0.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/01 - FoFD Logo_0.JPG.jpg",
+      "full_size": "01 - FoFD Logo_0.JPG",
+      "full_size_path": "site-2005-2025/images/01 - FoFD Logo_0.JPG",
+      "thumbnail_size_bytes": 4409
+    },
+    {
+      "thumbnail": "01 - FoFD Logo_1.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/01 - FoFD Logo_1.JPG.jpg",
+      "full_size": "01 - FoFD Logo_1.JPG",
+      "full_size_path": "site-2005-2025/images/01 - FoFD Logo_1.JPG",
+      "thumbnail_size_bytes": 4146
+    },
+    {
+      "thumbnail": "01 - FoFD Logo_2.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/01 - FoFD Logo_2.JPG.jpg",
+      "full_size": "01 - FoFD Logo_2.JPG",
+      "full_size_path": "site-2005-2025/images/01 - FoFD Logo_2.JPG",
+      "thumbnail_size_bytes": 4358
+    },
+    {
+      "thumbnail": "01 - Welcome page logo - 17-02-13.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/01 - Welcome page logo - 17-02-13.jpg.jpg",
+      "full_size": "01 - Welcome page logo - 17-02-13.jpg",
+      "full_size_path": "site-2005-2025/images/01 - Welcome page logo - 17-02-13.jpg",
+      "thumbnail_size_bytes": 1911
+    },
+    {
+      "thumbnail": "Archaeology004A.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Archaeology004A.jpg.jpg",
+      "full_size": "Archaeology004A.jpg",
+      "full_size_path": "site-2005-2025/images/Archaeology004A.jpg",
+      "thumbnail_size_bytes": 3144
+    },
+    {
+      "thumbnail": "Brian Lancaster.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Brian Lancaster.jpg.jpg",
+      "full_size": "Brian Lancaster.jpg",
+      "full_size_path": "site-2005-2025/images/Brian Lancaster.jpg",
+      "thumbnail_size_bytes": 3400
+    },
+    {
+      "thumbnail": "Cairn - 17-02-13.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Cairn - 17-02-13.jpg.jpg",
+      "full_size": "Cairn - 17-02-13.jpg",
+      "full_size_path": "site-2005-2025/images/Cairn - 17-02-13.jpg",
+      "thumbnail_size_bytes": 3412
+    },
+    {
+      "thumbnail": "Cairn Project003A.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Cairn Project003A.jpg.jpg",
+      "full_size": "Cairn Project003A.jpg",
+      "full_size_path": "site-2005-2025/images/Cairn Project003A.jpg",
+      "thumbnail_size_bytes": 2811
+    },
+    {
+      "thumbnail": "Cairn Project004A.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Cairn Project004A.jpg.jpg",
+      "full_size": "Cairn Project004A.jpg",
+      "full_size_path": "site-2005-2025/images/Cairn Project004A.jpg",
+      "thumbnail_size_bytes": 2742
+    },
+    {
+      "thumbnail": "Cairn Project005A.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Cairn Project005A.jpg.jpg",
+      "full_size": "Cairn Project005A.jpg",
+      "full_size_path": "site-2005-2025/images/Cairn Project005A.jpg",
+      "thumbnail_size_bytes": 2821
+    },
+    {
+      "thumbnail": "Cairn-original.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Cairn-original.jpg.jpg",
+      "full_size": "Cairn-original.jpg",
+      "full_size_path": "site-2005-2025/images/Cairn-original.jpg",
+      "thumbnail_size_bytes": 3655
+    },
+    {
+      "thumbnail": "City of London Logo.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/City of London Logo.jpg.jpg",
+      "full_size": "City of London Logo.jpg",
+      "full_size_path": "site-2005-2025/images/City of London Logo.jpg",
+      "thumbnail_size_bytes": 3930
+    },
+    {
+      "thumbnail": "Cllr Chris Wright.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Cllr Chris Wright.jpg.jpg",
+      "full_size": "Cllr Chris Wright.jpg",
+      "full_size_path": "site-2005-2025/images/Cllr Chris Wright.jpg",
+      "thumbnail_size_bytes": 3892
+    },
+    {
+      "thumbnail": "Cllr Margaret Bird.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Cllr Margaret Bird.jpg.jpg",
+      "full_size": "Cllr Margaret Bird.jpg",
+      "full_size_path": "site-2005-2025/images/Cllr Margaret Bird.jpg",
+      "thumbnail_size_bytes": 3067
+    },
+    {
+      "thumbnail": "Committ Profiles.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Committ Profiles.jpg.jpg",
+      "full_size": "Committ Profiles.jpg",
+      "full_size_path": "site-2005-2025/images/Committ Profiles.jpg",
+      "thumbnail_size_bytes": 1313
+    },
+    {
+      "thumbnail": "CoulsdonChaldonMap.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/CoulsdonChaldonMap.jpg.jpg",
+      "full_size": "CoulsdonChaldonMap.jpg",
+      "full_size_path": "site-2005-2025/images/CoulsdonChaldonMap.jpg",
+      "thumbnail_size_bytes": 2918
+    },
+    {
+      "thumbnail": "Downlands Circular Walk.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Downlands Circular Walk.JPG.jpg",
+      "full_size": "Downlands Circular Walk.JPG",
+      "full_size_path": "site-2005-2025/images/Downlands Circular Walk.JPG",
+      "thumbnail_size_bytes": 2476
+    },
+    {
+      "thumbnail": "FoFD Logo.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/FoFD Logo.JPG.jpg",
+      "full_size": "FoFD Logo.JPG",
+      "full_size_path": "site-2005-2025/images/FoFD Logo.JPG",
+      "thumbnail_size_bytes": 4541
+    },
+    {
+      "thumbnail": "FoFD Logo.jpg (1).jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/FoFD Logo.jpg (1).jpg",
+      "full_size": "FoFD Logo (1).jpg",
+      "full_size_path": "site-2005-2025/images/FoFD Logo (1).jpg",
+      "thumbnail_size_bytes": 3572
+    },
+    {
+      "thumbnail": "FoFD Logo2.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/FoFD Logo2.jpg.jpg",
+      "full_size": "FoFD Logo2.jpg",
+      "full_size_path": "site-2005-2025/images/FoFD Logo2.jpg",
+      "thumbnail_size_bytes": 3782
+    },
+    {
+      "thumbnail": "FoFD Logo3.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/FoFD Logo3.jpg.jpg",
+      "full_size": "FoFD Logo3.jpg",
+      "full_size_path": "site-2005-2025/images/FoFD Logo3.jpg",
+      "thumbnail_size_bytes": 3572
+    },
+    {
+      "thumbnail": "FoFD Logo4.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/FoFD Logo4.jpg.jpg",
+      "full_size": "FoFD Logo4.jpg",
+      "full_size_path": "site-2005-2025/images/FoFD Logo4.jpg",
+      "thumbnail_size_bytes": 3572
+    },
+    {
+      "thumbnail": "Getting there map.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Getting there map.jpg.jpg",
+      "full_size": "Getting there map.jpg",
+      "full_size_path": "site-2005-2025/images/Getting there map.jpg",
+      "thumbnail_size_bytes": 3031
+    },
+    {
+      "thumbnail": "Getting there scan - 17-02-130001.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Getting there scan - 17-02-130001.jpg.jpg",
+      "full_size": "Getting there scan - 17-02-130001.jpg",
+      "full_size_path": "site-2005-2025/images/Getting there scan - 17-02-130001.jpg",
+      "thumbnail_size_bytes": 2822
+    },
+    {
+      "thumbnail": "Graham Lomas.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Graham Lomas.JPG.jpg",
+      "full_size": "Graham Lomas.JPG",
+      "full_size_path": "site-2005-2025/images/Graham Lomas.JPG",
+      "thumbnail_size_bytes": 3242
+    },
+    {
+      "thumbnail": "Hamsey Green Walk.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Hamsey Green Walk.JPG.jpg",
+      "full_size": "Hamsey Green Walk.JPG",
+      "full_size_path": "site-2005-2025/images/Hamsey Green Walk.JPG",
+      "thumbnail_size_bytes": 2772
+    },
+    {
+      "thumbnail": "Happy Valley Trail.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Happy Valley Trail.JPG.jpg",
+      "full_size": "Happy Valley Trail.JPG",
+      "full_size_path": "site-2005-2025/images/Happy Valley Trail.JPG",
+      "thumbnail_size_bytes": 2980
+    },
+    {
+      "thumbnail": "Happy Valley Walk - with photos -17-02-13.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Happy Valley Walk - with photos -17-02-13.jpg.jpg",
+      "full_size": "Happy Valley Walk - with photos -17-02-13.jpg",
+      "full_size_path": "site-2005-2025/images/Happy Valley Walk - with photos -17-02-13.jpg",
+      "thumbnail_size_bytes": 2449
+    },
+    {
+      "thumbnail": "Ian Payne.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Ian Payne.jpg.jpg",
+      "full_size": "Ian Payne.jpg",
+      "full_size_path": "site-2005-2025/images/Ian Payne.jpg",
+      "thumbnail_size_bytes": 2637
+    },
+    {
+      "thumbnail": "Line breaker.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Line breaker.jpg.jpg",
+      "full_size": "Line breaker.jpg",
+      "full_size_path": "site-2005-2025/images/Line breaker.jpg",
+      "thumbnail_size_bytes": 751
+    },
+    {
+      "thumbnail": "Man.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Man.jpg.jpg",
+      "full_size": "Man.jpg",
+      "full_size_path": "site-2005-2025/images/Man.jpg",
+      "thumbnail_size_bytes": 2404
+    },
+    {
+      "thumbnail": "Maureen Levy.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Maureen Levy.jpg.jpg",
+      "full_size": "Maureen Levy.jpg",
+      "full_size_path": "site-2005-2025/images/Maureen Levy.jpg",
+      "thumbnail_size_bytes": 3529
+    },
+    {
+      "thumbnail": "Pauline Payne.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Pauline Payne.jpg.jpg",
+      "full_size": "Pauline Payne.jpg",
+      "full_size_path": "site-2005-2025/images/Pauline Payne.jpg",
+      "thumbnail_size_bytes": 3497
+    },
+    {
+      "thumbnail": "Station Greening.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Station Greening.jpg.jpg",
+      "full_size": "Station Greening.jpg",
+      "full_size_path": "site-2005-2025/images/Station Greening.jpg",
+      "thumbnail_size_bytes": 1894
+    },
+    {
+      "thumbnail": "Station Photos.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Station Photos.jpg.jpg",
+      "full_size": "Station Photos.jpg",
+      "full_size_path": "site-2005-2025/images/Station Photos.jpg",
+      "thumbnail_size_bytes": 1885
+    },
+    {
+      "thumbnail": "Welcome Page Images.JPG.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Welcome Page Images.JPG.jpg",
+      "full_size": "Welcome Page Images.jpg",
+      "full_size_path": "site-2005-2025/images/Welcome Page Images.jpg",
+      "thumbnail_size_bytes": 1434
+    },
+    {
+      "thumbnail": "Welcome Page Images.jpg (1).jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Welcome Page Images.jpg (1).jpg",
+      "full_size": "Welcome Page Images.jpg",
+      "full_size_path": "site-2005-2025/images/Welcome Page Images.jpg",
+      "thumbnail_size_bytes": 1412
+    },
+    {
+      "thumbnail": "Woman.jpg.jpg",
+      "thumbnail_path": "site-2005-2025/images/thumbs/Woman.jpg.jpg",
+      "full_size": "Woman.jpg",
+      "full_size_path": "site-2005-2025/images/Woman.jpg",
+      "thumbnail_size_bytes": 2625
+    }
+  ],
+  "total_thumbnail_size_bytes": 115475,
+  "notes": "Thumbnails use double extension naming convention (e.g., 'image.jpg.jpg'). Some full-size images in general/images/ do not have corresponding thumbnails."
+}
