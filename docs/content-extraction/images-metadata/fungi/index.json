@@ -1,0 +1,332 @@
+{
+  "collection": {
+    "title": "Fungi Walk 1st November 2014",
+    "date": "2014-11-01",
+    "location": "Farthing Downs",
+    "grid_reference": "TQ304571",
+    "recorder": "Ray Tantram",
+    "total_species_found": 45,
+    "total_images": 58
+  },
+  "images": [
+    {
+      "filename": "Fungi01.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi01.jpg",
+      "thumbnail": "Fungi01s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi01s.jpg",
+      "image_number": 1,
+      "species_name": "Coprinellus (Coprinus) disseminatus",
+      "common_name": "Fairy bonnets",
+      "description": "tiny, greyish caps in clumps on rotting stumps",
+      "alt_text": "Fungi foray image 1: Coprinellus disseminatus (Fairy bonnets) - tiny greyish caps in clumps on rotting stumps"
+    },
+    {
+      "filename": "Fungi02.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi02.jpg",
+      "thumbnail": "Fungi02s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi02s.jpg",
+      "image_number": 2,
+      "species_name": "Unidentified",
+      "common_name": null,
+      "description": "included above, but images too indistinct to differentiate",
+      "alt_text": "Fungi foray image 2: Unidentified fungi specimen"
+    },
+    {
+      "filename": "Fungi03.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi03.jpg",
+      "thumbnail": "Fungi03s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi03s.jpg",
+      "image_number": 3,
+      "species_name": "Lycoperdon pyriforme",
+      "common_name": "Puffball",
+      "description": "tan, pear-shaped puffball, branched mycelial cords at base, grows on wood",
+      "alt_text": "Fungi foray image 3: Lycoperdon pyriforme (Puffball) - tan pear-shaped puffball growing on wood"
+    },
+    {
+      "filename": "Fungi04.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi04.jpg",
+      "thumbnail": "Fungi04s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi04s.jpg",
+      "image_number": 4,
+      "species_name": "Daldinia concentrica",
+      "common_name": "King Alfred's cakes, Cramp balls",
+      "description": "hard crumbly brown to black balls on dead ash, mature black specimen",
+      "alt_text": "Fungi foray image 4: Daldinia concentrica (King Alfred's cakes) - mature black specimen on dead ash"
+    },
+    {
+      "filename": "Fungi05.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi05.jpg",
+      "thumbnail": "Fungi05s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi05s.jpg",
+      "image_number": 5,
+      "species_name": "Daldinia concentrica",
+      "common_name": "King Alfred's cakes, Cramp balls",
+      "description": "hard crumbly brown to black balls on dead ash, young brown material",
+      "alt_text": "Fungi foray image 5: Daldinia concentrica (King Alfred's cakes) - young brown specimen on dead ash"
+    },
+    {
+      "filename": "Fungi06.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi06.jpg",
+      "thumbnail": "Fungi06s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi06s.jpg",
+      "image_number": 6,
+      "species_name": "Lycoperdon pyriforme",
+      "common_name": "Puffball",
+      "description": "tan, pear-shaped puffball, branched mycelial cords at base, grows on wood",
+      "alt_text": "Fungi foray image 6: Lycoperdon pyriforme (Puffball) - tan pear-shaped puffball growing on wood"
+    },
+    {
+      "filename": "Fungi07.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi07.jpg",
+      "thumbnail": "Fungi07s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi07s.jpg",
+      "image_number": 7,
+      "species_name": "Chlorophyllum (Macrolepiota) rhacodes",
+      "common_name": "Shaggy parasol",
+      "description": "grows under trees, moveable ring, flesh reddens when cut or bruised",
+      "alt_text": "Fungi foray image 7: Chlorophyllum rhacodes (Shaggy parasol) - edible mushroom growing under trees"
+    },
+    {
+      "filename": "Fungi08.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi08.jpg",
+      "thumbnail": "Fungi08s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi08s.jpg",
+      "image_number": 8,
+      "species_name": "Delicatula integrella",
+      "common_name": null,
+      "description": "tiny white, with very primitive, decurrent gills, on soil, damp areas near Willow and Alder",
+      "alt_text": "Fungi foray image 8: Delicatula integrella - tiny white fungi with primitive decurrent gills"
+    },
+    {
+      "filename": "Fungi09.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi09.jpg",
+      "thumbnail": "Fungi09s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi09s.jpg",
+      "image_number": 9,
+      "species_name": "Agaricus xanthodermus",
+      "common_name": "Yellow staining mushroom",
+      "description": "very obvious yellow on scratching stem base, gills greyish-brown, carbolic smell, poisonous",
+      "alt_text": "Fungi foray image 9: Agaricus xanthodermus (Yellow staining mushroom) - poisonous species with yellow staining"
+    },
+    {
+      "filename": "Fungi10.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi10.jpg",
+      "thumbnail": "Fungi10s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi10s.jpg",
+      "image_number": 10,
+      "species_name": "Unidentified",
+      "common_name": null,
+      "description": "included above, but images too indistinct to differentiate",
+      "alt_text": "Fungi foray image 10: Unidentified fungi specimen"
+    },
+    {
+      "filename": "Fungi11.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi11.jpg",
+      "thumbnail": "Fungi11s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi11s.jpg",
+      "image_number": 11,
+      "species_name": "Neobulgaria pura",
+      "common_name": null,
+      "description": "pale pink-lilac crowded jelly buttons on fallen beech",
+      "alt_text": "Fungi foray image 11: Neobulgaria pura - pale pink-lilac jelly buttons on fallen beech"
+    },
+    {
+      "filename": "Fungi12.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi12.jpg",
+      "thumbnail": "Fungi12s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi12s.jpg",
+      "image_number": 12,
+      "species_name": "Dacrymyces stillatus",
+      "common_name": "Jelly spot",
+      "description": "small yellow to orange blobs on barkless fallen timber",
+      "alt_text": "Fungi foray image 12: Dacrymyces stillatus (Jelly spot) - small yellow to orange blobs on fallen timber"
+    },
+    {
+      "filename": "Fungi13.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi13.jpg",
+      "thumbnail": "Fungi13s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi13s.jpg",
+      "image_number": 13,
+      "species_name": "Crepidotus mollis",
+      "common_name": "Peeling Oysterling",
+      "description": "soft creamy-brown 'shells' on dead wood, elastic cap skin peels off, here on fallen Beech trunk",
+      "alt_text": "Fungi foray image 13: Crepidotus mollis (Peeling Oysterling) - soft creamy-brown shells on fallen beech trunk"
+    },
+    {
+      "filename": "Fungi14.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi14.jpg",
+      "thumbnail": "Fungi14s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi14s.jpg",
+      "image_number": 14,
+      "species_name": "Unidentified",
+      "common_name": null,
+      "description": "included above, but images too indistinct to differentiate",
+      "alt_text": "Fungi foray image 14: Unidentified fungi specimen"
+    },
+    {
+      "filename": "Fungi15.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi15.jpg",
+      "thumbnail": "Fungi15s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi15s.jpg",
+      "image_number": 15,
+      "species_name": "Coprinellus (Coprinus) micaceus",
+      "common_name": "Glistening inkcap",
+      "description": "small tan caps, with glistening particles, in tufts on wood",
+      "alt_text": "Fungi foray image 15: Coprinellus micaceus (Glistening inkcap) - small tan caps with glistening particles"
+    },
+    {
+      "filename": "Fungi16.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi16.jpg",
+      "thumbnail": "Fungi16s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi16s.jpg",
+      "image_number": 16,
+      "species_name": "Trametes (Coriolus) versicolor",
+      "common_name": "Many-coloured bracket, Turkey tails",
+      "description": "thin bracket, creamy pores, grows in tiers on dead wood, here old lacking attractive bright colour bands",
+      "alt_text": "Fungi foray image 16: Trametes versicolor (Turkey tails) - many-coloured bracket fungi on dead wood"
+    },
+    {
+      "filename": "Fungi17.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi17.jpg",
+      "thumbnail": "Fungi17s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi17s.jpg",
+      "image_number": 17,
+      "species_name": "Laccaria laccata",
+      "common_name": "Deceiver",
+      "description": "pinky-rose-brown, 3 different gill lengths, very variable, probably this species",
+      "alt_text": "Fungi foray image 17: Laccaria laccata (Deceiver) - edible pinky-rose-brown fungi with variable appearance"
+    },
+    {
+      "filename": "Fungi18.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi18.jpg",
+      "thumbnail": "Fungi18s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi18s.jpg",
+      "image_number": 18,
+      "species_name": "Coprinellus (Coprinus) micaceus",
+      "common_name": "Glistening inkcap",
+      "description": "small tan caps, with glistening particles, in tufts on wood",
+      "alt_text": "Fungi foray image 18: Coprinellus micaceus (Glistening inkcap) - small tan caps with glistening particles"
+    },
+    {
+      "filename": "Fungi19.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi19.jpg",
+      "thumbnail": "Fungi19s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi19s.jpg",
+      "image_number": 19,
+      "species_name": "Ganoderma applanatum",
+      "common_name": "Artist's fungus",
+      "description": "lower surface with white pores, tubes in distinct layers",
+      "alt_text": "Fungi foray image 19: Ganoderma applanatum (Artist's fungus) - lower surface showing white pores"
+    },
+    {
+      "filename": "Fungi20.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi20.jpg",
+      "thumbnail": "Fungi20s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi20s.jpg",
+      "image_number": 20,
+      "species_name": "Ganoderma applanatum",
+      "common_name": "Artist's fungus",
+      "description": "upper surface of old fungus, tubes in distinct layers",
+      "alt_text": "Fungi foray image 20: Ganoderma applanatum (Artist's fungus) - upper surface of old specimen"
+    },
+    {
+      "filename": "Fungi21.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi21.jpg",
+      "thumbnail": "Fungi21s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi21s.jpg",
+      "image_number": 21,
+      "species_name": "Lycoperdon perlatum",
+      "common_name": "Puffball",
+      "description": "small white puffball, grows in leaf litter, small 'pearls' rub off, here some lovely fresh specimens",
+      "alt_text": "Fungi foray image 21: Lycoperdon perlatum (Puffball) - edible white puffball with small pearls, fresh specimens"
+    },
+    {
+      "filename": "Fungi22.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi22.jpg",
+      "thumbnail": "Fungi22s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi22s.jpg",
+      "image_number": 22,
+      "species_name": "Mycena pura",
+      "common_name": "Lilac mycena",
+      "description": "Medium sized, pink to lilac cap, stem in broadleaf litter, smell of radish, poisonous",
+      "alt_text": "Fungi foray image 22: Mycena pura (Lilac mycena) - poisonous pink to lilac cap with radish smell"
+    },
+    {
+      "filename": "Fungi23.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi23.jpg",
+      "thumbnail": "Fungi23s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi23s.jpg",
+      "image_number": 23,
+      "species_name": "Hypholoma fasciculare",
+      "common_name": "Sulphur tuft",
+      "description": "grows on stumps in profusion, sulphur-coloured gills darken as purplish spores mature, poisonous",
+      "alt_text": "Fungi foray image 23: Hypholoma fasciculare (Sulphur tuft) - poisonous sulphur-coloured fungi on stumps"
+    },
+    {
+      "filename": "Fungi24.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi24.jpg",
+      "thumbnail": "Fungi24s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi24s.jpg",
+      "image_number": 24,
+      "species_name": "Kuehneromyces mutabilis",
+      "common_name": null,
+      "description": "golden-brown viscous caps, margins drying paler, grows in tufts on stumps, here in poor condition",
+      "alt_text": "Fungi foray image 24: Kuehneromyces mutabilis - golden-brown caps growing in tufts on stumps"
+    },
+    {
+      "filename": "Fungi25.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi25.jpg",
+      "thumbnail": "Fungi25s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi25s.jpg",
+      "image_number": 25,
+      "species_name": "Ganoderma applanatum",
+      "common_name": "Artist's fungus",
+      "description": "upper surface, tubes in distinct layers",
+      "alt_text": "Fungi foray image 25: Ganoderma applanatum (Artist's fungus) - upper surface showing layered structure"
+    },
+    {
+      "filename": "Fungi26.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi26.jpg",
+      "thumbnail": "Fungi26s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi26s.jpg",
+      "image_number": 26,
+      "species_name": "Neobulgaria pura",
+      "common_name": null,
+      "description": "pale pink-lilac crowded jelly buttons on fallen beech",
+      "alt_text": "Fungi foray image 26: Neobulgaria pura - pale pink-lilac jelly buttons on fallen beech"
+    },
+    {
+      "filename": "Fungi27.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi27.jpg",
+      "thumbnail": "Fungi27s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi27s.jpg",
+      "image_number": 27,
+      "species_name": "Coprinellus (Coprinus) disseminatus",
+      "common_name": "Fairy bonnets",
+      "description": "tiny, greyish caps in clumps on rotting stumps, close up view",
+      "alt_text": "Fungi foray image 27: Coprinellus disseminatus (Fairy bonnets) - close up of tiny greyish caps in clumps"
+    },
+    {
+      "filename": "Fungi28.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi28.jpg",
+      "thumbnail": "Fungi28s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi28s.jpg",
+      "image_number": 28,
+      "species_name": "Sebacina incrustans",
+      "common_name": null,
+      "description": "encrusting resupinate, grows over bare soil and plant remains to form creamy patches, waxy, here in moss on decayed fallen broadleaf tree",
+      "alt_text": "Fungi foray image 28: Sebacina incrustans - waxy creamy patches in moss on decayed tree"
+    },
+    {
+      "filename": "Fungi29.jpg",
+      "path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi29.jpg",
+      "thumbnail": "Fungi29s.jpg",
+      "thumbnail_path": "/home/user/fofd/site-2005-2025/Fungi-011114/Fungi29s.jpg",
+      "image_number": 29,
+      "species_name": "Ganoderma applanatum",
+      "common_name": "Artist's fungus",
+      "description": "lower surface with pores showing exit holes of gall fly larvae",
+      "alt_text": "Fungi foray image 29: Ganoderma applanatum (Artist's fungus) - lower surface showing gall fly larvae exit holes"
+    }
+  ]
+}

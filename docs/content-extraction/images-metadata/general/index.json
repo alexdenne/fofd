@@ -1,0 +1,730 @@
+{
+  "metadata": {
+    "scan_date": "2025-12-08",
+    "source_directory": "/home/user/fofd/site-2005-2025/images",
+    "total_images": 50,
+    "filters_applied": [
+      "Excluded thumbs/ directory",
+      "Excluded GIF files < 5KB"
+    ],
+    "hero_candidates_count": 8,
+    "category_breakdown": {
+      "branding": 11,
+      "historic-photos": 6,
+      "documents": 1,
+      "archaeology-heritage": 7,
+      "people-committee": 9,
+      "facilities": 3,
+      "uncategorized": 4,
+      "walks-maps": 8,
+      "landscape": 4,
+      "utility": 1
+    }
+  },
+  "images": [
+    {
+      "filename": "01 - FoFD Logo.JPG",
+      "path": "images/01 - FoFD Logo.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/01 - FoFD Logo.JPG",
+      "file_size_bytes": 19475,
+      "file_size_kb": 19.02,
+      "extension": ".jpg",
+      "alt_text": "01   FoFD Logo",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "01 - FoFD Logo_0.JPG",
+      "path": "images/01 - FoFD Logo_0.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/01 - FoFD Logo_0.JPG",
+      "file_size_bytes": 50810,
+      "file_size_kb": 49.62,
+      "extension": ".jpg",
+      "alt_text": "01   FoFD Logo 0",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "01 - FoFD Logo_1.JPG",
+      "path": "images/01 - FoFD Logo_1.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/01 - FoFD Logo_1.JPG",
+      "file_size_bytes": 23670,
+      "file_size_kb": 23.12,
+      "extension": ".jpg",
+      "alt_text": "01   FoFD Logo 1",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "01 - FoFD Logo_2.JPG",
+      "path": "images/01 - FoFD Logo_2.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/01 - FoFD Logo_2.JPG",
+      "file_size_bytes": 12527,
+      "file_size_kb": 12.23,
+      "extension": ".jpg",
+      "alt_text": "01   FoFD Logo 2",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "01 - Welcome page logo - 17-02-13.jpg",
+      "path": "images/01 - Welcome page logo - 17-02-13.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/01 - Welcome page logo - 17-02-13.jpg",
+      "file_size_bytes": 18697,
+      "file_size_kb": 18.26,
+      "extension": ".jpg",
+      "alt_text": "01   Welcome page logo   17 02 13",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding",
+        "historic-photos"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Angus-letter-redacted.jpg",
+      "path": "images/Angus-letter-redacted.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Angus-letter-redacted.jpg",
+      "file_size_bytes": 841319,
+      "file_size_kb": 821.6,
+      "extension": ".jpg",
+      "alt_text": "Angus letter redacted",
+      "caption": "Angus letter redacted",
+      "categories": [
+        "documents"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Archaeology004A.jpg",
+      "path": "images/Archaeology004A.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Archaeology004A.jpg",
+      "file_size_bytes": 234190,
+      "file_size_kb": 228.7,
+      "extension": ".jpg",
+      "alt_text": "Archaeology004A",
+      "caption": "Archaeological findings",
+      "categories": [
+        "archaeology-heritage"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Brian Lancaster.jpg",
+      "path": "images/Brian Lancaster.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Brian Lancaster.jpg",
+      "file_size_bytes": 10754,
+      "file_size_kb": 10.5,
+      "extension": ".jpg",
+      "alt_text": "Brian Lancaster",
+      "caption": "Brian Lancaster",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Cairn - 17-02-13.jpg",
+      "path": "images/Cairn - 17-02-13.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Cairn - 17-02-13.jpg",
+      "file_size_bytes": 36495,
+      "file_size_kb": 35.64,
+      "extension": ".jpg",
+      "alt_text": "Cairn   17 02 13",
+      "caption": "Cairn Project: Cairn - 17-02-13",
+      "categories": [
+        "archaeology-heritage"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Cairn Project003A.jpg",
+      "path": "images/Cairn Project003A.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Cairn Project003A.jpg",
+      "file_size_bytes": 234679,
+      "file_size_kb": 229.18,
+      "extension": ".jpg",
+      "alt_text": "Cairn Project003A",
+      "caption": "Cairn Project: Cairn Project003A",
+      "categories": [
+        "archaeology-heritage"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "Cairn Project004A.jpg",
+      "path": "images/Cairn Project004A.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Cairn Project004A.jpg",
+      "file_size_bytes": 256871,
+      "file_size_kb": 250.85,
+      "extension": ".jpg",
+      "alt_text": "Cairn Project004A",
+      "caption": "Cairn Project: Cairn Project004A",
+      "categories": [
+        "archaeology-heritage"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "Cairn Project005A.jpg",
+      "path": "images/Cairn Project005A.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Cairn Project005A.jpg",
+      "file_size_bytes": 279702,
+      "file_size_kb": 273.15,
+      "extension": ".jpg",
+      "alt_text": "Cairn Project005A",
+      "caption": "Cairn Project: Cairn Project005A",
+      "categories": [
+        "archaeology-heritage"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "Cairn-original.jpg",
+      "path": "images/Cairn-original.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Cairn-original.jpg",
+      "file_size_bytes": 231240,
+      "file_size_kb": 225.82,
+      "extension": ".jpg",
+      "alt_text": "Cairn original",
+      "caption": "Cairn Project: Cairn-original",
+      "categories": [
+        "archaeology-heritage"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "CarParkSpring2011.jpg",
+      "path": "images/CarParkSpring2011.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/CarParkSpring2011.jpg",
+      "file_size_bytes": 184683,
+      "file_size_kb": 180.35,
+      "extension": ".jpg",
+      "alt_text": "CarParkSpring2011",
+      "caption": "CarParkSpring2011",
+      "categories": [
+        "facilities"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "City of London Logo.jpg",
+      "path": "images/City of London Logo.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/City of London Logo.jpg",
+      "file_size_bytes": 22357,
+      "file_size_kb": 21.83,
+      "extension": ".jpg",
+      "alt_text": "City of London Logo",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Cllr Chris Wright.jpg",
+      "path": "images/Cllr Chris Wright.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Cllr Chris Wright.jpg",
+      "file_size_bytes": 14412,
+      "file_size_kb": 14.07,
+      "extension": ".jpg",
+      "alt_text": "Cllr Chris Wright",
+      "caption": "Committee member: Cllr Chris Wright",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Cllr Margaret Bird.jpg",
+      "path": "images/Cllr Margaret Bird.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Cllr Margaret Bird.jpg",
+      "file_size_bytes": 8770,
+      "file_size_kb": 8.56,
+      "extension": ".jpg",
+      "alt_text": "Cllr Margaret Bird",
+      "caption": "Committee member: Cllr Margaret Bird",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Committ Profiles.jpg",
+      "path": "images/Committ Profiles.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Committ Profiles.jpg",
+      "file_size_bytes": 6915,
+      "file_size_kb": 6.75,
+      "extension": ".jpg",
+      "alt_text": "Committ Profiles",
+      "caption": "Committ Profiles",
+      "categories": [
+        "uncategorized"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "CoulsdonChaldonMap.jpg",
+      "path": "images/CoulsdonChaldonMap.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/CoulsdonChaldonMap.jpg",
+      "file_size_bytes": 182496,
+      "file_size_kb": 178.22,
+      "extension": ".jpg",
+      "alt_text": "CoulsdonChaldonMap",
+      "caption": "CoulsdonChaldonMap",
+      "categories": [
+        "walks-maps"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Downlands Circular Walk.JPG",
+      "path": "images/Downlands Circular Walk.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Downlands Circular Walk.JPG",
+      "file_size_bytes": 20442,
+      "file_size_kb": 19.96,
+      "extension": ".jpg",
+      "alt_text": "Downlands Circular Walk",
+      "caption": "Walking trail map: Downlands Circular Walk",
+      "categories": [
+        "walks-maps"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "FD-3-March-1944.jpg",
+      "path": "images/FD-3-March-1944.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FD-3-March-1944.jpg",
+      "file_size_bytes": 498944,
+      "file_size_kb": 487.25,
+      "extension": ".jpg",
+      "alt_text": "FD 3 March 1944",
+      "caption": "FD 3 March 1944",
+      "categories": [
+        "uncategorized"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "FairdeanHeights.jpg",
+      "path": "images/FairdeanHeights.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FairdeanHeights.jpg",
+      "file_size_bytes": 282413,
+      "file_size_kb": 275.79,
+      "extension": ".jpg",
+      "alt_text": "FairdeanHeights",
+      "caption": "FairdeanHeights",
+      "categories": [
+        "landscape"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "FoFD Logo (1).jpg",
+      "path": "images/FoFD Logo (1).jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FoFD Logo (1).jpg",
+      "file_size_bytes": 149808,
+      "file_size_kb": 146.3,
+      "extension": ".jpg",
+      "alt_text": "FoFD Logo (1)",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "FoFD Logo.JPG",
+      "path": "images/FoFD Logo.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FoFD Logo.JPG",
+      "file_size_bytes": 67105,
+      "file_size_kb": 65.53,
+      "extension": ".jpg",
+      "alt_text": "FoFD Logo",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "FoFD Logo2.jpg",
+      "path": "images/FoFD Logo2.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FoFD Logo2.jpg",
+      "file_size_bytes": 143347,
+      "file_size_kb": 139.99,
+      "extension": ".jpg",
+      "alt_text": "FoFD Logo2",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "FoFD Logo3.jpg",
+      "path": "images/FoFD Logo3.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FoFD Logo3.jpg",
+      "file_size_bytes": 149808,
+      "file_size_kb": 146.3,
+      "extension": ".jpg",
+      "alt_text": "FoFD Logo3",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "FoFD Logo4.jpg",
+      "path": "images/FoFD Logo4.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FoFD Logo4.jpg",
+      "file_size_bytes": 149808,
+      "file_size_kb": 146.3,
+      "extension": ".jpg",
+      "alt_text": "FoFD Logo4",
+      "caption": "Friends of Farthing Downs Logo",
+      "categories": [
+        "branding"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "FoFD-QR.jpg",
+      "path": "images/FoFD-QR.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/FoFD-QR.jpg",
+      "file_size_bytes": 37323,
+      "file_size_kb": 36.45,
+      "extension": ".jpg",
+      "alt_text": "FoFD QR",
+      "caption": "FoFD QR",
+      "categories": [
+        "utility"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Getting there map.jpg",
+      "path": "images/Getting there map.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Getting there map.jpg",
+      "file_size_bytes": 487350,
+      "file_size_kb": 475.93,
+      "extension": ".jpg",
+      "alt_text": "Getting there map",
+      "caption": "Getting there map",
+      "categories": [
+        "walks-maps"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Getting there scan - 17-02-130001.jpg",
+      "path": "images/Getting there scan - 17-02-130001.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Getting there scan - 17-02-130001.jpg",
+      "file_size_bytes": 24385,
+      "file_size_kb": 23.81,
+      "extension": ".jpg",
+      "alt_text": "Getting there scan   17 02 130001",
+      "caption": "Getting there scan   17 02 130001",
+      "categories": [
+        "walks-maps"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Graham Lomas.JPG",
+      "path": "images/Graham Lomas.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Graham Lomas.JPG",
+      "file_size_bytes": 417766,
+      "file_size_kb": 407.97,
+      "extension": ".jpg",
+      "alt_text": "Graham Lomas",
+      "caption": "Graham Lomas",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Hamsey Green Walk.JPG",
+      "path": "images/Hamsey Green Walk.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Hamsey Green Walk.JPG",
+      "file_size_bytes": 24040,
+      "file_size_kb": 23.48,
+      "extension": ".jpg",
+      "alt_text": "Hamsey Green Walk",
+      "caption": "Walking trail map: Hamsey Green Walk",
+      "categories": [
+        "walks-maps"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Happy Valley Getting There.jpg",
+      "path": "images/Happy Valley Getting There.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Happy Valley Getting There.jpg",
+      "file_size_bytes": 414159,
+      "file_size_kb": 404.45,
+      "extension": ".jpg",
+      "alt_text": "Happy Valley Getting There",
+      "caption": "Happy Valley Getting There",
+      "categories": [
+        "walks-maps",
+        "landscape"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "Happy Valley Trail.JPG",
+      "path": "images/Happy Valley Trail.JPG",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Happy Valley Trail.JPG",
+      "file_size_bytes": 35751,
+      "file_size_kb": 34.91,
+      "extension": ".jpg",
+      "alt_text": "Happy Valley Trail",
+      "caption": "Walking trail map: Happy Valley Trail",
+      "categories": [
+        "walks-maps",
+        "landscape"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Happy Valley Walk - with photos -17-02-13.jpg",
+      "path": "images/Happy Valley Walk - with photos -17-02-13.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Happy Valley Walk - with photos -17-02-13.jpg",
+      "file_size_bytes": 23194,
+      "file_size_kb": 22.65,
+      "extension": ".jpg",
+      "alt_text": "Happy Valley Walk   with photos  17 02 13",
+      "caption": "Walking trail map: Happy Valley Walk - with photos -17-02-13",
+      "categories": [
+        "walks-maps",
+        "landscape"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Ian Payne.jpg",
+      "path": "images/Ian Payne.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Ian Payne.jpg",
+      "file_size_bytes": 18233,
+      "file_size_kb": 17.81,
+      "extension": ".jpg",
+      "alt_text": "Ian Payne",
+      "caption": "Ian Payne",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Line breaker.jpg",
+      "path": "images/Line breaker.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Line breaker.jpg",
+      "file_size_bytes": 2469,
+      "file_size_kb": 2.41,
+      "extension": ".jpg",
+      "alt_text": "Line breaker",
+      "caption": "Line breaker",
+      "categories": [
+        "uncategorized"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Man.jpg",
+      "path": "images/Man.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Man.jpg",
+      "file_size_bytes": 4775,
+      "file_size_kb": 4.66,
+      "extension": ".jpg",
+      "alt_text": "Man",
+      "caption": "Man",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Maureen Levy.jpg",
+      "path": "images/Maureen Levy.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Maureen Levy.jpg",
+      "file_size_bytes": 12207,
+      "file_size_kb": 11.92,
+      "extension": ".jpg",
+      "alt_text": "Maureen Levy",
+      "caption": "Maureen Levy",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Pauline Payne.jpg",
+      "path": "images/Pauline Payne.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Pauline Payne.jpg",
+      "file_size_bytes": 12011,
+      "file_size_kb": 11.73,
+      "extension": ".jpg",
+      "alt_text": "Pauline Payne",
+      "caption": "Pauline Payne",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "ScanMe.jpg",
+      "path": "images/ScanMe.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/ScanMe.jpg",
+      "file_size_bytes": 57592,
+      "file_size_kb": 56.24,
+      "extension": ".jpg",
+      "alt_text": "ScanMe",
+      "caption": "ScanMe",
+      "categories": [
+        "uncategorized"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Station Greening.jpg",
+      "path": "images/Station Greening.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Station Greening.jpg",
+      "file_size_bytes": 100781,
+      "file_size_kb": 98.42,
+      "extension": ".jpg",
+      "alt_text": "Station Greening",
+      "caption": "Coulsdon South Station area",
+      "categories": [
+        "facilities"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Station Photos.jpg",
+      "path": "images/Station Photos.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Station Photos.jpg",
+      "file_size_bytes": 123591,
+      "file_size_kb": 120.69,
+      "extension": ".jpg",
+      "alt_text": "Station Photos",
+      "caption": "Coulsdon South Station area",
+      "categories": [
+        "facilities"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "StoneAgeAxe.jpg",
+      "path": "images/StoneAgeAxe.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/StoneAgeAxe.jpg",
+      "file_size_bytes": 246281,
+      "file_size_kb": 240.51,
+      "extension": ".jpg",
+      "alt_text": "StoneAgeAxe",
+      "caption": "StoneAgeAxe",
+      "categories": [
+        "archaeology-heritage"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Swingboats.jpg",
+      "path": "images/Swingboats.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Swingboats.jpg",
+      "file_size_bytes": 75894,
+      "file_size_kb": 74.12,
+      "extension": ".jpg",
+      "alt_text": "Swingboats",
+      "caption": "Swingboats",
+      "categories": [
+        "historic-photos"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Tea-rooms-not-Welcome.jpg",
+      "path": "images/Tea-rooms-not-Welcome.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Tea-rooms-not-Welcome.jpg",
+      "file_size_bytes": 98100,
+      "file_size_kb": 95.8,
+      "extension": ".jpg",
+      "alt_text": "Tea rooms not Welcome",
+      "caption": "Historic tea rooms: Tea-rooms-not-Welcome",
+      "categories": [
+        "historic-photos"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "Tea-rooms-side-1.jpg",
+      "path": "images/Tea-rooms-side-1.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Tea-rooms-side-1.jpg",
+      "file_size_bytes": 495742,
+      "file_size_kb": 484.12,
+      "extension": ".jpg",
+      "alt_text": "Tea rooms side 1",
+      "caption": "Historic tea rooms: Tea-rooms-side-1",
+      "categories": [
+        "historic-photos"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Tea-rooms-side-2.jpg",
+      "path": "images/Tea-rooms-side-2.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Tea-rooms-side-2.jpg",
+      "file_size_bytes": 506062,
+      "file_size_kb": 494.2,
+      "extension": ".jpg",
+      "alt_text": "Tea rooms side 2",
+      "caption": "Historic tea rooms: Tea-rooms-side-2",
+      "categories": [
+        "historic-photos"
+      ],
+      "is_hero_candidate": false
+    },
+    {
+      "filename": "Welcome Page Images.jpg",
+      "path": "images/Welcome Page Images.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Welcome Page Images.jpg",
+      "file_size_bytes": 111523,
+      "file_size_kb": 108.91,
+      "extension": ".jpg",
+      "alt_text": "Welcome Page Images",
+      "caption": "Welcome Page Images",
+      "categories": [
+        "historic-photos"
+      ],
+      "is_hero_candidate": true
+    },
+    {
+      "filename": "Woman.jpg",
+      "path": "images/Woman.jpg",
+      "absolute_path": "/home/user/fofd/site-2005-2025/images/Woman.jpg",
+      "file_size_bytes": 5293,
+      "file_size_kb": 5.17,
+      "extension": ".jpg",
+      "alt_text": "Woman",
+      "caption": "Woman",
+      "categories": [
+        "people-committee"
+      ],
+      "is_hero_candidate": false
+    }
+  ]
+}
