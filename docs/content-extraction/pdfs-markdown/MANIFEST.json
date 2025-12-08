@@ -1,0 +1,138 @@
+{
+  "manifest_version": "1.0",
+  "generated": "2025-12-08",
+  "project": "Friends of Farthing Downs Website Migration",
+  "phase": "0A - PDF to Markdown Conversion",
+  "description": "Complete manifest of all PDF content converted to markdown for the FoFD website migration project",
+
+  "categories": {
+    "nature-trail": {
+      "description": "Nature Trail posts with audio guide (Roger McGough narration)",
+      "total_posts": 29,
+      "source_directory": "site-2005-2025/NatureTrail/NTEnglish/Text/",
+      "files": [
+        "post-01.md", "post-02.md", "post-03.md", "post-04.md", "post-05.md",
+        "post-06.md", "post-07.md", "post-08.md", "post-09.md", "post-10.md",
+        "post-11.md", "post-12.md", "post-13.md", "post-14.md", "post-15.md",
+        "post-16.md", "post-17.md", "post-18.md", "post-19.md", "post-20.md",
+        "post-21.md", "post-22.md", "post-23.md", "post-24.md", "post-25.md",
+        "post-26.md", "post-27.md", "post-28.md", "post-29.md"
+      ],
+      "themes": ["wildlife", "trees", "archaeology", "geology", "conservation", "Saxon history", "chalk grassland"]
+    },
+
+    "fofd-hv": {
+      "description": "FoFD Happy Valley alternative trail posts",
+      "total_posts": 19,
+      "source_directory": "site-2005-2025/FoFD-HV-POSTSXXX/",
+      "files": [
+        "post-01.md", "post-02.md", "post-03.md", "post-04.md", "post-05.md",
+        "post-06.md", "post-07.md", "post-08.md", "post-09.md", "post-10.md",
+        "post-21.md", "post-22.md", "post-23.md", "post-24.md", "post-25.md",
+        "post-26.md", "post-27.md", "post-28.md", "post-29.md"
+      ],
+      "notes": "Posts 11-20 exist in legacy 'posts' directory from earlier conversion",
+      "themes": ["history", "wildlife", "trees", "pond life", "archaeology", "conservation"]
+    },
+
+    "agm": {
+      "description": "Annual General Meeting presentations and notes",
+      "total_files": 2,
+      "files": [
+        {
+          "filename": "agm-2023-biodiversity-net-gain.md",
+          "source": "AGMNovember2023GuestSpeaker.pdf",
+          "speaker": "Mike Waite MCIEEM",
+          "topic": "Biodiversity Net Gain"
+        },
+        {
+          "filename": "agm-2024-green-belt-discussion.md",
+          "source": "AGMNovember2024GuestSpeakers-Discussion.pdf",
+          "speakers": ["Richard Biggs", "Richard Knox-Johnson", "Tom Oliver"],
+          "topic": "Housing, Green Belt, Grey Belt Policy"
+        }
+      ]
+    },
+
+    "strategy": {
+      "description": "Strategic policy documents and discussion papers",
+      "total_files": 2,
+      "files": [
+        {
+          "filename": "strategic-approach-biodiversity-croydon.md",
+          "source": "AstrategicapproachtobiodiversityandopenspacesinCroydon.pdf",
+          "author": "Graham M Lomas",
+          "date": "October 2022"
+        },
+        {
+          "filename": "background-note-biodiversity.md",
+          "source": "BackgroundnoteBiodiversity.pdf",
+          "author": "Graham Lomas",
+          "date": "November 2023"
+        }
+      ]
+    },
+
+    "events": {
+      "description": "Event posters and supporting materials",
+      "total_files": 2,
+      "files": [
+        {
+          "filename": "archaeology-day-2023.md",
+          "source": "Archaeology Day 02-09-23 Poster A3.pdf",
+          "event_date": "2023-09-02",
+          "event_type": "Community event celebrating 75 years since Hope-Taylor excavations"
+        },
+        {
+          "filename": "living-in-coulsdon-2000-years-ago.md",
+          "source": "Living in Coulsdon 2000 years ago A5.pdf",
+          "author": "Graham Lomas",
+          "topic": "Archaeological history of Coulsdon"
+        }
+      ]
+    },
+
+    "info": {
+      "description": "General information and membership materials",
+      "total_files": 2,
+      "files": [
+        {
+          "filename": "membership-leaflet.md",
+          "source": "images/Membership Leaflet.pdf",
+          "content_type": "Membership form and organization overview"
+        },
+        {
+          "filename": "moth-species-list-2015.md",
+          "source": "images-wildlife/MothSpeciesList2015.pdf",
+          "event_date": "2015-07-25",
+          "content_type": "Wildlife species survey"
+        }
+      ]
+    }
+  },
+
+  "statistics": {
+    "total_markdown_files": 66,
+    "nature_trail_posts": 29,
+    "fofd_hv_posts": 19,
+    "agm_documents": 2,
+    "strategy_documents": 2,
+    "event_documents": 2,
+    "info_documents": 2,
+    "legacy_posts_directory": 10
+  },
+
+  "frontmatter_schema": {
+    "required_fields": ["title", "source_pdf", "category", "date_converted"],
+    "optional_fields": ["post_number", "themes", "next_post", "related_audio", "author", "speaker", "date"],
+    "categories_used": ["nature-trail", "fofd-hv", "agm", "strategy", "events", "info", "wildlife"]
+  },
+
+  "notes": [
+    "All posts use consistent YAML frontmatter format",
+    "Wildlife spotting points systems preserved in markdown tables",
+    "Direction instructions included at end of trail posts",
+    "Audio guide references included for Nature Trail posts",
+    "Total possible wildlife spotting points: 385"
+  ]
+}
