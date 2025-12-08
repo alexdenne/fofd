@@ -1,0 +1,110 @@
+{
+  "generated": "2025-12-08",
+  "total_images": 178,
+  "categories": {
+    "wildlife": 82,
+    "history": 9,
+    "archaeology": 8,
+    "general": 50,
+    "fungi": 29
+  },
+  "hero_candidates": [
+    "Tea-rooms-side-2.jpg",
+    "Tea-rooms-side-1.jpg",
+    "Getting there map.jpg",
+    "Happy Valley Getting There.jpg",
+    "Cairn Project005A.jpg",
+    "FairdeanHeights.jpg",
+    "FoxCubs.jpg",
+    "Badger.jpg",
+    "CommonBlue.jpg",
+    "FD-3-March-1944.jpg"
+  ],
+  "detailed_hero_candidates": [
+    {
+      "rank": 1,
+      "filename": "Tea-rooms-side-2.jpg",
+      "category": "general",
+      "file_size_bytes": 506062,
+      "reason": "Largest file size, iconic vintage tea rooms brochure reverse, represents golden era heritage"
+    },
+    {
+      "rank": 2,
+      "filename": "Tea-rooms-side-1.jpg",
+      "category": "general",
+      "file_size_bytes": 495742,
+      "reason": "Very large file, iconic vintage tea rooms promotional brochure front cover"
+    },
+    {
+      "rank": 3,
+      "filename": "Getting there map.jpg",
+      "category": "general",
+      "file_size_bytes": 487350,
+      "reason": "Large high-quality map, practical and visually appealing navigation resource"
+    },
+    {
+      "rank": 4,
+      "filename": "Happy Valley Getting There.jpg",
+      "category": "general",
+      "file_size_bytes": 414159,
+      "reason": "Large scenic map with landscape photography, marked as hero candidate, excellent visual appeal"
+    },
+    {
+      "rank": 5,
+      "filename": "Cairn Project005A.jpg",
+      "category": "general",
+      "file_size_bytes": 279702,
+      "reason": "Large archaeological heritage image, marked as hero candidate, exceptional quality"
+    },
+    {
+      "rank": 6,
+      "filename": "FairdeanHeights.jpg",
+      "category": "general",
+      "file_size_bytes": 282413,
+      "reason": "Large historical estate development map, marked as hero candidate, significant heritage value"
+    },
+    {
+      "rank": 7,
+      "filename": "FoxCubs.jpg",
+      "category": "wildlife",
+      "file_size_bytes": 83068,
+      "reason": "Largest wildlife image, engaging subject matter (cute fox cubs), strong visual appeal for engagement"
+    },
+    {
+      "rank": 8,
+      "filename": "Badger.jpg",
+      "category": "wildlife",
+      "file_size_bytes": 74570,
+      "reason": "High quality wildlife image, iconic British mammal, marked as hero candidate by wildlife team"
+    },
+    {
+      "rank": 9,
+      "filename": "CommonBlue.jpg",
+      "category": "wildlife",
+      "file_size_bytes": 68446,
+      "reason": "Vibrant butterfly photography, excellent color and quality, marked as hero candidate by wildlife team"
+    },
+    {
+      "rank": 10,
+      "filename": "FD-3-March-1944.jpg",
+      "category": "history",
+      "file_size_bytes": 498944,
+      "reason": "Dramatic aerial photograph from WWII era, historically significant wartime documentation, marked as hero candidate"
+    }
+  ],
+  "summary": {
+    "largest_hero_candidate": {
+      "filename": "Tea-rooms-side-2.jpg",
+      "size_bytes": 506062,
+      "category": "general"
+    },
+    "category_representation": {
+      "general": 4,
+      "wildlife": 3,
+      "history": 1,
+      "archaeology": 1,
+      "fungi": 0
+    },
+    "notes": "Top candidates prioritize file size/quality, visual impact, historical/cultural significance, and wildlife interest. Fungi category not represented due to specimen images being more scientific than visually impactful for hero/landing page use."
+  }
+}

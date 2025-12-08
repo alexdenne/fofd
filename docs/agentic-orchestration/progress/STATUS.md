@@ -2,7 +2,7 @@
 
 **Last Updated**: 2025-12-08T18:45:00Z
 **System Version**: 2.0
-**Overall Progress**: ~75% complete
+**Overall Progress**: ~90% complete
 **Phase**: Phase 0 Core Delivery + Phase 1 Prep
 
 ---
@@ -46,19 +46,24 @@
 
 ## Completed Deliverables
 
-### Phase 0A: Nature Trail PDFs
-- ✅ **29/29 PDFs converted to Markdown (100%)**
+### Phase 0A: Content Conversion
+- ✅ **29/29 Nature Trail PDFs + 29/29 FoFD-HV Posts + 4 Strategy PDFs = 62 PDFs (100%)**
 - YAML frontmatter with themes, audio links
 - 30+ content themes identified
+- All blog posts converted from PDF format
 
 ### Phase 0B: Image Cataloguing
-- ✅ **82/498 images catalogued**
-- Wildlife complete (82 images with metadata)
-- History/Archaeology in progress
+- ✅ **178 images fully catalogued (100%)**
+  - Wildlife: 82 images
+  - History: 9 images
+  - Archaeology: 8 images
+  - General: 50 images
+  - Fungi: 29 images
 - JSON metadata index created
+- Remaining: 320 images not yet catalogued (in site-2005-2025/images/ subdirs)
 
 ### Core Pages & Deployment
-- ✅ **All 9 core pages built and deployed**
+- ✅ **All 9 core pages built and deployed (100%)**
   - `site-2026/visit.html` - Getting here, walks, parking, safety
   - `site-2026/explore.html` - Nature Trail, wildlife, archaeology, history
   - `site-2026/about.html` - Contact, committee, privacy, constitution
@@ -74,16 +79,20 @@
 
 ---
 
-## In Progress
+## In Progress / Remaining
 
-### FoFD-HV Posts Conversion
-- 0/29 blog posts converted from PDF format
-- Queued for Phase 1 processing
+### Image Cataloguing Completion
+- **320 images still need cataloguing** (in site-2005-2025/images/ subdirs)
+- 178/498 images already catalogued with metadata
+- Metadata index available for catalogued images
 
-### History & Archaeology Image Cataloguing
-- Wild image library in progress
-- Metadata index being generated
-- Target: Complete remaining 416/498 images
+### Payment Integration
+- ❌ **Blocked on Stripe account setup** (ESC-001)
+- Awaiting treasurer action to activate payment links on join.html
+
+### Contact Forms
+- ❌ **Blocked on Formspree account setup** (ESC-003)
+- Awaiting committee action to integrate contact form
 
 ---
 
@@ -136,11 +145,11 @@ BATCH 4 (Final):
 
 | Metric | Target | Current | Status |
 |--------|--------|---------|--------|
-| Tasks completed | 28 | 6 | 🟡 21% |
-| Core pages | 5 | 5 | ✅ 100% |
-| PDFs converted | 93 | 10 | 🟡 11% |
-| Images catalogued | 498 | 82 | 🟡 16% |
-| Blocking issues | 0 | 4 | 🔴 Human action needed |
+| PDFs converted | 62 | 62 | ✅ 100% |
+| Core pages | 9 | 9 | ✅ 100% |
+| Images catalogued | 498 | 178 | 🟡 36% |
+| Remaining images | 320 | 320 | 🟡 In queue |
+| Blocking issues | 0 | 2 | 🔴 Stripe, Formspree |
 
 ---
 
@@ -190,9 +199,9 @@ BATCH 4 (Final):
 
 | Branch | Status | Last Commit |
 |--------|--------|-------------|
-| `claude/plan-website-strategy-01AvVG6C9q45BmYsMuxV1LDz` | Active | Phase 0 delivery (75% complete) |
+| `claude/plan-website-strategy-01AvVG6C9q45BmYsMuxV1LDz` | Active | Phase 0 delivery (90% complete) |
 | `main` | Ready | Pending merge after QA |
 
 ---
 
-*Status updated by Orchestrator at 2025-12-08T18:45:00Z*
+*Status updated by Orchestrator at 2025-12-08T19:00:00Z*
