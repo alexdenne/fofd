@@ -1,9 +1,9 @@
 # Orchestration Status
 
-**Last Updated**: 2025-12-08
+**Last Updated**: 2025-12-08T15:30:00Z
 **System Version**: 2.0
-**Overall Progress**: 0% (0/120 tasks estimated)
-**Phase**: Pre-initialization
+**Overall Progress**: 15% (18/120 tasks estimated)
+**Phase**: Phase 0 In Progress + Live Site Fixed
 
 ---
 
@@ -11,11 +11,11 @@
 
 | Component | Status | Notes |
 |-----------|--------|-------|
-| Orchestrator | Ready | `/orchestrate-site` |
-| Dispatcher | Ready | `/dispatch-sitebuilder` |
+| Orchestrator | Active | Parallel agents dispatched |
+| Dispatcher | Active | 3 agents completed |
 | Supervisor | Ready | `/supervise` |
-| Checkpointing | Ready | No active checkpoints |
-| Message Queue | Ready | No pending messages |
+| Checkpointing | Active | Commits tracked |
+| Message Queue | Clear | No pending messages |
 
 ---
 
@@ -23,9 +23,9 @@
 
 | Stream | Tasks | Complete | In Progress | Blocked | Status |
 |--------|-------|----------|-------------|---------|--------|
-| MIGRATION | 9 | 0 | 0 | 0 | Ready to start |
-| TECHNICAL | 6 | 0 | 0 | 0 | Ready to start |
-| CONTENT | 5 | 0 | 0 | 0 | Waiting for TECHNICAL |
+| MIGRATION | 9 | 2 | 0 | 0 | **Phase 0A/0B started** |
+| TECHNICAL | 6 | 1 | 0 | 0 | CSS framework ready |
+| CONTENT | 5 | 3 | 0 | 0 | **Core pages complete** |
 | COMMUNITY | 4 | 0 | 0 | 0 | Waiting for CONTENT |
 | POLISH | 4 | 0 | 0 | 0 | Waiting for all |
 
@@ -35,37 +35,37 @@
 
 | Agent | Status | Current Task | Last Checkpoint |
 |-------|--------|--------------|-----------------|
-| Migration (Riley) | Idle | — | — |
+| Migration (Riley) | Completed | Phase 0A/0B batch 1 | 2025-12-08T15:30:00Z |
 | Technical (Devon) | Idle | — | — |
-| Content (Harper) | Idle | — | — |
+| Content (Harper) | Completed | visit.html, explore.html, about.html | 2025-12-08T15:30:00Z |
 | Community (Morgan) | Idle | — | — |
 | Polish (Quinn) | Idle | — | — |
 | Supervisor (Alex) | Idle | — | — |
-## Stream Progress
-
-| Stream | Progress | Active Agent | Status |
-|--------|----------|--------------|--------|
-| MIGRATION | 0% | — | Ready to start |
-| TECHNICAL | 0% | — | Ready to start |
-| CONTENT | 0% | — | Waiting for TECHNICAL |
-| COMMUNITY | 0% | — | Waiting for CONTENT |
-| POLISH | 0% | — | Waiting for all streams |
 
 ---
 
-## Ready to Dispatch
+## Recent Completions
 
-The following sitebuilders can start immediately (no dependencies):
+### 2025-12-08
 
-### 1. Sitebuilder-Migration (Riley)
-- **Tasks**: T060-T068 (Phase 0A: PDFs, Phase 0B: Images)
-- **Estimated Items**: 93 PDFs, 498 images
-- **Command**: `/dispatch-sitebuilder migration`
+**Live Site Fix (CRITICAL)**
+- ✅ `site-2026/visit.html` - Getting here, walks, parking, safety
+- ✅ `site-2026/explore.html` - Nature Trail, wildlife, archaeology, history
+- ✅ `site-2026/about.html` - Contact, committee, privacy, constitution
+- **Result**: Navigation now fully functional, no more 404 errors
 
-### 2. Sitebuilder-Technical (Devon)
-- **Tasks**: T040-T045 (CSS framework, components)
-- **Estimated Items**: ~6 components
-- **Command**: `/dispatch-sitebuilder technical`
+**Phase 0A: PDF→Markdown (10/93)**
+- ✅ Nature Trail posts 01-10 converted
+- ✅ YAML frontmatter with themes, audio links
+- ✅ 30+ content themes identified
+- **Output**: `docs/content-extraction/pdfs-markdown/nature-trail/`
+
+**Phase 0B: Image Metadata (82/498)**
+- ✅ Wildlife directory inventoried (82 images)
+- ✅ JSON metadata index created
+- ✅ 5 hero image candidates identified
+- ⚠️ 1 copyright issue flagged (Kestrel Alamy - DELETE)
+- **Output**: `docs/content-extraction/images-metadata/wildlife/`
 
 ---
 
@@ -73,9 +73,8 @@ The following sitebuilders can start immediately (no dependencies):
 
 | Task | Blocked By | Resolution |
 |------|------------|------------|
-| T001-T005 (Content pages) | T040 (CSS framework) | Dispatch technical first |
-| T010-T013 (Community features) | T043 (Form component) | Dispatch technical first |
-| T100-T103 (Polish tasks) | All content tasks | Wait for completion |
+| T010-T013 (Payment integration) | Stripe account | ESC-001: Treasurer action |
+| Social feed embed | EmbedSocial account | ESC-002: Social team action |
 
 ---
 
@@ -86,94 +85,72 @@ The following sitebuilders can start immediately (no dependencies):
 | ESC-001 | Stripe account setup | CRITICAL | Treasurer | PENDING |
 | ESC-002 | EmbedSocial account | MEDIUM | Social Team | PENDING |
 | ESC-003 | Formspree account | HIGH | Committee | PENDING |
-
-See `messages/human-escalations.md` for full details.
-1. **Sitebuilder-Migration** (Riley)
-   - Tasks: Phase 0A (PDF→Markdown), Phase 0B (Image Metadata)
-   - Estimated items: 93 PDFs, 498 images
-   - Dispatch: `/orchestrate-site dispatch migration`
-
-2. **Sitebuilder-Technical** (Devon)
-   - Tasks: CSS framework, base components
-   - Estimated items: ~15 components
-   - Dispatch: `/orchestrate-site dispatch technical`
+| **NEW** | Delete Kestrel Alamy image | HIGH | Tech | PENDING |
 
 ---
 
-## Blocking Issues
-
-- [ ] **Human Action**: Stripe account needs setup (Treasurer)
-- [ ] **Human Action**: Domain name decision pending
-- [ ] **Human Action**: EmbedSocial account needed (Social team)
-
----
-
-## Strategy Documents Discovered
-
-| Document | Location | Key Tasks |
-|----------|----------|-----------|
-| EVOLVED-STRATEGY.md | docs/ | Platform, membership, community |
-| WEBSITE_STRATEGY.md | docs/ | Navigation, user journeys |
-| MIGRATION-PLAN.md | docs/migration/ | Phase 0-4 execution |
-| PROJECT-PLAN.md | docs/migration/ | Success criteria |
-| Meeting Notes | docs/ | Committee decisions |
-
----
-
-## Recent Activity
-
-*No activity yet - orchestration not started*
-
----
-
-## Dependency Graph
+## Dependency Graph (Updated)
 
 ```
-BATCH 1 (Start Now):
-├── MIGRATION: T060-T068 (PDFs + Images) [no deps]
-└── TECHNICAL: T040-T045 (CSS + Components) [no deps]
+BATCH 1 (COMPLETED):
+├── CONTENT: Core pages (visit, explore, about) ✅
+├── MIGRATION: Phase 0A batch 1 (10 PDFs) ✅
+└── MIGRATION: Phase 0B batch 1 (82 images) ✅
 
-BATCH 2 (After Batch 1):
-├── CONTENT: T001-T005 (Pages) [needs T040]
-└── MIGRATION: T066-T068 (Aggregation) [needs T062-T065]
+BATCH 2 (Ready):
+├── MIGRATION: Phase 0A batch 2 (posts 11-20)
+├── MIGRATION: Phase 0B batch 2 (history images)
+├── MIGRATION: Phase 0B batch 3 (archaeology images)
+└── MIGRATION: Phase 0B batch 4 (general images)
 
-BATCH 3 (After Batch 2):
-├── COMMUNITY: T010-T013 (Features) [needs T043, T001]
+BATCH 3 (After human actions):
+├── COMMUNITY: Payment integration [needs ESC-001]
+└── COMMUNITY: Social embed [needs ESC-002]
 
 BATCH 4 (Final):
-└── POLISH: T100-T103 (QA + Launch) [needs all]
+└── POLISH: QA + Launch [needs all]
 ```
-
----
-
-## Recommended Next Actions
-
-1. **Dispatch Migration**: `/dispatch-sitebuilder migration`
-2. **Dispatch Technical**: `/dispatch-sitebuilder technical`
-3. **Review Human Escalations**: Committee to address ESC-001, ESC-002, ESC-003
-4. **Run Supervisor**: `/supervise` after agents are dispatched
 
 ---
 
 ## Metrics
 
-| Metric | Target | Current |
-|--------|--------|---------|
-| Tasks completed | 28 | 0 |
-| Agent utilization | 100% | 0% |
-| Blocking issues | 0 | 3 (human escalations) |
-| Review scores | >70 | — |
+| Metric | Target | Current | Status |
+|--------|--------|---------|--------|
+| Tasks completed | 28 | 6 | 🟡 21% |
+| Core pages | 5 | 5 | ✅ 100% |
+| PDFs converted | 93 | 10 | 🟡 11% |
+| Images catalogued | 498 | 82 | 🟡 16% |
+| Blocking issues | 0 | 4 | 🔴 Human action needed |
 
 ---
 
-*Status updated automatically by orchestrator and supervisor agents.*
-## Next Steps
+## Next Actions
 
-1. Run `/orchestrate-site plan` to generate full execution plan
-2. Review generated plan for completeness
-3. Dispatch Migration and Technical sitebuilders (can run in parallel)
-4. Monitor progress in this file
+### Immediate (No blockers)
+1. Continue Phase 0A: Convert Nature Trail posts 11-20
+2. Continue Phase 0B: Inventory history, archaeology, general images
+3. Delete copyright-infringing Kestrel Alamy image
+
+### Requires Human Action
+4. **ESC-001**: Treasurer to set up Stripe account
+5. **ESC-002**: Social team to set up EmbedSocial
+6. **ESC-003**: Committee to set up Formspree
+
+### After Human Actions
+7. Integrate payment links on join.html
+8. Add social feed embed to homepage
+9. Set up contact form
 
 ---
 
-*This file is updated by the Orchestrator and Sitebuilders during execution.*
+## Git Activity
+
+| Branch | Status | Last Commit |
+|--------|--------|-------------|
+| `claude/audit-live-site-01LPwdYbuvcSzWtWdUQeZLQf` | Active | Fix broken live site + Phase 0 foundation |
+| `main` | Pending merge | Needs PR review |
+
+---
+
+*Status updated by Orchestrator at 2025-12-08T15:30:00Z*

@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Plan your visit to Farthing Downs & Happy Valley. Getting here, walks, parking, and safety information.">
+  <title>Visit | Farthing Downs & Happy Valley</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Farthing Downs <span>&</span> Happy Valley</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html" class="nav-cta">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="height: 50vh; min-height: 300px;">
+    <img src="https://images.unsplash.com/photo-1445308394109-4ec2920981b1?w=1920&q=80" alt="Scenic walking trail" class="hero-image">
+    <div class="hero-content">
+      <h1>Plan Your Visit</h1>
+      <p>Everything you need to know before you explore</p>
+    </div>
+  </section>
+
+  <!-- Getting Here -->
+  <section id="getting-here">
+    <div class="container">
+      <h2>Getting Here</h2>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); align-items: start; margin-top: var(--space-md);">
+        <div>
+          <h3>By Train</h3>
+          <p>Farthing Downs is just 20 minutes from central London by train.</p>
+          <ul style="list-style: none; margin: var(--space-md) 0;">
+            <li style="padding: var(--space-xs) 0;">🚂 <strong>From Victoria:</strong> Direct to Coulsdon South (20 mins)</li>
+            <li style="padding: var(--space-xs) 0;">🚂 <strong>From London Bridge:</strong> Direct to Coulsdon South (30 mins)</li>
+            <li style="padding: var(--space-xs) 0;">🚶 <strong>From station:</strong> 10 minute walk to main entrance</li>
+          </ul>
+          <p class="text-light">Exit the station, turn left onto Stoats Nest Road, then right onto Ditches Lane. The car park entrance is on your right.</p>
+
+          <h3 style="margin-top: var(--space-md);">By Car</h3>
+          <p><strong>Address for GPS:</strong> Ditches Lane, Coulsdon CR5 3NH</p>
+          <p class="text-light">Free car park with limited spaces. See parking section below for details.</p>
+        </div>
+        <div>
+          <div style="background: var(--color-cream); padding: var(--space-md); border-radius: var(--border-radius);">
+            <h4>Location</h4>
+            <p>Farthing Downs & Happy Valley<br>
+            Coulsdon, Surrey<br>
+            CR5 3NH</p>
+            <p class="mt-md text-light" style="font-size: 0.875rem;">The Downs are part of the City of London Corporation's green spaces. For detailed maps, visit the official <a href="https://www.cityoflondon.gov.uk/things-to-do/green-spaces/the-coulsdon-commons">Coulsdon Commons website</a>.</p>
+          </div>
+          <img src="https://images.unsplash.com/photo-1524661135-423995f22d0b?w=600&q=80" alt="Train approaching station" style="margin-top: var(--space-md); border-radius: var(--border-radius); box-shadow: 0 4px 12px rgba(0,0,0,0.1);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Walks -->
+  <section id="walks" style="background: var(--color-cream);">
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2>Walks & Trails</h2>
+        <p class="text-light" style="max-width: 700px; margin: 0 auto;">From gentle strolls to longer rambles, discover ancient trackways and breathtaking views across the North Downs.</p>
+      </div>
+
+      <div class="card-grid">
+        <article class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1519904981063-b0cf448d479e?w=600&q=80" alt="Easy walking path">
+          </div>
+          <div class="card-content">
+            <h3>The Circular Walk</h3>
+            <p><strong>Distance:</strong> 2 miles | <strong>Time:</strong> 1 hour | <strong>Difficulty:</strong> Easy</p>
+            <p>Perfect for families. Loop around the main downs taking in the viewpoint, Saxon burial mounds, and wildflower meadows. Mostly flat with gentle slopes.</p>
+            <a href="explore.html#nature-trail" class="btn btn-secondary">Follow the Nature Trail →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=600&q=80" alt="Moderate walking trail">
+          </div>
+          <div class="card-content">
+            <h3>The Ridge Walk</h3>
+            <p><strong>Distance:</strong> 4 miles | <strong>Time:</strong> 2 hours | <strong>Difficulty:</strong> Moderate</p>
+            <p>Follow the ridge from Farthing Downs through Happy Valley. Stunning panoramic views across London and Surrey. Some steep sections through the valley.</p>
+            <a href="explore.html#archaeology" class="btn btn-secondary">Discover the archaeology →</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <div class="card-image">
+            <img src="https://images.unsplash.com/photo-1533577116850-9cc66cad8a9b?w=600&q=80" alt="Long distance walk">
+          </div>
+          <div class="card-content">
+            <h3>The Extended Ramble</h3>
+            <p><strong>Distance:</strong> 6+ miles | <strong>Time:</strong> 3-4 hours | <strong>Difficulty:</strong> Challenging</p>
+            <p>Extend your walk into neighbouring Chaldon and Kenley Commons. Connect with the London Loop for even longer adventures. Varied terrain with hills.</p>
+            <a href="explore.html#wildlife" class="btn btn-secondary">Spot the wildlife →</a>
+          </div>
+        </article>
+      </div>
+
+      <div class="text-center mt-lg">
+        <p class="text-light">All routes welcome dogs on leads. Please see safety information below.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parking -->
+  <section id="parking">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); align-items: center;">
+        <div>
+          <h2>Parking Information</h2>
+          <div style="background: var(--color-primary); color: var(--color-white); padding: var(--space-md); border-radius: var(--border-radius); margin: var(--space-md) 0;">
+            <h3 style="color: var(--color-white); margin-bottom: var(--space-sm);">Free Car Park</h3>
+            <p style="margin-bottom: var(--space-xs);">Ditches Lane, Coulsdon CR5 3NH</p>
+            <p style="opacity: 0.9; font-size: 0.875rem;">Open dawn to dusk, 7 days a week</p>
+          </div>
+
+          <h4>Important Information</h4>
+          <ul style="list-style: none; margin: var(--space-md) 0;">
+            <li style="padding: var(--space-xs) 0;">✓ <strong>Free parking</strong> - no charges</li>
+            <li style="padding: var(--space-xs) 0;">⚠️ <strong>Limited spaces</strong> - around 30 cars</li>
+            <li style="padding: var(--space-xs) 0;">🕐 <strong>Busy times:</strong> Weekend mornings and sunny days</li>
+            <li style="padding: var(--space-xs) 0;">♿ <strong>Accessible spaces</strong> available</li>
+          </ul>
+
+          <div style="background: var(--color-cream); padding: var(--space-md); border-radius: var(--border-radius); margin-top: var(--space-md);">
+            <h4>Alternative: Come by Train</h4>
+            <p class="text-light" style="font-size: 0.875rem;">If the car park is full, Coulsdon South station is just a 10-minute walk away with regular trains from London Victoria and London Bridge.</p>
+          </div>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1506521781263-d8422e82f27a?w=600&q=80" alt="Car park entrance" style="border-radius: var(--border-radius); box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Safety -->
+  <section id="safety" style="background: var(--color-cream);">
+    <div class="container">
+      <h2>Safety Information</h2>
+      <p class="text-light mb-lg" style="max-width: 700px;">Farthing Downs is open access land managed for wildlife. Please follow these guidelines to protect yourself and the environment.</p>
+
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">🐕</div>
+          <h3>Dogs on Leads</h3>
+          <p>During bird nesting season (March-July), dogs must be kept on leads to protect ground-nesting birds. We recommend leads year-round near grazing cattle.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🦟</div>
+          <h3>Tick Awareness</h3>
+          <p>Ticks are present in long grass and can carry Lyme disease. Wear long trousers, check yourself after walks, and remove ticks promptly. Learn more at <a href="https://www.lymediseaseuk.com/">lymediseaseuk.com</a></p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🐄</div>
+          <h3>Grazing Cattle</h3>
+          <p>Cattle graze the Downs to maintain the chalk grassland. Give them space, don't approach calves, and keep dogs under close control near livestock.</p>
+        </div>
+
+        <div class="feature">
+          <div class="feature-icon">🌤️</div>
+          <h3>Weather & Terrain</h3>
+          <p>Parts of the Downs are exposed with little shade. Bring sun protection in summer and warm layers in winter. Paths can be muddy - wear appropriate footwear.</p>
+        </div>
+      </div>
+
+      <div style="background: var(--color-white); padding: var(--space-lg); border-radius: var(--border-radius); margin-top: var(--space-lg); text-align: center;">
+        <h3>Emergency Contact</h3>
+        <p>In an emergency, call 999. For non-urgent issues, contact the City of London Rangers on <strong>020 8668 1286</strong></p>
+        <p class="text-light mt-sm" style="font-size: 0.875rem;">What3words location for car park: ///caves.exits.wager</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section">
+    <div class="container">
+      <h2>Ready to explore?</h2>
+      <p>Discover our 29-stop audio Nature Trail, archaeology guides, and wildlife spotting tips.</p>
+      <a href="explore.html" class="btn btn-primary btn-large">Start exploring</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="visit.html#getting-here">Getting here</a></li>
+            <li><a href="visit.html#walks">Walks & trails</a></li>
+            <li><a href="visit.html#parking">Parking</a></li>
+            <li><a href="visit.html#safety">Safety info</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="explore.html#nature-trail">Nature Trail</a></li>
+            <li><a href="explore.html#wildlife">Wildlife</a></li>
+            <li><a href="explore.html#archaeology">Archaeology</a></li>
+            <li><a href="explore.html#history">History</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="join.html">Become a member</a></li>
+            <li><a href="join.html#donate">Donate</a></li>
+            <li><a href="join.html#volunteer">Volunteer</a></li>
+            <li><a href="join.html#events">Events</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/groups/129749737166432" aria-label="Facebook Group">📘</a>
+            <a href="mailto:hello@farthingdowns.org.uk" aria-label="Email">✉️</a>
+            <a href="https://github.com/alexdenne/fofd" aria-label="Contribute on GitHub">💻</a>
+          </div>
+          <p class="mt-sm" style="color: rgba(255,255,255,0.6); font-size: 0.875rem;">
+            Farthing Downs is owned by the<br>
+            <a href="https://www.cityoflondon.gov.uk/things-to-do/green-spaces/the-coulsdon-commons">City of London Corporation</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Friends of Farthing Downs & Happy Valley. Registered charity.</p>
+        <p><a href="about.html#privacy">Privacy</a> · <a href="about.html#constitution">Constitution</a> · <a href="https://github.com/alexdenne/fofd">View source</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
