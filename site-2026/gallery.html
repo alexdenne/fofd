@@ -3,13 +3,30 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Community photo gallery - photos from Farthing Downs and Happy Valley shared by visitors and locals.">
-  <title>Gallery | Farthing Downs & Happy Valley</title>
+  <meta name="description" content="Community photo gallery of Farthing Downs & Happy Valley. Stunning landscape photography, wildlife, wildflowers, and sunset views shared by visitors. Submit your photos!">
+  <meta name="keywords" content="Farthing Downs photos, Happy Valley photography, chalk downland images, wildlife photography Surrey, landscape photography Coulsdon, community photo gallery">
+  <title>Photo Gallery | Farthing Downs & Happy Valley Community</title>
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://farthingdowns.org.uk/gallery.html">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Photo Gallery | Farthing Downs & Happy Valley Community">
+  <meta property="og:description" content="Stunning landscape photography, wildlife, wildflowers, and sunset views from Farthing Downs & Happy Valley. Share your own photos!">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://farthingdowns.org.uk/gallery.html">
+  <meta property="og:image" content="https://farthingdowns.org.uk/images/og-gallery.jpg">
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Photo Gallery | Farthing Downs & Happy Valley Community">
+  <meta name="twitter:description" content="Stunning landscape photography, wildlife, wildflowers, and sunset views shared by visitors to Farthing Downs.">
+  <meta name="twitter:image" content="https://farthingdowns.org.uk/images/og-gallery.jpg">
 </head>
 <body>
 
@@ -24,6 +41,7 @@
         <li><a href="visit.html">Visit</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="join.html" class="nav-cta">Join Us</a></li>
       </ul>
@@ -35,83 +53,188 @@
   <section style="margin-top: 80px; padding-top: var(--space-lg);">
     <div class="container">
       <div class="text-center mb-lg">
-        <h1>Community Gallery</h1>
-        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Photos shared by people who love Farthing Downs and Happy Valley. Spotted something beautiful? Share your own!</p>
-        <a href="https://github.com/alexdenne/fofd/issues/new?template=photo-submission.yml" class="btn btn-primary mt-md">Share a photo</a>
+        <h1>Wildlife Gallery</h1>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Discover the incredible wildlife that calls Farthing Downs and Happy Valley home. From butterflies to badgers, orchids to owls.</p>
+      </div>
+
+      <!-- Category Filters -->
+      <div class="text-center mb-md">
+        <div class="gallery-filters" style="display: flex; gap: var(--space-sm); justify-content: center; flex-wrap: wrap;">
+          <button class="filter-btn active" data-category="all">All Wildlife</button>
+          <button class="filter-btn" data-category="bird">Birds</button>
+          <button class="filter-btn" data-category="mammal">Mammals</button>
+          <button class="filter-btn" data-category="insect">Insects</button>
+          <button class="filter-btn" data-category="plant">Plants</button>
+        </div>
       </div>
 
       <!-- Gallery Grid -->
       <div class="gallery">
-        <!--
-          HOW TO ADD A PHOTO:
 
-          1. Add your image to /site/gallery/
-          2. Copy this template and paste below:
-
-          <figure class="gallery-item">
-            <img src="gallery/your-image.jpg" alt="Description of the photo">
-            <figcaption>Title - Photo by Your Name</figcaption>
-          </figure>
-
-          That's it! Submit a pull request and we'll add it.
-        -->
-
-        <!-- Example photos - replace with real community submissions -->
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=600&q=80" alt="Sunset over rolling hills">
-          <figcaption>Sunset from the ridge - Photo by J. Smith</figcaption>
+        <!-- Mammals -->
+        <figure class="gallery-item" data-category="mammal" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/FoxCubs.jpg"
+               alt="Young fox cubs playing together"
+               loading="lazy">
+          <figcaption>Fox Cubs - playful young red foxes in spring</figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?w=600&q=80" alt="Purple wildflowers in meadow">
-          <figcaption>Spring wildflowers - Photo by M. Jones</figcaption>
+        <figure class="gallery-item" data-category="mammal" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/Badger.jpg"
+               alt="European badger in natural habitat"
+               loading="lazy">
+          <figcaption>Badger - a nocturnal mammal often found in woodland areas</figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1551085254-e96b210db58a?w=600&q=80" alt="Deer standing in morning light">
-          <figcaption>Morning visitor - Photo by P. Brown</figcaption>
+        <figure class="gallery-item" data-category="mammal" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/Rabbit.jpg"
+               alt="Wild rabbit in grassland"
+               loading="lazy">
+          <figcaption>Rabbit - common grazing mammal maintaining grassland diversity</figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&q=80" alt="Misty morning over valley">
-          <figcaption>Misty Happy Valley - Photo by S. Lee</figcaption>
+        <figure class="gallery-item" data-category="mammal" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/RedFox.jpg"
+               alt="Red fox in natural habitat"
+               loading="lazy">
+          <figcaption>Red Fox - adaptable predator found in diverse habitats</figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Butterfly on flower">
-          <figcaption>Chalkhill Blue - Photo by A. Wilson</figcaption>
+        <!-- Insects -->
+        <figure class="gallery-item" data-category="insect" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/CommonBlue.jpg"
+               alt="Common blue butterfly with vibrant blue wings"
+               loading="lazy">
+          <figcaption>Common Blue Butterfly - widespread across grasslands</figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?w=600&q=80" alt="Autumn trees">
-          <figcaption>Autumn colours - Photo by R. Taylor</figcaption>
+        <figure class="gallery-item" data-category="insect" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/MeadowBrown.jpg"
+               alt="Meadow brown butterfly on grass"
+               loading="lazy">
+          <figcaption>Meadow Brown - one of the most common grassland butterflies</figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&q=80" alt="Green hillside">
-          <figcaption>The Folly in summer - Photo by K. Davis</figcaption>
+        <figure class="gallery-item" data-category="insect" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/PaintedLady.jpg"
+               alt="Painted lady butterfly with orange and black wings"
+               loading="lazy">
+          <figcaption>Painted Lady - migratory butterfly visiting from Africa</figcaption>
         </figure>
 
-        <figure class="gallery-item">
-          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80" alt="Golden hour landscape">
-          <figcaption>Golden hour - Photo by L. Anderson</figcaption>
+        <figure class="gallery-item" data-category="insect" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/RedAdmiral.jpg"
+               alt="Red admiral butterfly with distinctive red bands"
+               loading="lazy">
+          <figcaption>Red Admiral - striking butterfly with red, black and white markings</figcaption>
+        </figure>
+
+        <!-- Plants -->
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/BeeOrchid.jpg"
+               alt="Bee orchid wildflower in bloom"
+               loading="lazy">
+          <figcaption>Bee Orchid - a rare and distinctive wildflower</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/GreaterYellowRattle.jpg"
+               alt="Yellow greater yellow rattle flowers"
+               loading="lazy">
+          <figcaption>Greater Yellow Rattle - semi-parasitic plant important for meadow diversity</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/CommonSpottedOrchid.jpg"
+               alt="Pink common spotted orchid flowers"
+               loading="lazy">
+          <figcaption>Common Spotted Orchid - a beautiful wildflower of grasslands</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/FieldScabious.jpg"
+               alt="Purple field scabious wildflower"
+               loading="lazy">
+          <figcaption>Field Scabious - a magnet for bees and butterflies</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/PyramidalOrchid.jpg"
+               alt="Pink pyramidal orchid flowers"
+               loading="lazy">
+          <figcaption>Pyramidal Orchid - elegant wildflower of chalk grassland</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/BulbousButtercup.jpg"
+               alt="Bright yellow bulbous buttercup flowers"
+               loading="lazy">
+          <figcaption>Bulbous Buttercup - early spring wildflower</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/WildThyme.jpg"
+               alt="Pink wild thyme flowers in grassland"
+               loading="lazy">
+          <figcaption>Wild Thyme - fragrant mat-forming herb of dry grassland</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/WallPepper.jpg"
+               alt="Yellow wall pepper succulent plant"
+               loading="lazy">
+          <figcaption>Wall Pepper - succulent plant of dry walls and rocks</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="plant" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/SaladBurnet.jpg"
+               alt="Salad burnet with small round flower heads"
+               loading="lazy">
+          <figcaption>Salad Burnet - edible herb of dry grassland</figcaption>
+        </figure>
+
+        <!-- Birds -->
+        <figure class="gallery-item" data-category="bird" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/LesserBlackbackedGull.jpg"
+               alt="Lesser black-backed gull standing"
+               loading="lazy">
+          <figcaption>Lesser Black-backed Gull - migratory seabird</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="bird" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/LesserSpottedWoodpecker.jpg"
+               alt="Lesser spotted woodpecker on tree"
+               loading="lazy">
+          <figcaption>Lesser Spotted Woodpecker - Britain's smallest and rarest woodpecker</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="bird" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/GardenBirds.jpg"
+               alt="Multiple garden bird species together"
+               loading="lazy">
+          <figcaption>Garden Birds - common species visiting gardens and feeders</figcaption>
+        </figure>
+
+        <figure class="gallery-item" data-category="bird" data-lightbox>
+          <img src="../site-2005-2025/images-wildlife/StockDove.jpg"
+               alt="Stock dove in woodland"
+               loading="lazy">
+          <figcaption>Stock Dove - quiet woodland and parkland species</figcaption>
         </figure>
 
       </div>
 
-      <!-- How to contribute -->
+      <!-- Submit your photo CTA -->
       <div class="text-center mt-lg" style="background: var(--color-cream); padding: var(--space-lg); border-radius: var(--border-radius); max-width: 700px; margin-left: auto; margin-right: auto;">
-        <h2>Share your photos</h2>
-        <p>Taken a great photo at the Downs or Happy Valley? We'd love to feature it here!</p>
+        <h2>Submit Your Photo</h2>
+        <p>Spotted something amazing at Farthing Downs or Happy Valley? Share your wildlife photography with the community!</p>
         <div class="mt-md">
-          <p><strong>Option 1: Super easy</strong></p>
-          <p class="text-light">Click the button below, drag in your photo, add a caption, done!</p>
-          <a href="https://github.com/alexdenne/fofd/issues/new?template=photo-submission.yml" class="btn btn-primary mt-sm">Share a photo</a>
+          <p><strong>We'd love to feature your photos</strong></p>
+          <p class="text-light">Whether it's a rare orchid, a butterfly, or a sunrise over the valley - if you've captured it here, we want to see it.</p>
+          <a href="https://github.com/alexdenne/fofd/issues/new?template=photo-submission.yml" class="btn btn-primary mt-sm">Submit a Photo</a>
         </div>
         <div class="mt-md">
-          <p><strong>Option 2: For the tech-savvy</strong></p>
-          <p class="text-light">Fork the repo, add your image to <code>/site/gallery/</code>, and submit a pull request.</p>
-          <a href="https://github.com/alexdenne/fofd" class="btn btn-secondary mt-sm">View on GitHub</a>
+          <p class="text-light" style="font-size: 0.9rem;">All photos must be your own work and taken at Farthing Downs or Happy Valley. By submitting, you grant permission for use on this website with attribution.</p>
         </div>
       </div>
 
@@ -158,8 +281,59 @@
   </footer>
 
   <script>
+    // Mobile menu toggle
     document.querySelector('.menu-toggle').addEventListener('click', function() {
       document.querySelector('.nav-links').classList.toggle('active');
+    });
+
+    // Gallery category filtering
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const galleryItems = document.querySelectorAll('.gallery-item');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        button.classList.add('active');
+
+        const category = button.getAttribute('data-category');
+
+        // Filter gallery items
+        galleryItems.forEach(item => {
+          if (category === 'all') {
+            item.style.display = 'block';
+          } else {
+            const itemCategory = item.getAttribute('data-category');
+            item.style.display = itemCategory === category ? 'block' : 'none';
+          }
+        });
+      });
+    });
+
+    // Simple lightbox functionality
+    const lightboxImages = document.querySelectorAll('[data-lightbox] img');
+
+    lightboxImages.forEach(img => {
+      img.style.cursor = 'pointer';
+      img.addEventListener('click', () => {
+        // Create lightbox overlay
+        const overlay = document.createElement('div');
+        overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.9);z-index:9999;display:flex;align-items:center;justify-content:center;cursor:pointer;';
+
+        const largeImg = document.createElement('img');
+        largeImg.src = img.src;
+        largeImg.alt = img.alt;
+        largeImg.style.cssText = 'max-width:90%;max-height:90%;object-fit:contain;';
+
+        overlay.appendChild(largeImg);
+        document.body.appendChild(overlay);
+
+        // Close on click
+        overlay.addEventListener('click', () => {
+          document.body.removeChild(overlay);
+        });
+      });
     });
   </script>
 
