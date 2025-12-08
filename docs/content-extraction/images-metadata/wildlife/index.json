@@ -1,0 +1,976 @@
+{
+  "category": "wildlife",
+  "scan_date": "2025-12-08",
+  "total_images": 82,
+  "images": [
+    {
+      "filename": "Badger.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Badger.jpg",
+      "file_size_bytes": 74570,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "European badger in natural habitat",
+      "suggested_caption": "Badger - a nocturnal mammal often found in woodland areas",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "BeeOrchid.jpg",
+      "original_path": "site-2005-2025/images-wildlife/BeeOrchid.jpg",
+      "file_size_bytes": 67060,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Bee orchid wildflower in bloom",
+      "suggested_caption": "Bee Orchid - a rare and distinctive wildflower",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "BirdsfootTrefoil.jpg",
+      "original_path": "site-2005-2025/images-wildlife/BirdsfootTrefoil.jpg",
+      "file_size_bytes": 53358,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Yellow birdsfoot trefoil flowers",
+      "suggested_caption": "Birdsfoot Trefoil - an important nectar source for pollinators",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "BlackheadedGull.jpg",
+      "original_path": "site-2005-2025/images-wildlife/BlackheadedGull.jpg",
+      "file_size_bytes": 28206,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Black-headed gull perched",
+      "suggested_caption": "Black-headed Gull - a common sight near water bodies",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "BrownKnapweed.jpg",
+      "original_path": "site-2005-2025/images-wildlife/BrownKnapweed.jpg",
+      "file_size_bytes": 41873,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Brown knapweed purple wildflower",
+      "suggested_caption": "Brown Knapweed - attracts numerous butterfly species",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "BulbousButtercup.jpg",
+      "original_path": "site-2005-2025/images-wildlife/BulbousButtercup.jpg",
+      "file_size_bytes": 57722,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Bright yellow bulbous buttercup flowers",
+      "suggested_caption": "Bulbous Buttercup - early spring wildflower",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Bullfinch.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Bullfinch.jpg",
+      "file_size_bytes": 35996,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Male bullfinch with distinctive pink breast",
+      "suggested_caption": "Bullfinch - notable for its vibrant pink plumage",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Chiffchaff.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Chiffchaff.jpg",
+      "file_size_bytes": 50727,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Chiffchaff warbler in foliage",
+      "suggested_caption": "Chiffchaff - a small warbler with a distinctive song",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "ColoredDove.jpg",
+      "original_path": "site-2005-2025/images-wildlife/ColoredDove.jpg",
+      "file_size_bytes": 34493,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Collared dove perched on branch",
+      "suggested_caption": "Collared Dove - a common garden visitor",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Comma.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Comma.jpg",
+      "file_size_bytes": 47972,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Comma butterfly with distinctive wing markings",
+      "suggested_caption": "Comma Butterfly - named for the white comma-shaped mark on its underwing",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "CommonBlue.jpg",
+      "original_path": "site-2005-2025/images-wildlife/CommonBlue.jpg",
+      "file_size_bytes": 68446,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Common blue butterfly with vibrant blue wings",
+      "suggested_caption": "Common Blue Butterfly - widespread across grasslands",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "CommonBuzzard.jpg",
+      "original_path": "site-2005-2025/images-wildlife/CommonBuzzard.jpg",
+      "file_size_bytes": 53202,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Common buzzard bird of prey",
+      "suggested_caption": "Common Buzzard - one of the UK's most common raptors",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "CommonGull.jpg",
+      "original_path": "site-2005-2025/images-wildlife/CommonGull.jpg",
+      "file_size_bytes": 42096,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Common gull standing",
+      "suggested_caption": "Common Gull - despite its name, less common than other gull species",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "CommonSpottedOrchid.jpg",
+      "original_path": "site-2005-2025/images-wildlife/CommonSpottedOrchid.jpg",
+      "file_size_bytes": 66083,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Pink common spotted orchid flowers",
+      "suggested_caption": "Common Spotted Orchid - a beautiful wildflower of grasslands",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Cowslip.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Cowslip.jpg",
+      "file_size_bytes": 47973,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Yellow cowslip flowers in spring",
+      "suggested_caption": "Cowslip - a harbinger of spring meadows",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Cuckoo.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Cuckoo.jpg",
+      "file_size_bytes": 33632,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Cuckoo bird perched",
+      "suggested_caption": "Cuckoo - famous for its distinctive call and brood parasitism",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Dodo.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Dodo.jpg",
+      "file_size_bytes": 39545,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Historical illustration or model of extinct dodo bird",
+      "suggested_caption": "Dodo - extinct flightless bird, symbol of human-caused extinction",
+      "suggested_pages": ["/explore/wildlife", "/explore/conservation", "/gallery"],
+      "needs_review": true,
+      "review_reason": "Unusual subject for local wildlife - verify context and usage rights"
+    },
+    {
+      "filename": "Dormouse1.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Dormouse1.jpg",
+      "file_size_bytes": 35124,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Hazel dormouse in natural setting",
+      "suggested_caption": "Hazel Dormouse - a rare and protected species",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Dormouse2.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Dormouse2.jpg",
+      "file_size_bytes": 38262,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Hazel dormouse close-up view",
+      "suggested_caption": "Hazel Dormouse - endangered woodland mammal",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "FeralRockDove.jpg",
+      "original_path": "site-2005-2025/images-wildlife/FeralRockDove.jpg",
+      "file_size_bytes": 40853,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Feral rock dove (pigeon)",
+      "suggested_caption": "Feral Rock Dove - the ancestor of domestic pigeons",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "FieldScabious.jpg",
+      "original_path": "site-2005-2025/images-wildlife/FieldScabious.jpg",
+      "file_size_bytes": 60667,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Purple field scabious wildflower",
+      "suggested_caption": "Field Scabious - a magnet for bees and butterflies",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "FoxCubs.jpg",
+      "original_path": "site-2005-2025/images-wildlife/FoxCubs.jpg",
+      "file_size_bytes": 83068,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Young fox cubs playing together",
+      "suggested_caption": "Fox Cubs - playful young red foxes in spring",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery", "/home"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "GardenBirds.jpg",
+      "original_path": "site-2005-2025/images-wildlife/GardenBirds.jpg",
+      "file_size_bytes": 55527,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Multiple garden bird species together",
+      "suggested_caption": "Garden Birds - common species visiting gardens and feeders",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Gatekeeper.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Gatekeeper.jpg",
+      "file_size_bytes": 47407,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Gatekeeper butterfly on flower",
+      "suggested_caption": "Gatekeeper Butterfly - common along hedgerows and field margins",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Goldfinch.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Goldfinch.jpg",
+      "file_size_bytes": 45511,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Colorful goldfinch with red face and yellow wing bars",
+      "suggested_caption": "Goldfinch - one of the UK's most colorful birds",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "GraySquirrel.jpg",
+      "original_path": "site-2005-2025/images-wildlife/GraySquirrel.jpg",
+      "file_size_bytes": 48107,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Gray squirrel in woodland",
+      "suggested_caption": "Gray Squirrel - invasive species now common across the UK",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "GreaterYellowRattle.jpg",
+      "original_path": "site-2005-2025/images-wildlife/GreaterYellowRattle.jpg",
+      "file_size_bytes": 66965,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Yellow greater yellow rattle flowers",
+      "suggested_caption": "Greater Yellow Rattle - semi-parasitic plant important for meadow diversity",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "GreenWoodpecker.jpg",
+      "original_path": "site-2005-2025/images-wildlife/GreenWoodpecker.jpg",
+      "file_size_bytes": 51194,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Green woodpecker on ground",
+      "suggested_caption": "Green Woodpecker - often feeds on ants in grassland",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "GreyPartridge.jpg",
+      "original_path": "site-2005-2025/images-wildlife/GreyPartridge.jpg",
+      "file_size_bytes": 37585,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Grey partridge in farmland habitat",
+      "suggested_caption": "Grey Partridge - declining farmland species",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Harebell.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Harebell.jpg",
+      "file_size_bytes": 46898,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Delicate blue harebell flowers",
+      "suggested_caption": "Harebell - delicate wildflower of grasslands and heaths",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "HerringGull.jpg",
+      "original_path": "site-2005-2025/images-wildlife/HerringGull.jpg",
+      "file_size_bytes": 39788,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Herring gull in coastal area",
+      "suggested_caption": "Herring Gull - large gull species common on coasts",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "HorseshoeVetch.jpg",
+      "original_path": "site-2005-2025/images-wildlife/HorseshoeVetch.jpg",
+      "file_size_bytes": 37571,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Yellow horseshoe vetch flowers",
+      "suggested_caption": "Horseshoe Vetch - essential food plant for chalkhill blue butterfly",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "HouseMartin.jpg",
+      "original_path": "site-2005-2025/images-wildlife/HouseMartin.jpg",
+      "file_size_bytes": 49897,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "House martin in flight or at nest",
+      "suggested_caption": "House Martin - summer visitor building mud nests under eaves",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "ImagesComingSoon.jpg",
+      "original_path": "site-2005-2025/images-wildlife/ImagesComingSoon.jpg",
+      "file_size_bytes": 3289,
+      "inferred_subject": "placeholder",
+      "suggested_alt_text": "Placeholder image - content coming soon",
+      "suggested_caption": "Images Coming Soon",
+      "suggested_pages": [],
+      "needs_review": true,
+      "review_reason": "Placeholder image - should not be migrated to production site"
+    },
+    {
+      "filename": "Kestrel Alamy INFRINGEMENT.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Kestrel Alamy INFRINGEMENT.jpg",
+      "file_size_bytes": 34351,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Kestrel bird of prey",
+      "suggested_caption": "Kestrel - small falcon known for hovering while hunting",
+      "suggested_pages": [],
+      "needs_review": true,
+      "review_reason": "COPYRIGHT INFRINGEMENT - Alamy stock image, must not be used, remove immediately"
+    },
+    {
+      "filename": "Kestrel.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Kestrel.jpg",
+      "file_size_bytes": 2657,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Kestrel bird of prey hovering",
+      "suggested_caption": "Kestrel - master of aerial hunting",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": true,
+      "review_reason": "Very small file size (2.6KB) - likely low quality or thumbnail, verify usability"
+    },
+    {
+      "filename": "LadiesBedstraw.jpg",
+      "original_path": "site-2005-2025/images-wildlife/LadiesBedstraw.jpg",
+      "file_size_bytes": 54420,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Yellow ladies bedstraw flowers",
+      "suggested_caption": "Ladies Bedstraw - traditional herb with fragrant flowers",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "LargeSkipper.jpg",
+      "original_path": "site-2005-2025/images-wildlife/LargeSkipper.jpg",
+      "file_size_bytes": 42627,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Large skipper butterfly on flower",
+      "suggested_caption": "Large Skipper - a common grassland butterfly",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "LesserBlackbackedGull.jpg",
+      "original_path": "site-2005-2025/images-wildlife/LesserBlackbackedGull.jpg",
+      "file_size_bytes": 58548,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Lesser black-backed gull standing",
+      "suggested_caption": "Lesser Black-backed Gull - migratory seabird",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "LesserSpottedWoodpecker.jpg",
+      "original_path": "site-2005-2025/images-wildlife/LesserSpottedWoodpecker.jpg",
+      "file_size_bytes": 56225,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Lesser spotted woodpecker on tree",
+      "suggested_caption": "Lesser Spotted Woodpecker - Britain's smallest and rarest woodpecker",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Linnet.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Linnet.jpg",
+      "file_size_bytes": 31440,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Male linnet with pink breast",
+      "suggested_caption": "Linnet - small finch of heathland and farmland",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "MarbledWhite.jpg",
+      "original_path": "site-2005-2025/images-wildlife/MarbledWhite.jpg",
+      "file_size_bytes": 44440,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Marbled white butterfly with distinctive black and white pattern",
+      "suggested_caption": "Marbled White - striking grassland butterfly",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "MeadowBrown.jpg",
+      "original_path": "site-2005-2025/images-wildlife/MeadowBrown.jpg",
+      "file_size_bytes": 59062,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Meadow brown butterfly on grass",
+      "suggested_caption": "Meadow Brown - one of the most common grassland butterflies",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "MeadowSaxifrage.jpg",
+      "original_path": "site-2005-2025/images-wildlife/MeadowSaxifrage.jpg",
+      "file_size_bytes": 45605,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "White meadow saxifrage flowers",
+      "suggested_caption": "Meadow Saxifrage - delicate spring wildflower",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Moorhen.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Moorhen.jpg",
+      "file_size_bytes": 42576,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Moorhen waterbird",
+      "suggested_caption": "Moorhen - common waterbird of ponds and lakes",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Muntjac.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Muntjac.jpg",
+      "file_size_bytes": 39324,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Muntjac deer in woodland",
+      "suggested_caption": "Muntjac - small introduced deer species now widespread",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "PaintedLady.jpg",
+      "original_path": "site-2005-2025/images-wildlife/PaintedLady.jpg",
+      "file_size_bytes": 55635,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Painted lady butterfly with orange and black wings",
+      "suggested_caption": "Painted Lady - migratory butterfly visiting from Africa",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Pheasant.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Pheasant.jpg",
+      "file_size_bytes": 37020,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Male pheasant in farmland",
+      "suggested_caption": "Pheasant - introduced gamebird now naturalized",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "PipistrelleBat.jpg",
+      "original_path": "site-2005-2025/images-wildlife/PipistrelleBat.jpg",
+      "file_size_bytes": 38126,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Pipistrelle bat in flight or roosting",
+      "suggested_caption": "Pipistrelle Bat - Britain's smallest and most common bat",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Pipit.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Pipit.jpg",
+      "file_size_bytes": 48816,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Meadow pipit small brown bird",
+      "suggested_caption": "Meadow Pipit - common bird of open grassland and moorland",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "PyramidalOrchid.jpg",
+      "original_path": "site-2005-2025/images-wildlife/PyramidalOrchid.jpg",
+      "file_size_bytes": 59824,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Pink pyramidal orchid flowers",
+      "suggested_caption": "Pyramidal Orchid - elegant wildflower of chalk grassland",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Rabbit.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Rabbit.jpg",
+      "file_size_bytes": 54658,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Wild rabbit in grassland",
+      "suggested_caption": "Rabbit - common grazing mammal maintaining grassland diversity",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "RareBirds.jpg",
+      "original_path": "site-2005-2025/images-wildlife/RareBirds.jpg",
+      "file_size_bytes": 36925,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Compilation of rare bird species",
+      "suggested_caption": "Rare Birds - uncommon species spotted in the area",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/sightings"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "RedAdmiral.jpg",
+      "original_path": "site-2005-2025/images-wildlife/RedAdmiral.jpg",
+      "file_size_bytes": 51292,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Red admiral butterfly with distinctive red bands",
+      "suggested_caption": "Red Admiral - striking butterfly with red, black and white markings",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "RedFox.jpg",
+      "original_path": "site-2005-2025/images-wildlife/RedFox.jpg",
+      "file_size_bytes": 54276,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Red fox in natural habitat",
+      "suggested_caption": "Red Fox - adaptable predator found in diverse habitats",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "RedSquirrel.jpg",
+      "original_path": "site-2005-2025/images-wildlife/RedSquirrel.jpg",
+      "file_size_bytes": 31446,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Red squirrel, endangered native species",
+      "suggested_caption": "Red Squirrel - native species declining due to gray squirrel competition",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/explore/conservation", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Ring-neckedParakeet.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Ring-neckedParakeet.jpg",
+      "file_size_bytes": 54096,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Bright green ring-necked parakeet",
+      "suggested_caption": "Ring-necked Parakeet - exotic escaped species now established in UK",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Ringlet.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Ringlet.jpg",
+      "file_size_bytes": 47426,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Ringlet butterfly with eye-spots on wings",
+      "suggested_caption": "Ringlet - dark brown butterfly of damp grassland",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "RoeDeer.jpg",
+      "original_path": "site-2005-2025/images-wildlife/RoeDeer.jpg",
+      "file_size_bytes": 34767,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Roe deer in woodland clearing",
+      "suggested_caption": "Roe Deer - native deer species of woodland and farmland",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "RoundheadedRampion.jpg",
+      "original_path": "site-2005-2025/images-wildlife/RoundheadedRampion.jpg",
+      "file_size_bytes": 39222,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Blue round-headed rampion flowers",
+      "suggested_caption": "Round-headed Rampion - rare wildflower of chalk grassland",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "SaladBurnet.jpg",
+      "original_path": "site-2005-2025/images-wildlife/SaladBurnet.jpg",
+      "file_size_bytes": 56288,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Salad burnet with small round flower heads",
+      "suggested_caption": "Salad Burnet - edible herb of dry grassland",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Six-spotBurnetMoth.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Six-spotBurnetMoth.jpg",
+      "file_size_bytes": 27471,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Six-spot burnet moth with red and black wings",
+      "suggested_caption": "Six-spot Burnet Moth - day-flying moth with distinctive red spots",
+      "suggested_pages": ["/explore/wildlife", "/explore/moths", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Skylark.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Skylark.jpg",
+      "file_size_bytes": 47668,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Skylark bird singing in flight",
+      "suggested_caption": "Skylark - famous for its beautiful song flight",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Small-floweredCranesbill.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Small-floweredCranesbill.jpg",
+      "file_size_bytes": 51111,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Pink small-flowered cranesbill wildflower",
+      "suggested_caption": "Small-flowered Cranesbill - delicate pink wildflower",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "SmallSkipper.jpg",
+      "original_path": "site-2005-2025/images-wildlife/SmallSkipper.jpg",
+      "file_size_bytes": 36639,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Small skipper butterfly",
+      "suggested_caption": "Small Skipper - common grassland butterfly",
+      "suggested_pages": ["/explore/wildlife", "/explore/butterflies", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Sparrowhawk.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Sparrowhawk.jpg",
+      "file_size_bytes": 51805,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Sparrowhawk bird of prey",
+      "suggested_caption": "Sparrowhawk - agile woodland predator",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Speedwell.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Speedwell.jpg",
+      "file_size_bytes": 40824,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Blue speedwell flowers",
+      "suggested_caption": "Speedwell - tiny blue wildflower of grassland",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "StockDove.jpg",
+      "original_path": "site-2005-2025/images-wildlife/StockDove.jpg",
+      "file_size_bytes": 54720,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Stock dove in woodland",
+      "suggested_caption": "Stock Dove - quiet woodland and parkland species",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Swift.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Swift.jpg",
+      "file_size_bytes": 32073,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Swift in flight",
+      "suggested_caption": "Swift - aerial master spending most of life on the wing",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Thistle.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Thistle.jpg",
+      "file_size_bytes": 50358,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Purple thistle flower head",
+      "suggested_caption": "Thistle - important nectar source for pollinators",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Thrift.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Thrift.jpg",
+      "file_size_bytes": 43403,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Pink thrift flowers in coastal habitat",
+      "suggested_caption": "Thrift - cushion-forming plant of coastal cliffs",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "WallPepper.jpg",
+      "original_path": "site-2005-2025/images-wildlife/WallPepper.jpg",
+      "file_size_bytes": 56765,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Yellow wall pepper succulent plant",
+      "suggested_caption": "Wall Pepper - succulent plant of dry walls and rocks",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Whitethroat.jpg",
+      "original_path": "site-2005-2025/images-wildlife/Whitethroat.jpg",
+      "file_size_bytes": 26378,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Whitethroat warbler singing",
+      "suggested_caption": "Whitethroat - summer visitor with scratchy song",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "WildCarrot.jpg",
+      "original_path": "site-2005-2025/images-wildlife/WildCarrot.jpg",
+      "file_size_bytes": 48956,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "White wild carrot flower umbel",
+      "suggested_caption": "Wild Carrot - ancestor of cultivated carrot with lacy flowers",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "WildMarjoram.jpg",
+      "original_path": "site-2005-2025/images-wildlife/WildMarjoram.jpg",
+      "file_size_bytes": 44232,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Purple wild marjoram flowers",
+      "suggested_caption": "Wild Marjoram - aromatic herb beloved by butterflies",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "WildThyme.jpg",
+      "original_path": "site-2005-2025/images-wildlife/WildThyme.jpg",
+      "file_size_bytes": 57481,
+      "inferred_subject": "plant",
+      "suggested_alt_text": "Pink wild thyme flowers in grassland",
+      "suggested_caption": "Wild Thyme - fragrant mat-forming herb of dry grassland",
+      "suggested_pages": ["/explore/wildlife", "/explore/flora", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "WillowWarbler.jpg",
+      "original_path": "site-2005-2025/images-wildlife/WillowWarbler.jpg",
+      "file_size_bytes": 52762,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Willow warbler small songbird",
+      "suggested_caption": "Willow Warbler - common summer visitor with melodious song",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "WoodPidgeon.jpg",
+      "original_path": "site-2005-2025/images-wildlife/WoodPidgeon.jpg",
+      "file_size_bytes": 53725,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Wood pigeon perched in tree",
+      "suggested_caption": "Wood Pigeon - large common pigeon of woodland and farmland",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "YellowHammer.jpg",
+      "original_path": "site-2005-2025/images-wildlife/YellowHammer.jpg",
+      "file_size_bytes": 45346,
+      "inferred_subject": "bird",
+      "suggested_alt_text": "Male yellowhammer with bright yellow head",
+      "suggested_caption": "Yellowhammer - farmland bird with distinctive 'little bit of bread and no cheese' song",
+      "suggested_pages": ["/explore/wildlife", "/explore/birds", "/gallery"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "moth.jpg",
+      "original_path": "site-2005-2025/images-wildlife/moth.jpg",
+      "file_size_bytes": 4945,
+      "inferred_subject": "insect",
+      "suggested_alt_text": "Moth species on surface",
+      "suggested_caption": "Moth - one of many moth species found in the area",
+      "suggested_pages": ["/explore/wildlife", "/explore/moths", "/gallery"],
+      "needs_review": true,
+      "review_reason": "Small file size (4.9KB) - may be low quality thumbnail"
+    },
+    {
+      "filename": "muntjac-buck.jpg",
+      "original_path": "site-2005-2025/images-wildlife/muntjac-buck.jpg",
+      "file_size_bytes": 5043,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Male muntjac deer buck",
+      "suggested_caption": "Muntjac Buck - male muntjac with small antlers",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": true,
+      "review_reason": "Small file size (5KB) - likely low quality or thumbnail"
+    },
+    {
+      "filename": "roe-deer-fawn.jpg",
+      "original_path": "site-2005-2025/images-wildlife/roe-deer-fawn.jpg",
+      "file_size_bytes": 7406,
+      "inferred_subject": "mammal",
+      "suggested_alt_text": "Young roe deer fawn in grass",
+      "suggested_caption": "Roe Deer Fawn - young roe deer in summer",
+      "suggested_pages": ["/explore/wildlife", "/explore/mammals", "/gallery"],
+      "needs_review": true,
+      "review_reason": "Small file size (7.4KB) - may be low quality or thumbnail"
+    }
+  ],
+  "metadata": {
+    "hero_image_candidates": [
+      {
+        "filename": "FoxCubs.jpg",
+        "file_size_bytes": 83068,
+        "reason": "Largest file size, engaging subject matter (cute fox cubs), strong visual appeal"
+      },
+      {
+        "filename": "Badger.jpg",
+        "file_size_bytes": 74570,
+        "reason": "High quality, iconic British wildlife subject"
+      },
+      {
+        "filename": "CommonBlue.jpg",
+        "file_size_bytes": 68446,
+        "reason": "Large file, vibrant colors, excellent for visual impact"
+      },
+      {
+        "filename": "BeeOrchid.jpg",
+        "file_size_bytes": 67060,
+        "reason": "High quality, distinctive rare flower, strong conservation message"
+      },
+      {
+        "filename": "GreaterYellowRattle.jpg",
+        "file_size_bytes": 66965,
+        "reason": "Large file size, important meadow indicator species"
+      }
+    ],
+    "category_breakdown": {
+      "birds": 33,
+      "mammals": 14,
+      "insects": 13,
+      "plants": 25,
+      "other": 3
+    },
+    "images_requiring_review": 7,
+    "flagged_issues": [
+      {
+        "issue": "Copyright Infringement",
+        "count": 1,
+        "files": ["Kestrel Alamy INFRINGEMENT.jpg"]
+      },
+      {
+        "issue": "Low Quality / Small File Size",
+        "count": 4,
+        "files": ["Kestrel.jpg", "moth.jpg", "muntjac-buck.jpg", "roe-deer-fawn.jpg"]
+      },
+      {
+        "issue": "Placeholder / Non-Wildlife",
+        "count": 1,
+        "files": ["ImagesComingSoon.jpg"]
+      },
+      {
+        "issue": "Unusual Subject",
+        "count": 1,
+        "files": ["Dodo.jpg"]
+      }
+    ],
+    "quality_assessment": {
+      "high_quality": 62,
+      "medium_quality": 13,
+      "low_quality": 4,
+      "placeholder": 1,
+      "copyright_issue": 1,
+      "unusable": 1
+    }
+  }
+}
