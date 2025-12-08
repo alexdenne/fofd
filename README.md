@@ -1,4 +1,6 @@
-# Friends of Farthing Downs & Happy Valley
+# Friends of Farthing Downs & Happy Valley 
+
+8 December 2025 - This is a work in progress - please refer to the live site until https://friendsoffarthingdowns.co.uk redirects you to the deployed version of this site.
 
 [![Website](https://img.shields.io/badge/website-live-brightgreen)](https://friendsoffarthingdowns.co.uk)
 [![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-blue)](#contribute)
