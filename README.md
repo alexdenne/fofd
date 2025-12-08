@@ -23,22 +23,32 @@ The new website is built with:
 - Stripe Payment Links (for memberships & donations)
 - Community contributions via GitHub Issues
 
-### Structure
+### Repository Structure
 ```
-/site                    ← The website
+/site-2026/              ← NEW WEBSITE (deploy this)
 ├── index.html           ← Home page
-├── visit.html           ← Visitor info (getting here, walks, parking)
-├── explore.html         ← Nature trail, wildlife, archaeology
-├── join.html            ← Membership & donations
+├── visit.html           ← Visitor info
+├── explore.html         ← Nature trail, wildlife, history
+├── join.html            ← Membership & donations (Stripe)
 ├── gallery.html         ← Community photos
 ├── about.html           ← About the Friends
-├── css/style.css        ← Styles
+├── css/style.css        ← Modern responsive styling
 ├── images/              ← Site images
 └── gallery/             ← Community photo submissions
 
-/.github/ISSUE_TEMPLATE  ← Easy contribution forms
-├── photo-submission.yml ← "Share a Photo" form
-└── wildlife-sighting.yml← "Wildlife Sighting" form
+/site-2005-2025/         ← LEGACY WEBSITE (archive)
+├── *.html               ← 70+ original pages
+├── images/              ← 500+ photos
+├── NatureTrail/         ← Audio files (4 languages)
+└── *.pdf                ← Historical documents
+
+/docs/                   ← Planning & strategy
+├── WEBSITE_STRATEGY.md  ← Full migration plan
+└── Meeting Notes.md     ← Committee discussions
+
+/.github/ISSUE_TEMPLATE/ ← Community contribution forms
+├── photo-submission.yml ← "Share a Photo"
+└── wildlife-sighting.yml← "Report a Sighting"
 ```
 
 ## Contribute
@@ -67,7 +77,7 @@ No build step needed! Just edit the HTML/CSS files.
 
 To preview locally:
 ```bash
-cd site
+cd site-2026
 python -m http.server 8000
 # or
 npx serve
@@ -82,8 +92,10 @@ The site is hosted on GitHub Pages. Any push to `main` automatically deploys.
 To set up GitHub Pages:
 1. Go to Settings → Pages
 2. Set source to "Deploy from a branch"
-3. Select `main` branch, `/site` folder
+3. Select `main` branch, `/site-2026` folder
 4. Save
+
+The legacy site (`/site-2005-2025`) is preserved for reference but not deployed.
 
 ## Links
 
