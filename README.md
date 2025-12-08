@@ -89,15 +89,17 @@ Then open http://localhost:8000
 
 ## Deploy
 
-The site is hosted on GitHub Pages. Any push to `main` automatically deploys.
+The site is hosted on GitHub Pages and automatically deploys when you push to `main`.
 
-To set up GitHub Pages:
+**Setup (one-time):**
 1. Go to Settings → Pages
-2. Set source to "Deploy from a branch"
-3. Select `main` branch, `/site-2026` folder
-4. Save
+2. Set source to "GitHub Actions"
+3. That's it! The workflow in `.github/workflows/deploy-pages.yml` handles the rest
 
-The legacy site (`/site-2005-2025`) is preserved for reference but not deployed.
+**How it works:**
+- On push to `main`, GitHub Actions deploys the `/site-2026` folder
+- The legacy site (`/site-2005-2025`) is preserved in the repo but not deployed
+- You can also manually trigger a deploy via Actions → "Deploy to GitHub Pages" → Run workflow
 
 ## Links
 
