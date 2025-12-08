@@ -217,6 +217,8 @@ main
 
 ## Links to Detailed Task Lists
 
+- **[MIGRATION-PLAN.md](./MIGRATION-PLAN.md)** - Comprehensive plan for agentic sitebuilder (START HERE)
+- [Phase 0: Asset Preparation](./tasks/PHASE-0-ASSET-PREPARATION.md) - **NEW** PDF→Markdown & Image Metadata
 - [Phase 1: Content Extraction](./tasks/PHASE-1-CONTENT-EXTRACTION.md)
 - [Phase 2: Platform Setup](./tasks/PHASE-2-PLATFORM-SETUP.md)
 - [Phase 3: Migration](./tasks/PHASE-3-MIGRATION.md)
@@ -232,9 +234,10 @@ main
 
 | Phase | Status | Progress | Notes |
 |-------|--------|----------|-------|
-| Phase 1 | Not Started | 0/47 | Ready to begin |
-| Phase 2 | Not Started | 0/28 | Can start parallel to Phase 1 |
-| Phase 3 | Blocked | 0/52 | Waiting on Phase 1+2 |
+| **Phase 0** | **Not Started** | **0/118** | **NEW - Run first! PDF→MD + Image metadata** |
+| Phase 1 | Blocked | 0/47 | Waiting on Phase 0 |
+| Phase 2 | Not Started | 0/28 | Can start parallel to Phase 0/1 |
+| Phase 3 | Blocked | 0/52 | Waiting on Phase 0+1+2 |
 | Phase 4 | Blocked | 0/24 | Waiting on Phase 3 |
 
 ---
