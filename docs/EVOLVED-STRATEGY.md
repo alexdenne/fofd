@@ -22,8 +22,9 @@ This document evolves the original Website Strategy (December 2024) by grounding
 | £5/year membership | £10/£25/£50 tiered membership (4-5x revenue potential) |
 | General audience targeting | Three distinct audience strategies (Gen Z, Gen Y, Gen X) |
 | Facebook as primary social | Instagram Reels as primary outreach, Facebook Group for community |
-| Wix platform (planned) | Simple platform recommendation: Google Sites or Wix with charity discount |
+| Wix platform (planned) | **GitHub Pages** — free, version-controlled, with embedded social feeds |
 | Generic events | Three specific event types designed for under-35 recruitment |
+| Single maintainer model | **Two-track contribution**: technical maintainers + content curators |
 
 ---
 
@@ -83,10 +84,10 @@ The original strategy correctly identified the generational balance needed. Rese
 **Research insight:** This generation will maintain the website, coordinate volunteers, and bridge older/younger members.
 
 **What works:**
-- Modern CMS that's easy to update (Wix visual editor)
-- Clear documentation and handover procedures
-- Skills-based volunteering opportunities (photography, social media, design)
-- Recognition for contributions
+- GitHub-based workflow with clear CONTRIBUTING.md documentation
+- Two-track model: technical maintainers (HTML/Git) + content curators (social media/Issues)
+- Skills-based volunteering opportunities (photography, social media, design, web development)
+- Recognition for contributions (commit credits, contributor page)
 - The "bus factor" of three: ensure at least 3 people can update everything
 
 #### Gen X+ (40+): Sustain & Donate
@@ -128,37 +129,174 @@ The multilingual Nature Trail (English, French, Hindi, Polish with 50+ community
 
 ## Part 3: Digital Infrastructure (Research-Optimized)
 
-### 3.1 Platform Recommendation
+### 3.1 Platform Decision: GitHub Pages
 
 **Research finding:** "The most successful UK community group websites aren't the most technically sophisticated—they're the most maintainable."
 
-#### Recommended Stack: Under £70/year
+**Platform choice: GitHub Pages** — selected because:
+- **Zero hosting cost** — completely free for public repositories
+- **Version control** — every change tracked, easy rollback if something breaks
+- **No security maintenance** — no server patches, no plugin vulnerabilities
+- **Embedded social feeds** — live Instagram/Facebook content without manual updates
+- **Technical maintainer available** — primary maintainer can handle HTML/CSS
+- **Two-track contribution model** — separates technical maintenance from content curation
+
+#### Recommended Stack: Under £15/year
 
 | Component | Recommendation | Annual Cost |
 |-----------|---------------|-------------|
-| Website platform | Google Sites (free) or Wix with charity discount | £0 or £57 |
+| Website hosting | GitHub Pages (free) | £0 |
 | Domain | Register via Namecheap (.org.uk) | £8-12 |
 | Membership payments | GoCardless (charity rate: 0.75% + 20p) | Transaction fees only |
 | Donations | CAF Donate (free Gift Aid processing) | Transaction fees only |
 | Email | Google Workspace for Nonprofits | £0 |
 | Password management | Bitwarden (free tier) | £0 |
-| **TOTAL** | | **£65-69/year** |
+| Social feed embeds | EmbedSocial or Curator.io free tier | £0 |
+| **TOTAL** | | **£8-12/year** |
 
-**Why not WordPress?** Research found "61% of hacked WordPress sites were running outdated software." For volunteer groups with limited technical capacity, WordPress requires £400-600/year professional maintenance or creates security vulnerabilities. Simpler platforms are more sustainable.
+#### Why GitHub Pages Works for FoFD&HV
 
-**Why Wix over others?** The 70% charity discount through TechSoup makes it the most affordable full-featured option. The drag-and-drop editor requires 4-8 hours for basic competency—manageable for committed volunteers.
+The research cautioned against technical platforms for groups without technical capacity. However, with a **committed technical maintainer** who can:
+- Handle HTML/CSS updates
+- Manage the repository
+- Write documentation for others
+- Train potential future maintainers
 
-### 3.2 Critical Governance Practice
+...GitHub Pages becomes viable and offers significant advantages over managed platforms.
+
+**Key mitigation:** The "Help Maintain This Site" documentation (see Section 3.5) ensures knowledge transfer and reduces single-point-of-failure risk.
+
+### 3.2 Social Media Feed Embeds
+
+**Strategic advantage:** Embedding live social feeds transforms the website from a static brochure into a dynamic showcase of community activity—without requiring manual content updates.
+
+#### Recommended Embed Tools (Free Tiers)
+
+| Tool | Free Tier Limits | Best For |
+|------|------------------|----------|
+| **EmbedSocial** | 1 source, basic widget | Single Instagram feed |
+| **Curator.io** | 1 feed, 200 posts/month | Aggregated multi-platform |
+| **Elfsight** | 200 views/month | Low-traffic sites |
+| **SnapWidget** | Instagram grid only | Simple photo grid |
+| **Juicer** | 2 sources, Juicer branding | Multi-platform with branding |
+
+#### Implementation Approach
+
+**Homepage:** Embedded Instagram feed showing recent posts — brings visual life to the site automatically
+
+**Gallery page:** Curated social wall pulling from:
+- Instagram (primary visual content)
+- Facebook Group highlights (with member permission)
+- YouTube (Nature Trail audio, event recordings)
+
+**Events page:** Facebook Events embed or calendar integration
+
+#### Technical Notes
+
+```html
+<!-- Example: EmbedSocial Instagram widget -->
+<div class="embedsocial-instagram" data-ref="[your-ref-code]"></div>
+<script src="https://embedsocial.com/cdn/ht.js"></script>
+
+<!-- Example: Curator.io aggregated feed -->
+<div id="curator-feed-default-feed-layout">
+  <a href="https://curator.io" target="_blank">Powered by Curator.io</a>
+</div>
+<script src="https://cdn.curator.io/published/[feed-id].js"></script>
+```
+
+**Privacy consideration:** Only embed public posts. For Facebook Group content, request explicit permission before featuring (see Deep Research: Managing User-Submitted Photos).
+
+### 3.3 Two-Track Contribution Model
+
+**Key insight:** Not everyone needs to edit HTML. Separate contribution pathways let people contribute according to their skills.
+
+#### Track 1: Technical Maintainers
+**Who:** People comfortable with HTML/CSS/Git
+**How they contribute:**
+- Edit website files directly via GitHub
+- Review and merge pull requests
+- Maintain embed integrations
+- Update site structure and styling
+
+**Onboarding:** GitHub account → Repository access → Read CONTRIBUTING.md → Make first edit
+
+#### Track 2: Content Curators
+**Who:** Committee members, social media team, any engaged member
+**How they contribute:**
+- Share great photos/videos to Instagram (automatically appears on site via embed)
+- Submit content via GitHub Issues (photo submissions, wildlife sightings, event reports)
+- Flag outdated information for maintainers to update
+- Suggest new content via simple form
+
+**Onboarding:** No GitHub account needed for social sharing. For Issues: GitHub account → Use issue templates → Content reviewed and added by maintainers
+
+#### GitHub Issues as Contribution Pipeline
+
+The existing Issue Templates enable structured submissions:
+
+| Issue Template | Purpose | Who Uses It |
+|----------------|---------|-------------|
+| `photo-submission.yml` | Submit photos for gallery | Any member |
+| `wildlife-sighting.yml` | Report notable wildlife | Visitors, members |
+| (future) `event-report.yml` | Post-event summaries | Event leaders |
+| (future) `content-update.yml` | Flag outdated info | Anyone |
+
+**Workflow:**
+1. Contributor opens Issue with photo/content
+2. Maintainer reviews submission
+3. Maintainer adds to site (or closes with explanation)
+4. Contributor thanked publicly in commit message
+
+### 3.4 Critical Governance Practice
 
 **The "bus factor" must be three:** At least three people should be able to:
-- Log in and make basic content updates
-- Access domain and hosting control panels
+- Log in to GitHub and make basic content updates
+- Access domain registrar account
 - Access the password manager master credentials
-- Process annual renewals
+- Process annual domain renewals
+
+**For GitHub specifically:**
+- Repository has 3+ members with write access
+- At least 2 people understand the file structure
+- CONTRIBUTING.md documents everything needed to make updates
 
 **Domain registration:** ALWAYS register in the organisation's legal name, not an individual's. Use an organisational email for admin contact.
 
-### 3.3 Social Media Strategy
+### 3.5 "Help Maintain This Site" Documentation
+
+**Location:** CONTRIBUTING.md in repository root + dedicated page on website
+
+**Contents:**
+
+1. **Quick Start Guide**
+   - How to make simple text edits (even via GitHub web interface)
+   - Where key files live (pages, images, styles)
+   - How to preview changes before publishing
+
+2. **Common Tasks**
+   - Adding a news item
+   - Updating event information
+   - Adding photos to gallery
+   - Updating committee member details
+
+3. **Technical Reference**
+   - Site structure overview
+   - CSS class reference for consistent styling
+   - Image optimization guidelines
+   - Testing locally (optional, for advanced maintainers)
+
+4. **Emergency Procedures**
+   - How to rollback a broken change
+   - Who to contact if something goes wrong
+   - How to transfer repository ownership
+
+5. **For Future Maintainers**
+   - Full technical documentation
+   - Decision log (why things are built this way)
+   - Known limitations and workarounds
+
+### 3.6 Social Media Strategy
 
 **Research finding:** Instagram Reels drive highest reach—generating up to 75% of impressions for smaller accounts. Facebook Groups outperform Pages (1.5-3% Page reach vs much higher Group engagement).
 
@@ -180,7 +318,7 @@ The multilingual Nature Trail (English, French, Hindi, Polish with 50+ community
 - Overly polished content that feels "fake or tokenistic"
 - Multiple platforms without capacity to maintain them
 
-### 3.4 Measurement Framework
+### 3.7 Measurement Framework
 
 **The 5-Number Quarterly Report Card:**
 
@@ -371,13 +509,21 @@ Successful UK sites use these approaches:
 - [ ] Set up Google Workspace for Nonprofits via TechSoup
 - [ ] Create organisational email accessible by multiple committee members
 - [ ] Set up Bitwarden password vault with 3 administrators
-- [ ] Create website (Google Sites or Wix) with homepage, about, events, membership, donate
-- [ ] Add at least 2 additional website editors
+- [ ] Configure GitHub Pages site with custom domain
+- [ ] Add 2+ additional GitHub collaborators with write access
+- [ ] Complete CONTRIBUTING.md with maintainer documentation
+
+**Social Media Integration:**
+- [ ] Set up Instagram account (if not existing)
+- [ ] Configure social feed embed (EmbedSocial or Curator.io free tier)
+- [ ] Test embed on homepage and gallery pages
+- [ ] Document embed maintenance in CONTRIBUTING.md
 
 **Payments:**
 - [ ] Register with CAF Donate (free Gift Aid processing)
 - [ ] Set up GoCardless for membership subscriptions
 - [ ] Create tiered membership structure in payment system
+- [ ] Add Stripe Payment Links for one-off donations
 
 **Community:**
 - [ ] Apply for Komoot Partner Profile
@@ -391,6 +537,12 @@ Successful UK sites use these approaches:
 - [ ] Create visual trail map with icons
 - [ ] Add TimelineJS interactive history
 - [ ] Set up "From the Archives" rotating feature
+
+**Contributor Onboarding:**
+- [ ] Create "Help Maintain This Site" page on website
+- [ ] Test GitHub Issues workflow with 2-3 photo submissions
+- [ ] Recruit first content curator (non-technical contributor)
+- [ ] Document common tasks with screenshots
 
 **Outreach:**
 - [ ] Pitch Inside Croydon feature
@@ -410,9 +562,15 @@ Successful UK sites use these approaches:
 - [ ] Monthly newsletter
 - [ ] First fundraising campaign for specific project
 
+**Technical Sustainability:**
+- [ ] Train second technical maintainer
+- [ ] Review and update CONTRIBUTING.md based on learnings
+- [ ] Document any custom solutions or workarounds
+- [ ] Create "handover checklist" for future transitions
+
 **Community building:**
 - [ ] Private volunteer WhatsApp/Facebook group
-- [ ] Volunteer recognition system
+- [ ] Volunteer recognition system (contributor page on site)
 - [ ] Partnership with one diverse community organization
 
 **Review:**
@@ -429,12 +587,16 @@ Successful UK sites use these approaches:
 - [ ] 10+ new online memberships
 - [ ] Mobile traffic > 50%
 - [ ] Komoot Partner Profile active
+- [ ] Social feed embed working on homepage
+- [ ] 2+ GitHub collaborators with documented access
 
 ### 6-Month Goals
 - [ ] 500 monthly website visitors
 - [ ] 100+ paying members (up from 50-100)
 - [ ] Newsletter list > 200 subscribers
 - [ ] One successful youth-targeted event
+- [ ] 5+ content submissions via GitHub Issues
+- [ ] At least 1 non-technical content curator contributing
 
 ### 12-Month Goals
 - [ ] 1,000+ monthly website visitors
@@ -442,6 +604,8 @@ Successful UK sites use these approaches:
 - [ ] Annual membership revenue £1,500-2,500 (up from £250-500)
 - [ ] Events calendar running consistently
 - [ ] At least one partnership with diverse community organization
+- [ ] 3+ trained maintainers (technical sustainability)
+- [ ] Complete handover documentation tested with new contributor
 
 ---
 
@@ -469,3 +633,4 @@ This evolved strategy synthesizes findings from 14 deep research studies:
 *This document represents an evolution of the original Website Strategy, grounded in comprehensive research into what actually works for community conservation groups. The recommendations prioritize sustainable, achievable actions over ambitious but unrealistic goals.*
 
 *Last Updated: December 2025*
+*Platform Decision Updated: GitHub Pages with embedded social feeds*
