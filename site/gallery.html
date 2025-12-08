@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Community photo gallery - photos from Farthing Downs and Happy Valley shared by visitors and locals.">
+  <title>Gallery | Farthing Downs & Happy Valley</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Farthing Downs <span>&</span> Happy Valley</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html" class="nav-cta">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section style="margin-top: 80px; padding-top: var(--space-lg);">
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h1>Community Gallery</h1>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Photos shared by people who love Farthing Downs and Happy Valley. Spotted something beautiful? Share your own!</p>
+        <a href="https://github.com/alexdenne/fofd/issues/new?template=photo-submission.yml" class="btn btn-primary mt-md">Share a photo</a>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery">
+        <!--
+          HOW TO ADD A PHOTO:
+
+          1. Add your image to /site/gallery/
+          2. Copy this template and paste below:
+
+          <figure class="gallery-item">
+            <img src="gallery/your-image.jpg" alt="Description of the photo">
+            <figcaption>Title - Photo by Your Name</figcaption>
+          </figure>
+
+          That's it! Submit a pull request and we'll add it.
+        -->
+
+        <!-- Example photos - replace with real community submissions -->
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=600&q=80" alt="Sunset over rolling hills">
+          <figcaption>Sunset from the ridge - Photo by J. Smith</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1504618223053-559bdef9dd5a?w=600&q=80" alt="Purple wildflowers in meadow">
+          <figcaption>Spring wildflowers - Photo by M. Jones</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1551085254-e96b210db58a?w=600&q=80" alt="Deer standing in morning light">
+          <figcaption>Morning visitor - Photo by P. Brown</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=600&q=80" alt="Misty morning over valley">
+          <figcaption>Misty Happy Valley - Photo by S. Lee</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&q=80" alt="Butterfly on flower">
+          <figcaption>Chalkhill Blue - Photo by A. Wilson</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1505765050516-f72dcac9c60e?w=600&q=80" alt="Autumn trees">
+          <figcaption>Autumn colours - Photo by R. Taylor</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=600&q=80" alt="Green hillside">
+          <figcaption>The Folly in summer - Photo by K. Davis</figcaption>
+        </figure>
+
+        <figure class="gallery-item">
+          <img src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=600&q=80" alt="Golden hour landscape">
+          <figcaption>Golden hour - Photo by L. Anderson</figcaption>
+        </figure>
+
+      </div>
+
+      <!-- How to contribute -->
+      <div class="text-center mt-lg" style="background: var(--color-cream); padding: var(--space-lg); border-radius: var(--border-radius); max-width: 700px; margin-left: auto; margin-right: auto;">
+        <h2>Share your photos</h2>
+        <p>Taken a great photo at the Downs or Happy Valley? We'd love to feature it here!</p>
+        <div class="mt-md">
+          <p><strong>Option 1: Super easy</strong></p>
+          <p class="text-light">Click the button below, drag in your photo, add a caption, done!</p>
+          <a href="https://github.com/alexdenne/fofd/issues/new?template=photo-submission.yml" class="btn btn-primary mt-sm">Share a photo</a>
+        </div>
+        <div class="mt-md">
+          <p><strong>Option 2: For the tech-savvy</strong></p>
+          <p class="text-light">Fork the repo, add your image to <code>/site/gallery/</code>, and submit a pull request.</p>
+          <a href="https://github.com/alexdenne/fofd" class="btn btn-secondary mt-sm">View on GitHub</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="visit.html">Getting here</a></li>
+            <li><a href="visit.html#walks">Walks</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="explore.html">Nature Trail</a></li>
+            <li><a href="explore.html#wildlife">Wildlife</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="join.html">Join</a></li>
+            <li><a href="join.html#volunteer">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/groups/129749737166432" aria-label="Facebook">📘</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Friends of Farthing Downs & Happy Valley</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
