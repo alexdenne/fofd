@@ -8,6 +8,8 @@ This file tracks the status of all parallel work streams. Update this when switc
 
 | Stream | Branch | Status | Owner | Progress |
 |--------|--------|--------|-------|----------|
+| **0A: PDF→Markdown** | `stream/0a-pdf-conversion` | Not Started | Claude | 0/84 |
+| **0B: Image Metadata** | `stream/0b-image-metadata` | Not Started | Claude | 0/34 |
 | **1A: Page Extraction** | `stream/1a-page-extraction` | Not Started | Claude | 0/41 |
 | **1B: Media Inventory** | `stream/1b-media-inventory` | Not Started | Claude | 0/18 |
 | **1C: Nature Trail Audit** | `stream/1c-nature-trail` | Not Started | Human | 0/16 |
@@ -19,6 +21,22 @@ This file tracks the status of all parallel work streams. Update this when switc
 ---
 
 ## Stream Details
+
+### Phase 0 Streams (FOUNDATIONAL - Run First)
+
+#### Stream 0A: PDF to Markdown Conversion
+- **What:** Convert 93 PDFs to structured Markdown with frontmatter
+- **Owner:** Claude (autonomous)
+- **Output:** `docs/content-extraction/pdfs-markdown/`
+- **Priority:** HIGH - Nature Trail & Post PDFs first
+- **Start command:** Work on branch `stream/0a-pdf-conversion`
+
+#### Stream 0B: Image Metadata Enrichment
+- **What:** Catalog 498 images with metadata, alt-text, categorization
+- **Owner:** Claude (autonomous)
+- **Output:** `docs/content-extraction/images-metadata/`
+- **Notes:** Creates MASTER-INDEX.json, DUPLICATES.json, REVIEW-NEEDED.json
+- **Start command:** Work on branch `stream/0b-image-metadata`
 
 ### Phase 1 Streams (Can all run in parallel)
 
@@ -109,20 +127,32 @@ After completing tasks, update:
 
 ### If Working Solo (Sequential)
 ```
-1E (audit) → 1D (schemas) → 2B (dev env) → 1B (inventory) → 2A (design) → 1A (pages) → 1C (audio)
+0A (PDF→MD) → 0B (images) → 1E (audit) → 1D (schemas) → 2B (dev env) → 1B (inventory) → 2A (design) → 1A (pages) → 1C (audio)
 ```
 
-### If Working in Parallel (2 people)
+### If Working in Parallel (2 agents/people)
 ```
-Person 1 (Claude focus):     1D → 1B → 1A → 2A
-Person 2 (Human focus):      1E → 1C → 2B
+Agent 1 (Claude focus):      0A → 0B → 1D → 1B → 1A → 2A
+Agent 2 (Human focus):       1E → 1C → 2B
 ```
 
-### If Maximizing Parallelism
+### If Maximizing Parallelism (Agentic Sitebuilder)
 ```
-All 7 streams can technically run simultaneously
-But 1C and 1E require human input
-And 2B requires human to create accounts
+BATCH 1 (parallel):
+├── 0A: PDF→Markdown
+├── 0B: Image Metadata
+├── 1E: Legal Audit
+└── 2B: Dev Environment
+
+BATCH 2 (after Batch 1):
+├── 1D: Data Structures (uses 0A/0B outputs)
+├── 1B: Media Inventory (validates 0B)
+├── 1A: Page Extraction (references 0A)
+├── 1C: Nature Trail (combines 0A + audio)
+└── 2A: Design System (uses 0B metadata)
+
+SEQUENTIAL (after Batch 2):
+Phase 3 → Phase 4
 ```
 
 ---
@@ -130,6 +160,8 @@ And 2B requires human to create accounts
 ## Stream Dependencies for Phase 3
 
 Before starting Phase 3, these must be complete:
+- [ ] **Stream 0A: PDF→Markdown** (converted content for pages) **NEW**
+- [ ] **Stream 0B: Image Metadata** (enriched assets with alt-text) **NEW**
 - [ ] Stream 1A: Page Extraction (content for pages)
 - [ ] Stream 1B: Media Inventory (know what assets to include)
 - [ ] Stream 1C: Nature Trail Audit (verified audio works)
