@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "created": "2025-12-08",
+    "source_directory": "/home/user/fofd/site-2005-2025/history-images/",
+    "total_images": 9,
+    "categories": [
+      "archaeology",
+      "aerial-photography",
+      "tea-rooms-history",
+      "maps-planning",
+      "social-history",
+      "modern-infrastructure"
+    ]
+  },
+  "images": [
+    {
+      "filename": "Angus-letter-redacted.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/Angus-letter-redacted.jpg",
+      "alt_text": "Handwritten letter from Lisa at a community shop in Angus, Scotland, to Friends of Farthing Downs regarding the Welcome Tea Rooms brochure, dated June 3rd 2011",
+      "caption": "Letter from Angus, Scotland (2011) - Community interest in the Welcome Tea Rooms heritage",
+      "category": "tea-rooms-history",
+      "subcategory": "correspondence",
+      "date": "2011-06-03",
+      "content_type": "document-scan",
+      "hero_candidate": false
+    },
+    {
+      "filename": "CarParkSpring2011.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/CarParkSpring2011.jpg",
+      "alt_text": "Car park at Farthing Downs in Spring 2011, showing gravel parking area with wooden bollards and buildings in background",
+      "caption": "Car park development at Farthing Downs, Spring 2011",
+      "category": "modern-infrastructure",
+      "subcategory": "facilities",
+      "date": "2011-03",
+      "content_type": "photograph",
+      "hero_candidate": false
+    },
+    {
+      "filename": "FD-3-March-1944.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/FD-3-March-1944.jpg",
+      "alt_text": "Black and white aerial photograph of Farthing Downs area taken March 3rd 1944, showing fields, hedgerows, and urban development patterns",
+      "caption": "Aerial view of Farthing Downs, March 3rd 1944 - Wartime landscape perspective",
+      "category": "aerial-photography",
+      "subcategory": "wartime-records",
+      "date": "1944-03-03",
+      "content_type": "historic-photograph",
+      "hero_candidate": true,
+      "hero_notes": "Dramatic aerial perspective, historically significant wartime documentation"
+    },
+    {
+      "filename": "FairdeanHeights.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/FairdeanHeights.jpg",
+      "alt_text": "Estate map from Fairdean Heights Ltd showing property development plan for Farthing Downs area, including St John's Church, recreation grounds, golf course and open spaces",
+      "caption": "Fairdean Heights Ltd. estate development map - Coulsdon and Chaldon Way area planning document",
+      "category": "maps-planning",
+      "subcategory": "property-development",
+      "date": null,
+      "date_estimate": "mid-20th-century",
+      "content_type": "planning-document",
+      "hero_candidate": false
+    },
+    {
+      "filename": "StoneAgeAxe.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/StoneAgeAxe.jpg",
+      "alt_text": "Three views of a Stone Age flint axe found on Farthing Downs by Brian Hope-Taylor, showing detailed archaeological illustration from Surrey Archaeological Collections XLIX, 1946",
+      "caption": "Stone Age flint axe discovered on Farthing Downs - Evidence of prehistoric settlement (Surrey Archaeological Collections, 1946)",
+      "category": "archaeology",
+      "subcategory": "prehistoric",
+      "date": "1946",
+      "content_type": "archaeological-illustration",
+      "hero_candidate": true,
+      "hero_notes": "Striking archaeological illustration, represents ancient history of the area"
+    },
+    {
+      "filename": "Swingboats.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/Swingboats.jpg",
+      "alt_text": "Black and white photograph of children playing on traditional swing boats fairground ride at Farthing Downs, with buildings visible in background",
+      "caption": "Swing boats on Farthing Downs - Traditional recreation and community leisure",
+      "category": "social-history",
+      "subcategory": "recreation",
+      "date": null,
+      "date_estimate": "mid-20th-century",
+      "content_type": "historic-photograph",
+      "hero_candidate": false
+    },
+    {
+      "filename": "Tea-rooms-not-Welcome.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/Tea-rooms-not-Welcome.jpg",
+      "alt_text": "Black and white photograph showing the Welcome Tea Rooms building with a 'NOT WELCOME' sign visible, with a vintage car in the foreground",
+      "caption": "The Welcome Tea Rooms during a period of closure or dispute - Sign reading 'NOT WELCOME' visible on building",
+      "category": "tea-rooms-history",
+      "subcategory": "decline-period",
+      "date": null,
+      "date_estimate": "1960s-1970s",
+      "content_type": "historic-photograph",
+      "hero_candidate": false
+    },
+    {
+      "filename": "Tea-rooms-side-1.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/Tea-rooms-side-1.jpg",
+      "alt_text": "Vintage brochure for The Welcome Tea Rooms at Farthing Downs, Coulsdon, Surrey, showing Old Chaldon Church and the tea rooms building with visitors on the lawn. Proprietor H. Goddard, Phone Merstham 177",
+      "caption": "The Welcome Tea Rooms promotional brochure (front) - Showing the tea rooms and Old Chaldon Church, proprietor H. Goddard",
+      "category": "tea-rooms-history",
+      "subcategory": "promotional-materials",
+      "date": null,
+      "date_estimate": "early-to-mid-20th-century",
+      "content_type": "vintage-brochure",
+      "hero_candidate": true,
+      "hero_notes": "Iconic vintage brochure, excellent condition, represents golden era of the tea rooms"
+    },
+    {
+      "filename": "Tea-rooms-side-2.jpg",
+      "path": "/home/user/fofd/site-2005-2025/history-images/Tea-rooms-side-2.jpg",
+      "alt_text": "Reverse side of The Welcome Tea Rooms brochure featuring descriptive text about Farthing Downs and interior photograph of the tea rooms dining area with tables and chairs. Includes details about school excursions, parties, and transport options",
+      "caption": "The Welcome Tea Rooms promotional brochure (reverse) - Interior view and details about facilities, location, and services",
+      "category": "tea-rooms-history",
+      "subcategory": "promotional-materials",
+      "date": null,
+      "date_estimate": "early-to-mid-20th-century",
+      "content_type": "vintage-brochure",
+      "hero_candidate": false
+    }
+  ]
+}

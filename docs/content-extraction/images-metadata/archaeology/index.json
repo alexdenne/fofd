@@ -1,0 +1,72 @@
+{
+  "collection": "archaeology",
+  "source_directory": "/home/user/fofd/site-2005-2025/images-archaeology/",
+  "total_images": 8,
+  "created_date": "2025-12-08",
+  "images": [
+    {
+      "filename": "BrianHopeTaylor1948.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/BrianHopeTaylor1948.jpg",
+      "alt_text": "Black and white photograph of archaeologist Brian Hope-Taylor examining a human skull during the 1948 Farthing Down excavations",
+      "caption": "Brian Hope-Taylor examining skeletal remains at Farthing Down, 1948",
+      "subjects": ["Brian Hope-Taylor", "archaeologist", "skull", "human remains", "1948", "excavation", "historical photograph"]
+    },
+    {
+      "filename": "DrinkingVessel.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/DrinkingVessel.jpg",
+      "alt_text": "Painting of a wooden Anglo-Saxon drinking vessel with yellow metal bands and Celtic knotwork decoration at the top",
+      "caption": "Painting of a wooden drinking vessel discovered by Wickham Flower (courtesy of Surrey Archaeological Society)",
+      "subjects": ["drinking vessel", "Anglo-Saxon", "artifact", "wooden vessel", "Celtic knotwork", "Wickham Flower", "Surrey Archaeological Society", "illustration"]
+    },
+    {
+      "filename": "Excavations.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/Excavations.jpg",
+      "alt_text": "Historical document titled 'The Farthing Down Excavations' describing the Saxon cemetery discoveries and burial details",
+      "caption": "Document describing the Farthing Down excavations and Saxon cemetery findings",
+      "subjects": ["Farthing Down", "excavation", "Saxon cemetery", "historical document", "burial graves", "archaeological report", "Brian Hope-Taylor"]
+    },
+    {
+      "filename": "FarthingDownsArchaeology.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/FarthingDownsArchaeology.jpg",
+      "alt_text": "Information panel about Farthing Down archaeological research project showing excavation photos and text describing the Saxon cemetery site",
+      "caption": "Farthing Down archaeological research project information panel with excavation photographs",
+      "subjects": ["Farthing Down", "archaeological research", "Saxon cemetery", "information panel", "excavation photos", "Neolithic", "Bronze Age", "barrows"]
+    },
+    {
+      "filename": "SaxonCemetary.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/SaxonCemetary.jpg",
+      "alt_text": "Archaeological site plan showing the layout of the Saxon cemetery at Farthing Downs with burial locations marked as symbols along a linear pattern",
+      "caption": "Saxon Cemetery Farthing Downs - site plan showing burial locations with 100m scale",
+      "subjects": ["Saxon cemetery", "Farthing Downs", "site plan", "burial map", "archaeological diagram", "grave locations"]
+    },
+    {
+      "filename": "ShieldBoss.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/ShieldBoss.jpg",
+      "alt_text": "Painting of a weathered Anglo-Saxon shield boss artifact showing metal construction with decorative ridges and central spike",
+      "caption": "Painting of a shield boss discovered on Farthing Down by Wickham Flower (courtesy of Surrey Archaeological Society)",
+      "subjects": ["shield boss", "Anglo-Saxon", "artifact", "Farthing Down", "Wickham Flower", "Surrey Archaeological Society", "illustration", "metal artifact"]
+    },
+    {
+      "filename": "SkeletonHeads.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/SkeletonHeads.jpg",
+      "alt_text": "Black and white photograph showing multiple human skulls and skeletal remains arranged on display with boxes",
+      "caption": "Display of human skulls and skeletal remains from Farthing Down excavations",
+      "subjects": ["skulls", "skeletal remains", "human remains", "archaeological finds", "display", "bones", "historical photograph"]
+    },
+    {
+      "filename": "Skeletons3.jpg",
+      "path": "/home/user/fofd/site-2005-2025/images-archaeology/Skeletons3.jpg",
+      "alt_text": "Black and white photograph showing multiple human skeletons in situ during archaeological excavation, lying in burial positions",
+      "caption": "Multiple burials uncovered during Farthing Down excavations showing skeletons in their original positions",
+      "subjects": ["skeletons", "in situ", "burials", "excavation", "human remains", "Saxon cemetery", "archaeological dig", "historical photograph"]
+    }
+  ],
+  "subjects_summary": {
+    "people": ["Brian Hope-Taylor", "Wickham Flower"],
+    "artifacts": ["drinking vessel", "shield boss", "human remains", "skeletal remains"],
+    "locations": ["Farthing Down", "Saxon cemetery"],
+    "organizations": ["Surrey Archaeological Society"],
+    "time_periods": ["Anglo-Saxon", "Neolithic", "Bronze Age", "1948"],
+    "document_types": ["photographs", "paintings", "illustrations", "site plans", "information panels", "historical documents"]
+  }
+}
