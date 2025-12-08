@@ -1,0 +1,9 @@
+RewriteCond %{HTTPS} off          [NC]
+RewriteRule ^ https://www.friendsoffarthingdowns.co.uk%{REQUEST_URI} [R=301,L,NE]
+
+<FILES "*.html">
+ForceType 'text/html; charset=UTF-8'
+</FILES>
+DirectoryIndex index.html
+
+

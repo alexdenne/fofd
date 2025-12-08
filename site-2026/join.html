@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join Friends of Farthing Downs & Happy Valley. Help protect ancient chalk downland for future generations. Membership from £5/year.">
+  <title>Join Us | Farthing Downs & Happy Valley</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Farthing Downs <span>&</span> Happy Valley</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html" class="nav-cta">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" style="height: 50vh; min-height: 300px;">
+    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=1920&q=80" alt="Sunlight through trees" class="hero-image">
+    <div class="hero-content">
+      <h1>Join the Friends</h1>
+      <p>Help protect these special places for future generations</p>
+    </div>
+  </section>
+
+  <!-- Membership -->
+  <section id="membership">
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2>Become a Member</h2>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Your membership directly supports conservation projects, community events, and our work to protect Farthing Downs and Happy Valley.</p>
+      </div>
+
+      <div class="pricing-cards">
+        <div class="pricing-card featured">
+          <h3>Individual</h3>
+          <div class="price">£5<span>/year</span></div>
+          <ul>
+            <li>Support conservation projects</li>
+            <li>Half-yearly newsletter</li>
+            <li>Invites to walks & talks</li>
+            <li>Vote at the AGM</li>
+            <li>Feel good about protecting nature</li>
+          </ul>
+          <!-- Replace with your actual Stripe Payment Link -->
+          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link will go here. Create one at dashboard.stripe.com/payment-links'); return false;">
+            Join Now
+          </a>
+        </div>
+
+        <div class="pricing-card">
+          <h3>Family</h3>
+          <div class="price">£8<span>/year</span></div>
+          <ul>
+            <li>Everything in Individual</li>
+            <li>Cover your whole household</li>
+            <li>Teach kids about nature</li>
+            <li>Family-friendly events</li>
+            <li>One membership, one payment</li>
+          </ul>
+          <!-- Replace with your actual Stripe Payment Link -->
+          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link will go here'); return false;">
+            Join as a Family
+          </a>
+        </div>
+      </div>
+
+      <div class="text-center mt-lg" style="max-width: 600px; margin-left: auto; margin-right: auto;">
+        <p class="text-light"><strong>Prefer to pay another way?</strong> We also accept standing orders and cheques. <a href="about.html#contact">Contact us</a> for details.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Donate -->
+  <section id="donate" style="background: var(--color-cream);">
+    <div class="container">
+      <div class="text-center mb-md">
+        <h2>Make a Donation</h2>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto;">One-off donations help fund specific projects – from new information boards to dormouse nest boxes.</p>
+      </div>
+
+      <div class="card-grid" style="max-width: 800px; margin: 0 auto;">
+        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £10 donation link'); return false;">
+          Donate £10
+        </a>
+        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £25 donation link'); return false;">
+          Donate £25
+        </a>
+        <a href="#" class="btn btn-primary btn-large" onclick="alert('Stripe custom amount link'); return false;">
+          Other amount
+        </a>
+      </div>
+
+      <div class="text-center mt-lg" style="max-width: 600px; margin-left: auto; margin-right: auto;">
+        <h3>In Memoriam</h3>
+        <p class="text-light">Donations can be made in memory of a loved one. Their name can be recorded in the City Commons Remembrance Book. <a href="about.html#contact">Contact us</a> to arrange this.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Volunteer -->
+  <section id="volunteer">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); align-items: center;">
+        <div>
+          <h2>Volunteer with Us</h2>
+          <p>Get your hands dirty and make a real difference. Our volunteer group (the "Hillbillies") meets every third Sunday to work on conservation projects.</p>
+          <ul style="list-style: none; margin: var(--space-md) 0;">
+            <li style="padding: var(--space-xs) 0;">✓ No experience needed</li>
+            <li style="padding: var(--space-xs) 0;">✓ Tools and guidance provided</li>
+            <li style="padding: var(--space-xs) 0;">✓ Meet like-minded people</li>
+            <li style="padding: var(--space-xs) 0;">✓ Tea and biscuits included!</li>
+          </ul>
+          <a href="about.html#contact" class="btn btn-primary">Get in touch</a>
+        </div>
+        <div>
+          <img src="https://images.unsplash.com/photo-1558008258-3256797b43f3?w=600&q=80" alt="Volunteers working outdoors" style="border-radius: var(--border-radius); box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Events -->
+  <section id="events" style="background: var(--color-primary); color: var(--color-white);">
+    <div class="container text-center">
+      <h2 style="color: var(--color-white);">Upcoming Events</h2>
+      <p style="opacity: 0.9; margin-bottom: var(--space-md);">Walks, talks, and community gatherings throughout the year</p>
+
+      <!-- Events would be dynamically loaded or manually updated -->
+      <div class="card-grid" style="max-width: 900px; margin: 0 auto;">
+        <div style="background: rgba(255,255,255,0.1); padding: var(--space-md); border-radius: var(--border-radius); text-align: left;">
+          <p style="color: var(--color-secondary); font-weight: 600; margin-bottom: var(--space-xs);">November 2025</p>
+          <h3 style="color: var(--color-white); font-size: 1.25rem;">Annual General Meeting</h3>
+          <p style="opacity: 0.8;">Guest speaker and updates from the year. All welcome.</p>
+        </div>
+        <div style="background: rgba(255,255,255,0.1); padding: var(--space-md); border-radius: var(--border-radius); text-align: left;">
+          <p style="color: var(--color-secondary); font-weight: 600; margin-bottom: var(--space-xs);">Monthly</p>
+          <h3 style="color: var(--color-white); font-size: 1.25rem;">Volunteer Sundays</h3>
+          <p style="opacity: 0.8;">Third Sunday of each month. Meet at the car park, 10am.</p>
+        </div>
+      </div>
+
+      <p class="mt-lg" style="opacity: 0.9;">Join our <a href="https://www.facebook.com/groups/129749737166432" style="color: var(--color-white); text-decoration: underline;">Facebook group</a> for the latest events and updates</p>
+    </div>
+  </section>
+
+  <!-- Why Join -->
+  <section>
+    <div class="container">
+      <div class="text-center mb-lg">
+        <h2>Where your money goes</h2>
+      </div>
+      <div class="features">
+        <div class="feature">
+          <div class="feature-icon">📋</div>
+          <h3>Information Boards</h3>
+          <p>We've funded new information boards across the Downs to help visitors explore</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🎧</div>
+          <h3>Nature Trail</h3>
+          <p>Our 29-stop audio Nature Trail, narrated by Roger McGough CBE, in four languages</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🐭</div>
+          <h3>Dormouse Boxes</h3>
+          <p>Nest boxes to support the breeding population of these rare woodland mammals</p>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🌸</div>
+          <h3>Station Planting</h3>
+          <p>Flower beds at Coulsdon South station to brighten commuters' days</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Visit</h4>
+          <ul>
+            <li><a href="visit.html#getting-here">Getting here</a></li>
+            <li><a href="visit.html#walks">Walks & trails</a></li>
+            <li><a href="visit.html#parking">Parking</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="explore.html#nature-trail">Nature Trail</a></li>
+            <li><a href="explore.html#wildlife">Wildlife</a></li>
+            <li><a href="explore.html#archaeology">Archaeology</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Get Involved</h4>
+          <ul>
+            <li><a href="join.html">Become a member</a></li>
+            <li><a href="join.html#donate">Donate</a></li>
+            <li><a href="join.html#volunteer">Volunteer</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Connect</h4>
+          <div class="social-links">
+            <a href="https://www.facebook.com/groups/129749737166432" aria-label="Facebook">📘</a>
+            <a href="mailto:hello@farthingdowns.org.uk" aria-label="Email">✉️</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Friends of Farthing Downs & Happy Valley</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+
+</body>
+</html>
