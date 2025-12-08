@@ -1,0 +1,74 @@
+name: "Share a Photo"
+description: "Share a photo you've taken at Farthing Downs or Happy Valley"
+title: "Photo: "
+labels: ["photo-submission", "community"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Share your photo with the community!
+
+        Drag and drop your photo below, tell us a bit about it, and we'll add it to the gallery.
+
+        **Tips for great photos:**
+        - Wildlife, flowers, landscapes, sunsets - all welcome!
+        - Please only share photos YOU took
+        - By submitting, you're happy for us to use it on the website (with credit to you)
+
+  - type: input
+    id: title
+    attributes:
+      label: "What's in your photo?"
+      description: "A short title, e.g. 'Fox at sunset' or 'Bluebells near the Folly'"
+      placeholder: "Butterfly on wildflowers"
+    validations:
+      required: true
+
+  - type: textarea
+    id: photo
+    attributes:
+      label: "Your photo"
+      description: "Drag and drop your image here, or click to upload"
+      placeholder: "Drag your photo here..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: location
+    attributes:
+      label: "Where was this taken?"
+      options:
+        - Farthing Downs
+        - Happy Valley
+        - The Folly
+        - Near the car park
+        - On the Nature Trail
+        - Not sure / other
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: "When was this taken?"
+      description: "Roughly when - doesn't need to be exact!"
+      placeholder: "June 2025 / Last weekend / Spring this year"
+    validations:
+      required: false
+
+  - type: input
+    id: credit
+    attributes:
+      label: "How should we credit you?"
+      description: "Your name, or 'Anonymous' if you prefer"
+      placeholder: "Jane Smith"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: permission
+    attributes:
+      label: "Permission"
+      options:
+        - label: "This is my own photo and I'm happy for Friends of Farthing Downs & Happy Valley to use it on the website and social media"
+          required: true
