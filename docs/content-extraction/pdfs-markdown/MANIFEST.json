@@ -1,0 +1,133 @@
+{
+  "manifest_version": "1.0",
+  "created_date": "2025-12-08",
+  "description": "Phase 0A PDF to Markdown conversion manifest",
+  "statistics": {
+    "total_pdfs_processed": 93,
+    "total_markdown_files": 81,
+    "maps_indexed": 9,
+    "categories": {
+      "nature-trail": 30,
+      "posts": 30,
+      "strategy": 8,
+      "history": 4,
+      "agm": 2,
+      "maps": 1,
+      "misc": 7
+    }
+  },
+  "files": {
+    "nature-trail": [
+      {"file": "post-01.md", "source": "Post01English.pdf", "task": "0A.2"},
+      {"file": "post-02.md", "source": "Post02English.pdf", "task": "0A.3"},
+      {"file": "post-03.md", "source": "Post03English.pdf", "task": "0A.4"},
+      {"file": "post-04.md", "source": "Post04English.pdf", "task": "0A.5"},
+      {"file": "post-05.md", "source": "Post05English.pdf", "task": "0A.6"},
+      {"file": "post-06.md", "source": "Post06English.pdf", "task": "0A.7"},
+      {"file": "post-07.md", "source": "Post07English.pdf", "task": "0A.8"},
+      {"file": "post-08.md", "source": "Post08English.pdf", "task": "0A.9"},
+      {"file": "post-09.md", "source": "Post09English.pdf", "task": "0A.10"},
+      {"file": "post-10.md", "source": "Post10English.pdf", "task": "0A.11"},
+      {"file": "post-11.md", "source": "Post11English.pdf", "task": "0A.12"},
+      {"file": "post-12.md", "source": "Post12English.pdf", "task": "0A.13"},
+      {"file": "post-13.md", "source": "Post13English.pdf", "task": "0A.14"},
+      {"file": "post-14.md", "source": "Post14English.pdf", "task": "0A.15"},
+      {"file": "post-15.md", "source": "Post15English.pdf", "task": "0A.16"},
+      {"file": "post-16.md", "source": "Post16English.pdf", "task": "0A.17"},
+      {"file": "post-17.md", "source": "Post17English.pdf", "task": "0A.18"},
+      {"file": "post-18.md", "source": "Post18English.pdf", "task": "0A.19"},
+      {"file": "post-19.md", "source": "Post19English.pdf", "task": "0A.20"},
+      {"file": "post-20.md", "source": "Post20English.pdf", "task": "0A.21"},
+      {"file": "post-21.md", "source": "Post21English.pdf", "task": "0A.22"},
+      {"file": "post-22.md", "source": "Post22English.pdf", "task": "0A.23"},
+      {"file": "post-23.md", "source": "Post23English.pdf", "task": "0A.24"},
+      {"file": "post-24.md", "source": "Post24English.pdf", "task": "0A.25"},
+      {"file": "post-25.md", "source": "Post25English.pdf", "task": "0A.26"},
+      {"file": "post-26.md", "source": "Post26English.pdf", "task": "0A.27"},
+      {"file": "post-27.md", "source": "Post27English.pdf", "task": "0A.28"},
+      {"file": "post-28.md", "source": "Post28English.pdf", "task": "0A.29"},
+      {"file": "post-29.md", "source": "Post29English.pdf", "task": "0A.30"},
+      {"file": "post-01-legacy.md", "source": "Post01-pre160217.pdf", "task": "0A.31"}
+    ],
+    "posts": [
+      {"file": "post-01.md", "source": "Post 1.pdf", "task": "0A.32"},
+      {"file": "post-02.md", "source": "Post 2.pdf", "task": "0A.33"},
+      {"file": "post-03.md", "source": "Post 3.pdf", "task": "0A.34"},
+      {"file": "post-04.md", "source": "Post 4.pdf", "task": "0A.35"},
+      {"file": "post-05.md", "source": "Post 5.pdf", "task": "0A.36"},
+      {"file": "post-06.md", "source": "Post 6.pdf", "task": "0A.37"},
+      {"file": "post-07.md", "source": "Post 7.pdf", "task": "0A.38"},
+      {"file": "post-08.md", "source": "Post 8.pdf", "task": "0A.39"},
+      {"file": "post-09.md", "source": "Post 9.pdf", "task": "0A.40"},
+      {"file": "post-10.md", "source": "Post 10.pdf", "task": "0A.41"},
+      {"file": "post-11.md", "source": "Post 11.pdf", "task": "0A.42"},
+      {"file": "post-12.md", "source": "Post 12.pdf", "task": "0A.43"},
+      {"file": "post-13.md", "source": "Post 13.pdf", "task": "0A.44"},
+      {"file": "post-14.md", "source": "Post 14.pdf", "task": "0A.45"},
+      {"file": "post-15.md", "source": "Post 15.pdf", "task": "0A.46"},
+      {"file": "post-16.md", "source": "Post 16.pdf", "task": "0A.47"},
+      {"file": "post-17.md", "source": "Post 17.pdf", "task": "0A.48"},
+      {"file": "post-18.md", "source": "Post 18.pdf", "task": "0A.49"},
+      {"file": "post-19.md", "source": "Post 19.pdf", "task": "0A.50"},
+      {"file": "post-20.md", "source": "Post 20.pdf", "task": "0A.51"},
+      {"file": "post-21.md", "source": "Post 21.pdf", "task": "0A.52"},
+      {"file": "post-22.md", "source": "Post 22.pdf", "task": "0A.53"},
+      {"file": "post-23.md", "source": "Post 23.pdf", "task": "0A.54"},
+      {"file": "post-24.md", "source": "Post 24.pdf", "task": "0A.55"},
+      {"file": "post-25.md", "source": "Post 25.pdf", "task": "0A.56"},
+      {"file": "post-26.md", "source": "Post 26.pdf", "task": "0A.57"},
+      {"file": "post-27.md", "source": "Post 27.pdf", "task": "0A.58"},
+      {"file": "post-28.md", "source": "Post 28.pdf", "task": "0A.59"},
+      {"file": "post-29.md", "source": "Post 29.pdf", "task": "0A.60"},
+      {"file": "post-01-legacy.md", "source": "Post 1-pre160217.pdf", "task": "0A.61"}
+    ],
+    "strategy": [
+      {"file": "biodiversity-open-spaces.md", "source": "AstrategicapproachtobiodiversityandopenspacesinCroydon.pdf", "task": "0A.62"},
+      {"file": "biodiversity-background.md", "source": "BackgroundnoteBiodiversity.pdf", "task": "0A.63"},
+      {"file": "extending-protection.md", "source": "ExtendingProtectionforMajorOpenSpaces.pdf", "task": "0A.64"},
+      {"file": "green-spaces-justification.md", "source": "JUSTIFYING THE RETENTION OF SPECIAL LOCAL GREEN SPACES BW.pdf", "task": "0A.65"},
+      {"file": "valuing-environment.md", "source": "Valuingyourlocalenvironment.pdf", "task": "0A.66"},
+      {"file": "more-trees.md", "source": "WHOS FOR MORE TREES Paper.pdf", "task": "0A.67"},
+      {"file": "future-happy-valley-refs.md", "source": "FutureHappyValley-Refs.pdf", "task": "0A.68"},
+      {"file": "lizzie-brooks-appeal.md", "source": "LizzieBrooksAppeal.pdf", "task": "0A.69"}
+    ],
+    "history": [
+      {"file": "living-in-coulsdon.md", "source": "Living in Coulsdon 2000 years ago A5.pdf", "task": "0A.70"},
+      {"file": "building-no1-reuse.md", "source": "No1-Re-use-and-adapt.pdf", "task": "0A.71"},
+      {"file": "building-no2-traditional.md", "source": "No2-New-building-traditioinal.pdf", "task": "0A.72"},
+      {"file": "building-no3-modern.md", "source": "No3-New-building-modern.pdf", "task": "0A.73"}
+    ],
+    "agm": [
+      {"file": "agm-2023-guest-speaker.md", "source": "AGMNovember2023GuestSpeaker.pdf", "task": "0A.74"},
+      {"file": "agm-2024-discussion.md", "source": "AGMNovember2024GuestSpeakers-Discussion.pdf", "task": "0A.75"}
+    ],
+    "maps": [
+      {"file": "INDEX.md", "source": "Multiple map PDFs (indexed only)", "task": "0A.76", "indexed_files": [
+        "Getting there map.pdf",
+        "Happy Valley Getting There.pdf",
+        "SurreyHillsCompositeMap.pdf",
+        "SurreyHillsExtract1.pdf",
+        "SurreyHillsExtract2.pdf",
+        "SurreyHillsExtract3.pdf",
+        "SurreyHillsExtract4.pdf",
+        "SurreyHillsExtract5.pdf",
+        "SurreyHillsExtract6.pdf"
+      ]}
+    ],
+    "misc": [
+      {"file": "archaeology-day-2023.md", "source": "Archaeology Day 02-09-23 Poster A3.pdf", "task": "0A.77"},
+      {"file": "quiz-night-2014.md", "source": "Quiz Night 2014 Website.pdf", "task": "0A.78"},
+      {"file": "moth-species-2015.md", "source": "MothSpeciesList2015.pdf", "task": "0A.79"},
+      {"file": "leaflet-2021.md", "source": "Leaflet0121.pdf", "task": "0A.80"},
+      {"file": "membership-leaflet.md", "source": "Membership Leaflet.pdf", "task": "0A.81"},
+      {"file": "symposium-report.md", "source": "Symposium Report.pdf", "task": "0A.82"},
+      {"file": "tandridge-golf-club.md", "source": "Tandridge-SurreyNationalGolfClub.pdf", "task": "0A.83"}
+    ]
+  },
+  "completion": {
+    "phase": "0A",
+    "status": "complete",
+    "tasks_completed": 84,
+    "completion_date": "2025-12-08"
+  }
+}
