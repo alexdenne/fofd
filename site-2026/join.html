@@ -3,15 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Join Friends of Farthing Downs & Happy Valley. Help protect ancient chalk downland for future generations. Membership from £5/year.">
-  <title>Join Us | Farthing Downs & Happy Valley</title>
+  <meta name="description" content="Join Friends of Farthing Downs. Membership from £5/year. Support conservation, volunteer opportunities, and exclusive events. Help protect ancient chalk downland.">
+  <meta name="keywords" content="join Friends Farthing Downs, membership charity, volunteer conservation Surrey, donate chalk grassland, conservation volunteer Coulsdon, support wildlife protection">
+  <title>Join Friends of Farthing Downs | Membership from £5/year</title>
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://farthingdowns.org.uk/join.html">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Open Graph Tags -->
+  <meta property="og:title" content="Join Friends of Farthing Downs | Membership from £5/year">
+  <meta property="og:description" content="Support conservation, get volunteer opportunities, and attend exclusive events. Help protect ancient chalk downland for future generations.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://farthingdowns.org.uk/join.html">
+  <meta property="og:image" content="https://farthingdowns.org.uk/images/og-join.jpg">
+
+  <!-- Twitter Card Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Join Friends of Farthing Downs | Membership from £5/year">
+  <meta name="twitter:description" content="Support conservation projects and volunteer opportunities. Membership from £5/year to protect ancient chalk downland.">
+  <meta name="twitter:image" content="https://farthingdowns.org.uk/images/og-join.jpg">
 </head>
 <body>
+
+  <!-- Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
 
   <header>
     <nav>
@@ -21,11 +41,14 @@
         <li><a href="visit.html">Visit</a></li>
         <li><a href="explore.html">Explore</a></li>
         <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="join.html" class="nav-cta">Join Us</a></li>
       </ul>
     </nav>
   </header>
+
+  <main id="main-content">
 
   <!-- Hero -->
   <section class="hero" style="height: 50vh; min-height: 300px;">
@@ -41,45 +64,68 @@
     <div class="container">
       <div class="text-center mb-lg">
         <h2>Become a Member</h2>
-        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Your membership directly supports conservation projects, community events, and our work to protect Farthing Downs and Happy Valley.</p>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Your membership directly supports conservation projects, community events, and our work to protect Farthing Downs and Happy Valley. Join 100+ members protecting this special place.</p>
       </div>
 
       <div class="pricing-cards">
-        <div class="pricing-card featured">
-          <h3>Individual</h3>
-          <div class="price">£5<span>/year</span></div>
+        <!-- Friend Tier -->
+        <div class="pricing-card">
+          <h3>Friend</h3>
+          <div class="price">£10<span>/year</span></div>
           <ul>
-            <li>Support conservation projects</li>
-            <li>Half-yearly newsletter</li>
-            <li>Invites to walks & talks</li>
-            <li>Vote at the AGM</li>
-            <li>Feel good about protecting nature</li>
+            <li>Quarterly newsletter with updates</li>
+            <li>Voting rights at AGM</li>
+            <li>Invites to walks and talks</li>
+            <li>Supporting vital conservation work</li>
+            <li>Name on website (optional)</li>
           </ul>
-          <!-- Replace with your actual Stripe Payment Link -->
-          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link will go here. Create one at dashboard.stripe.com/payment-links'); return false;">
+          <!-- Replace with your actual payment link -->
+          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link for Friend £10/year - Create at dashboard.stripe.com/payment-links'); return false;">
             Join Now
           </a>
         </div>
 
-        <div class="pricing-card">
-          <h3>Family</h3>
-          <div class="price">£8<span>/year</span></div>
+        <!-- Supporter Tier - Featured -->
+        <div class="pricing-card featured">
+          <h3>Supporter</h3>
+          <div class="price">£25<span>/year</span></div>
           <ul>
-            <li>Everything in Individual</li>
-            <li>Cover your whole household</li>
-            <li>Teach kids about nature</li>
-            <li>Family-friendly events</li>
-            <li>One membership, one payment</li>
+            <li>Everything in Friend, plus:</li>
+            <li>Family membership coverage</li>
+            <li>Priority event booking (48 hours)</li>
+            <li>Members-only guided walk</li>
+            <li>Car window sticker & welcome pack</li>
+            <li>Optional print newsletter</li>
           </ul>
-          <!-- Replace with your actual Stripe Payment Link -->
-          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link will go here'); return false;">
-            Join as a Family
+          <!-- Replace with your actual payment link -->
+          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link for Supporter £25/year - Create at dashboard.stripe.com/payment-links'); return false;">
+            Join Now
+          </a>
+          <p class="text-light" style="font-size: 0.875rem; margin-top: var(--space-sm);">Less than 50p a week!</p>
+        </div>
+
+        <!-- Champion Tier -->
+        <div class="pricing-card">
+          <h3>Champion</h3>
+          <div class="price">£50<span>/year</span></div>
+          <ul>
+            <li>Everything in Supporter, plus:</li>
+            <li>Name featured on website</li>
+            <li>Personal thank you from Chair</li>
+            <li>Recognition in annual report</li>
+            <li>Invitation to annual patrons' event</li>
+            <li>First choice volunteer opportunities</li>
+          </ul>
+          <!-- Replace with your actual payment link -->
+          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link for Champion £50/year - Create at dashboard.stripe.com/payment-links'); return false;">
+            Join Now
           </a>
         </div>
       </div>
 
-      <div class="text-center mt-lg" style="max-width: 600px; margin-left: auto; margin-right: auto;">
-        <p class="text-light"><strong>Prefer to pay another way?</strong> We also accept standing orders and cheques. <a href="about.html#contact">Contact us</a> for details.</p>
+      <div class="text-center mt-lg" style="max-width: 700px; margin-left: auto; margin-right: auto;">
+        <p class="text-light"><strong>Concessions available:</strong> Friend membership at £5/year for those on Universal Credit. <strong>Prefer to pay another way?</strong> We also accept standing orders and cheques. <a href="about.html#contact">Contact us</a> for details.</p>
+        <p class="text-light" style="margin-top: var(--space-sm);"><strong>Gift Aid:</strong> UK taxpayers can add 25% to their donation at no extra cost through Gift Aid.</p>
       </div>
     </div>
   </section>
@@ -89,24 +135,34 @@
     <div class="container">
       <div class="text-center mb-md">
         <h2>Make a Donation</h2>
-        <p class="text-light" style="max-width: 600px; margin: 0 auto;">One-off donations help fund specific projects – from new information boards to dormouse nest boxes.</p>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto;">One-off donations help fund specific projects – from new information boards to dormouse nest boxes to wildflower planting.</p>
       </div>
 
-      <div class="card-grid" style="max-width: 800px; margin: 0 auto;">
-        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £10 donation link'); return false;">
-          Donate £10
+      <div class="card-grid" style="max-width: 900px; margin: 0 auto; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));">
+        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £10 donation link - Create at dashboard.stripe.com/payment-links'); return false;">
+          £10
         </a>
-        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £25 donation link'); return false;">
-          Donate £25
+        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £25 donation link - Create at dashboard.stripe.com/payment-links'); return false;">
+          £25
         </a>
-        <a href="#" class="btn btn-primary btn-large" onclick="alert('Stripe custom amount link'); return false;">
-          Other amount
+        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £50 donation link - Create at dashboard.stripe.com/payment-links'); return false;">
+          £50
+        </a>
+        <a href="#" class="btn btn-secondary btn-large" onclick="alert('Stripe £100 donation link - Create at dashboard.stripe.com/payment-links'); return false;">
+          £100
+        </a>
+        <a href="#" class="btn btn-primary btn-large" onclick="alert('Stripe custom amount link - Create at dashboard.stripe.com/payment-links'); return false;">
+          Custom
         </a>
       </div>
 
-      <div class="text-center mt-lg" style="max-width: 600px; margin-left: auto; margin-right: auto;">
-        <h3>In Memoriam</h3>
-        <p class="text-light">Donations can be made in memory of a loved one. Their name can be recorded in the City Commons Remembrance Book. <a href="about.html#contact">Contact us</a> to arrange this.</p>
+      <div class="text-center mt-md" style="max-width: 700px; margin-left: auto; margin-right: auto;">
+        <p class="text-light"><strong>Gift Aid:</strong> UK taxpayers can increase their donation by 25% at no extra cost. Simply tick the Gift Aid box when donating – it helps us do even more for nature.</p>
+      </div>
+
+      <div class="text-center mt-lg" style="max-width: 600px; margin-left: auto; margin-right: auto; padding-top: var(--space-lg); border-top: 2px solid rgba(0,0,0,0.1);">
+        <h3>In Memory Of</h3>
+        <p class="text-light">Donations can be made in memory of a loved one. Their name can be recorded in the City Commons Remembrance Book at St Mary's Church, Coulsdon. <a href="about.html#contact">Contact us</a> to arrange this special tribute.</p>
       </div>
     </div>
   </section>
@@ -114,20 +170,160 @@
   <!-- Volunteer -->
   <section id="volunteer">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); align-items: center;">
+      <div class="text-center mb-lg">
+        <h2>Volunteer with Us</h2>
+        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Get your hands dirty and make a real difference. Our volunteer group (the "Hillbillies") meets every third Sunday to work on conservation projects. No experience needed – tools, guidance, and tea included!</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); align-items: start;">
+        <!-- Volunteer Form -->
         <div>
-          <h2>Volunteer with Us</h2>
-          <p>Get your hands dirty and make a real difference. Our volunteer group (the "Hillbillies") meets every third Sunday to work on conservation projects.</p>
-          <ul style="list-style: none; margin: var(--space-md) 0;">
-            <li style="padding: var(--space-xs) 0;">✓ No experience needed</li>
-            <li style="padding: var(--space-xs) 0;">✓ Tools and guidance provided</li>
-            <li style="padding: var(--space-xs) 0;">✓ Meet like-minded people</li>
-            <li style="padding: var(--space-xs) 0;">✓ Tea and biscuits included!</li>
-          </ul>
-          <a href="about.html#contact" class="btn btn-primary">Get in touch</a>
+          <div style="background: var(--color-white); padding: var(--space-lg); border-radius: var(--border-radius); box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+            <h3 style="margin-bottom: var(--space-md);">Sign Up to Volunteer</h3>
+
+            <!-- Replace action URL with your Formspree endpoint -->
+            <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
+
+              <div style="margin-bottom: var(--space-md);">
+                <label for="volunteer-name" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Name *</label>
+                <input type="text" id="volunteer-name" name="name" required style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
+              </div>
+
+              <div style="margin-bottom: var(--space-md);">
+                <label for="volunteer-email" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Email *</label>
+                <input type="email" id="volunteer-email" name="email" required style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
+              </div>
+
+              <div style="margin-bottom: var(--space-md);">
+                <label for="volunteer-phone" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Phone (optional)</label>
+                <input type="tel" id="volunteer-phone" name="phone" style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
+              </div>
+
+              <div style="margin-bottom: var(--space-md);">
+                <label style="display: block; font-weight: 600; margin-bottom: var(--space-sm);">Areas of Interest</label>
+                <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="interests" value="conservation-work" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Conservation work (scrub clearing, path maintenance)</span>
+                  </label>
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="interests" value="wildlife-surveying" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Wildlife surveying and recording</span>
+                  </label>
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="interests" value="events" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Helping with walks and events</span>
+                  </label>
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="interests" value="admin" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Admin and committee work</span>
+                  </label>
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="interests" value="social-media" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Social media and communications</span>
+                  </label>
+                </div>
+              </div>
+
+              <div style="margin-bottom: var(--space-md);">
+                <label style="display: block; font-weight: 600; margin-bottom: var(--space-sm);">Availability</label>
+                <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="availability" value="weekends" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Weekends</span>
+                  </label>
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="availability" value="weekdays" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Weekdays</span>
+                  </label>
+                  <label style="display: flex; align-items: center; cursor: pointer;">
+                    <input type="checkbox" name="availability" value="evenings" style="margin-right: var(--space-xs); cursor: pointer;">
+                    <span>Evenings</span>
+                  </label>
+                </div>
+              </div>
+
+              <div style="margin-bottom: var(--space-md);">
+                <label for="volunteer-skills" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Skills & Experience (optional)</label>
+                <textarea id="volunteer-skills" name="skills" rows="4" placeholder="Tell us about any relevant skills or experience – or just your enthusiasm!" style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem; resize: vertical;"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">
+                Sign Me Up!
+              </button>
+            </form>
+          </div>
         </div>
+
+        <!-- Volunteer Info & Image -->
         <div>
-          <img src="https://images.unsplash.com/photo-1558008258-3256797b43f3?w=600&q=80" alt="Volunteers working outdoors" style="border-radius: var(--border-radius); box-shadow: 0 8px 25px rgba(0,0,0,0.15);">
+          <div style="background: var(--color-primary); color: var(--color-white); padding: var(--space-lg); border-radius: var(--border-radius); margin-bottom: var(--space-md);">
+            <h3 style="color: var(--color-white); margin-bottom: var(--space-md);">Why Volunteer?</h3>
+            <ul style="list-style: none; margin: 0;">
+              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
+                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
+                <span>Make a visible difference to your local environment</span>
+              </li>
+              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
+                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
+                <span>Learn new skills in conservation and ecology</span>
+              </li>
+              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
+                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
+                <span>Meet like-minded people who care about nature</span>
+              </li>
+              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
+                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
+                <span>Get exercise and fresh air in a beautiful setting</span>
+              </li>
+              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
+                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
+                <span>All tools, training, and tea provided!</span>
+              </li>
+            </ul>
+          </div>
+          <img src="https://images.unsplash.com/photo-1558008258-3256797b43f3?w=600&q=80" alt="Volunteers working outdoors" style="border-radius: var(--border-radius); box-shadow: 0 8px 25px rgba(0,0,0,0.15); width: 100%;">
+        </div>
+      </div>
+
+      <!-- Mobile responsive note: On small screens this will stack vertically -->
+      <style>
+        @media (max-width: 968px) {
+          #volunteer .container > div[style*="grid-template-columns"] {
+            grid-template-columns: 1fr !important;
+          }
+        }
+      </style>
+    </div>
+  </section>
+
+  <!-- Newsletter Signup -->
+  <section id="newsletter" style="background: var(--color-cream);">
+    <div class="container">
+      <div class="text-center" style="max-width: 700px; margin: 0 auto;">
+        <h2>Stay in the Loop</h2>
+        <p class="text-light" style="font-size: 1.125rem; margin-bottom: var(--space-md);">Join 200+ nature lovers receiving quarterly updates about wildlife sightings, upcoming events, and conservation news from the Downs.</p>
+
+        <div style="background: var(--color-white); padding: var(--space-lg); border-radius: var(--border-radius); box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+          <!-- Replace action URL with your Formspree or Mailchimp endpoint -->
+          <form action="https://formspree.io/f/YOUR_NEWSLETTER_FORMSPREE_ID" method="POST" style="display: flex; flex-direction: column; gap: var(--space-sm);">
+
+            <div>
+              <label for="newsletter-name" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); text-align: left;">Name</label>
+              <input type="text" id="newsletter-name" name="name" placeholder="Your name" style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
+            </div>
+
+            <div>
+              <label for="newsletter-email" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); text-align: left;">Email *</label>
+              <input type="email" id="newsletter-email" name="email" placeholder="your.email@example.com" required style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-large" style="width: 100%; margin-top: var(--space-sm);">
+              Subscribe to Newsletter
+            </button>
+
+            <p style="font-size: 0.875rem; color: var(--color-text-light); margin-top: var(--space-xs);">We respect your privacy. Unsubscribe anytime. Typically 4-6 emails per year.</p>
+          </form>
         </div>
       </div>
     </div>
@@ -165,28 +361,30 @@
       </div>
       <div class="features">
         <div class="feature">
-          <div class="feature-icon">📋</div>
+          <div class="feature-icon" aria-hidden="true">📋</div>
           <h3>Information Boards</h3>
           <p>We've funded new information boards across the Downs to help visitors explore</p>
         </div>
         <div class="feature">
-          <div class="feature-icon">🎧</div>
+          <div class="feature-icon" aria-hidden="true">🎧</div>
           <h3>Nature Trail</h3>
           <p>Our 29-stop audio Nature Trail, narrated by Roger McGough CBE, in four languages</p>
         </div>
         <div class="feature">
-          <div class="feature-icon">🐭</div>
+          <div class="feature-icon" aria-hidden="true">🐭</div>
           <h3>Dormouse Boxes</h3>
           <p>Nest boxes to support the breeding population of these rare woodland mammals</p>
         </div>
         <div class="feature">
-          <div class="feature-icon">🌸</div>
+          <div class="feature-icon" aria-hidden="true">🌸</div>
           <h3>Station Planting</h3>
           <p>Flower beds at Coulsdon South station to brighten commuters' days</p>
         </div>
       </div>
     </div>
   </section>
+
+  </main>
 
   <footer>
     <div class="container">
