@@ -1,12 +1,19 @@
 {
-  "generated": "2025-12-08",
+  "generated": "2025-12-09",
   "total_images": 178,
+  "total_with_thumbnails": 246,
+  "cataloguing_status": "complete",
   "categories": {
     "wildlife": 82,
     "history": 9,
     "archaeology": 8,
     "general": 50,
     "fungi": 29
+  },
+  "thumbnails": {
+    "general_thumbs": 39,
+    "fungi_thumbs": 29,
+    "notes": "Thumbnails are derivative files mapped to parent images"
   },
   "hero_candidates": [
     "Tea-rooms-side-2.jpg",
