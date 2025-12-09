@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Page not found - Friends of Farthing Downs & Happy Valley">
+  <meta name="robots" content="noindex">
+  <title>Page Not Found | Farthing Downs & Happy Valley</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="apple-touch-icon" href="images/logo.jpg">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <style>
+    .error-page {
+      min-height: 60vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: var(--space-xl);
+    }
+
+    .error-code {
+      font-size: 6rem;
+      font-weight: 700;
+      color: var(--color-primary);
+      line-height: 1;
+      margin-bottom: var(--space-md);
+    }
+
+    .error-message {
+      font-size: 1.5rem;
+      color: var(--color-text);
+      margin-bottom: var(--space-lg);
+    }
+
+    .error-description {
+      max-width: 500px;
+      color: var(--color-text-light);
+      margin-bottom: var(--space-xl);
+    }
+
+    .error-actions {
+      display: flex;
+      gap: var(--space-md);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .quick-links {
+      margin-top: var(--space-xl);
+      padding-top: var(--space-lg);
+      border-top: 1px solid var(--color-border);
+    }
+
+    .quick-links h2 {
+      font-size: 1.25rem;
+      margin-bottom: var(--space-md);
+    }
+
+    .quick-links ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: var(--space-lg);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .quick-links a {
+      color: var(--color-primary);
+      text-decoration: none;
+    }
+
+    .quick-links a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Skip Navigation Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header -->
+  <header>
+    <nav>
+      <a href="index.html" class="logo">Farthing Downs <span>&</span> Happy Valley</a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <ul class="nav-links">
+        <li><a href="visit.html">Visit</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="join.html" class="nav-cta">Join Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Error Content -->
+  <main id="main-content" class="error-page">
+    <div class="error-code">404</div>
+    <h1 class="error-message">Page Not Found</h1>
+    <p class="error-description">
+      Sorry, we couldn't find the page you're looking for. It may have been moved,
+      deleted, or perhaps you typed the address incorrectly. Don't worry though -
+      there's plenty more to explore on our beautiful downs!
+    </p>
+
+    <div class="error-actions">
+      <a href="index.html" class="cta-button">Go to Homepage</a>
+      <a href="explore.html" class="cta-secondary">Explore the Downs</a>
+    </div>
+
+    <div class="quick-links">
+      <h2>Popular Pages</h2>
+      <ul>
+        <li><a href="visit.html">Plan Your Visit</a></li>
+        <li><a href="nature-trail.html">Nature Trail</a></li>
+        <li><a href="gallery.html">Photo Gallery</a></li>
+        <li><a href="events.html">Upcoming Events</a></li>
+        <li><a href="join.html">Become a Member</a></li>
+      </ul>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h3>Friends of Farthing Downs & Happy Valley</h3>
+          <p>Protecting and promoting London's ancient chalk downland since 1996.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="visit.html">Visit</a></li>
+            <li><a href="explore.html">Explore</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="join.html">Join Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact</h3>
+          <p>Email: <a href="mailto:hello@farthingdowns.org.uk">hello@farthingdowns.org.uk</a></p>
+          <p>Managed by the City of London Corporation</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Friends of Farthing Downs & Happy Valley. Registered Charity No. 1058191.</p>
+        <p><a href="about.html#privacy">Privacy Policy</a> | <a href="about.html#accessibility">Accessibility</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
