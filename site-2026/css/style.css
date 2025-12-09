@@ -1203,3 +1203,348 @@ footer {
 .lightbox:not(.lightbox-active) {
   visibility: hidden;
 }
+
+/* ============================================================================
+   FORM SYSTEM
+   ============================================================================ */
+
+/* Form Container */
+.form {
+  max-width: 600px;
+}
+
+/* Form Groups */
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: var(--color-text);
+}
+
+/* Text Inputs, Selects, and Textareas */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  font-family: inherit;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+
+/* Focus States */
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(74, 124, 89, 0.1);
+}
+
+/* Fieldsets for Checkbox/Radio Groups */
+.form-group fieldset {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.form-group fieldset legend {
+  font-weight: 500;
+  margin-bottom: 0.75rem;
+}
+
+.form-group fieldset label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+  cursor: pointer;
+}
+
+/* Checkbox and Radio Styles */
+.form-group fieldset input[type="checkbox"],
+.form-group fieldset input[type="radio"] {
+  width: auto;
+  accent-color: var(--color-primary);
+  cursor: pointer;
+}
+
+/* Form Validation States */
+.form-group input:invalid:not(:placeholder-shown) {
+  border-color: #dc3545;
+}
+
+.form-group .error-message {
+  color: #dc3545;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
+}
+
+/* Newsletter Inline Form */
+.form--inline {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.form--inline .form-group {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 0;
+}
+
+/* Form Note */
+.form-note {
+  font-size: 0.75rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+/* ============================================================================
+   NEWSLETTER SIGNUP
+   ============================================================================ */
+
+.newsletter-signup {
+  background: var(--color-background);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.newsletter-signup h2 {
+  margin-bottom: 0.5rem;
+}
+
+.newsletter-signup p {
+  margin-bottom: 1rem;
+  color: #666;
+}
+
+/* ============================================================================
+   GIFT AID SECTION
+   ============================================================================ */
+
+.gift-aid {
+  background: #e8f5e9;
+  border-left: 4px solid var(--color-primary);
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+}
+
+.gift-aid h3 {
+  margin-top: 0;
+  color: var(--color-primary);
+}
+
+/* ============================================================================
+   RESPONSIVE ADJUSTMENTS FOR FORMS
+   ============================================================================ */
+
+@media (max-width: 640px) {
+  .form--inline {
+    flex-direction: column;
+  }
+
+  .form--inline .form-group {
+    width: 100%;
+  }
+
+  .tier-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================================================================
+   MEMBERSHIP TIERS
+   ============================================================================ */
+
+.membership-tiers {
+  padding: var(--space-lg) 0;
+}
+
+.section-intro {
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  max-width: 600px;
+  margin: 0 auto var(--space-lg);
+}
+
+.tier-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.tier-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-background);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  text-align: center;
+  transition: all var(--transition);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.tier-card:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.tier-card--featured {
+  border-color: var(--color-primary);
+  border-width: 2px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  position: relative;
+}
+
+.tier-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--color-primary);
+  color: var(--color-white);
+  padding: 0.25rem 1rem;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.tier-price {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--color-primary);
+  margin: 1rem 0;
+  font-family: var(--font-heading);
+}
+
+.tier-price span {
+  font-size: 1rem;
+  font-weight: normal;
+  color: var(--color-text-light);
+}
+
+.tier-subtext {
+  font-size: 0.875rem;
+  color: var(--color-text-light);
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tier-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  text-align: left;
+}
+
+.tier-benefits li {
+  padding: 0.5rem 0;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.tier-benefits li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.tier-footnote {
+  text-align: center;
+  color: var(--color-text-light);
+  font-size: 0.875rem;
+  margin-top: 2rem;
+  line-height: 1.6;
+}
+
+.tier-footnote a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+/* ============================================================================
+   VOLUNTEER SIGNUP
+   ============================================================================ */
+
+.volunteer-signup {
+  padding: var(--space-lg) 0;
+}
+
+.volunteer-signup h2 {
+  text-align: center;
+  margin-bottom: var(--space-sm);
+}
+
+.volunteer-signup > .container > p {
+  text-align: center;
+  font-size: 1.125rem;
+  color: var(--color-text-light);
+  max-width: 700px;
+  margin: 0 auto var(--space-lg);
+}
+
+.volunteer-signup .form {
+  max-width: 600px;
+  margin: 0 auto;
+  background: var(--color-white);
+  padding: var(--space-lg);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.cta-button {
+  display: inline-block;
+  width: 100%;
+  padding: var(--space-sm) var(--space-md);
+  background: var(--color-primary);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  transition: all var(--transition);
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background: var(--color-primary-dark);
+  color: var(--color-white);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(74, 124, 89, 0.4);
+}
+
+.cta-button:active {
+  transform: translateY(0);
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .tier-grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-md);
+  }
+
+  .volunteer-signup .form {
+    padding: var(--space-md);
+  }
+}
