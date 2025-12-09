@@ -680,7 +680,7 @@ class MobileMenu {
 
   initialize() {
     // Toggle click handler
-    this.toggle.addEventListener('click', () => this.toggle());
+    this.toggle.addEventListener('click', () => this.toggleMenu());
 
     // Close on link click
     if (this.config.closeOnLinkClick) {
@@ -714,7 +714,7 @@ class MobileMenu {
     });
   }
 
-  toggle() {
+  toggleMenu() {
     if (this.isOpen) {
       this.close();
     } else {
