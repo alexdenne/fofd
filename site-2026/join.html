@@ -60,73 +60,57 @@
   </section>
 
   <!-- Membership -->
-  <section id="membership">
+  <section class="membership-tiers" id="membership">
     <div class="container">
-      <div class="text-center mb-lg">
-        <h2>Become a Member</h2>
-        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Your membership directly supports conservation projects, community events, and our work to protect Farthing Downs and Happy Valley. Join 100+ members protecting this special place.</p>
-      </div>
+      <h2>Join the Friends</h2>
+      <p class="section-intro">Support the conservation of Farthing Downs & Happy Valley</p>
 
-      <div class="pricing-cards">
+      <div class="tier-grid">
         <!-- Friend Tier -->
-        <div class="pricing-card">
+        <article class="tier-card">
           <h3>Friend</h3>
-          <div class="price">£10<span>/year</span></div>
-          <ul>
-            <li>Quarterly newsletter with updates</li>
-            <li>Voting rights at AGM</li>
-            <li>Invites to walks and talks</li>
-            <li>Supporting vital conservation work</li>
-            <li>Name on website (optional)</li>
+          <p class="tier-price">£10<span>/year</span></p>
+          <ul class="tier-benefits">
+            <li>Quarterly digital newsletter</li>
+            <li>AGM voting rights</li>
+            <li>Name on members page</li>
           </ul>
-          <!-- Replace with your actual payment link -->
-          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link for Friend £10/year - Create at dashboard.stripe.com/payment-links'); return false;">
-            Join Now
-          </a>
-        </div>
+          <a href="[STRIPE_LINK_FRIEND]" class="cta-button">Join as Friend</a>
+        </article>
 
-        <!-- Supporter Tier - Featured -->
-        <div class="pricing-card featured">
+        <!-- Supporter Tier (highlighted) -->
+        <article class="tier-card tier-card--featured">
+          <span class="tier-badge">Most Popular</span>
           <h3>Supporter</h3>
-          <div class="price">£25<span>/year</span></div>
-          <ul>
+          <p class="tier-price">£25<span>/year</span></p>
+          <p class="tier-subtext">Less than 50p a week</p>
+          <ul class="tier-benefits">
             <li>Everything in Friend, plus:</li>
-            <li>Family membership coverage</li>
-            <li>Priority event booking (48 hours)</li>
-            <li>Members-only guided walk</li>
-            <li>Car window sticker & welcome pack</li>
-            <li>Optional print newsletter</li>
+            <li>48-hour priority event booking</li>
+            <li>Annual members-only walk</li>
+            <li>Welcome pack & car sticker</li>
           </ul>
-          <!-- Replace with your actual payment link -->
-          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link for Supporter £25/year - Create at dashboard.stripe.com/payment-links'); return false;">
-            Join Now
-          </a>
-          <p class="text-light" style="font-size: 0.875rem; margin-top: var(--space-sm);">Less than 50p a week!</p>
-        </div>
+          <a href="[STRIPE_LINK_SUPPORTER]" class="cta-button">Become a Supporter</a>
+        </article>
 
-        <!-- Champion Tier -->
-        <div class="pricing-card">
-          <h3>Champion</h3>
-          <div class="price">£50<span>/year</span></div>
-          <ul>
+        <!-- Patron Tier -->
+        <article class="tier-card">
+          <h3>Patron</h3>
+          <p class="tier-price">£50<span>/year</span></p>
+          <ul class="tier-benefits">
             <li>Everything in Supporter, plus:</li>
-            <li>Name featured on website</li>
-            <li>Personal thank you from Chair</li>
-            <li>Recognition in annual report</li>
-            <li>Invitation to annual patrons' event</li>
-            <li>First choice volunteer opportunities</li>
+            <li>Name in annual report</li>
+            <li>Personal thank-you from Chair</li>
+            <li>Exclusive Patrons' event</li>
           </ul>
-          <!-- Replace with your actual payment link -->
-          <a href="#" class="btn btn-primary btn-large" style="width: 100%;" onclick="alert('Stripe Payment Link for Champion £50/year - Create at dashboard.stripe.com/payment-links'); return false;">
-            Join Now
-          </a>
-        </div>
+          <a href="[STRIPE_LINK_PATRON]" class="cta-button">Become a Patron</a>
+        </article>
       </div>
 
-      <div class="text-center mt-lg" style="max-width: 700px; margin-left: auto; margin-right: auto;">
-        <p class="text-light"><strong>Concessions available:</strong> Friend membership at £5/year for those on Universal Credit. <strong>Prefer to pay another way?</strong> We also accept standing orders and cheques. <a href="about.html#contact">Contact us</a> for details.</p>
-        <p class="text-light" style="margin-top: var(--space-sm);"><strong>Gift Aid:</strong> UK taxpayers can add 25% to their donation at no extra cost through Gift Aid.</p>
-      </div>
+      <p class="tier-footnote">
+        On Universal Credit? <a href="[STRIPE_LINK_CONCESSION]">Join as a Friend for £5/year</a>.
+        <br>Add £5 to any tier for household membership.
+      </p>
     </div>
   </section>
 
@@ -168,132 +152,41 @@
   </section>
 
   <!-- Volunteer -->
-  <section id="volunteer">
+  <section class="volunteer-signup" id="volunteer">
     <div class="container">
-      <div class="text-center mb-lg">
-        <h2>Volunteer with Us</h2>
-        <p class="text-light" style="max-width: 600px; margin: 0 auto;">Get your hands dirty and make a real difference. Our volunteer group (the "Hillbillies") meets every third Sunday to work on conservation projects. No experience needed – tools, guidance, and tea included!</p>
-      </div>
+      <h2>Volunteer With Us</h2>
+      <p>Join our friendly team for practical conservation work, guided walks, or help behind the scenes.</p>
 
-      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-lg); align-items: start;">
-        <!-- Volunteer Form -->
-        <div>
-          <div style="background: var(--color-white); padding: var(--space-lg); border-radius: var(--border-radius); box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-            <h3 style="margin-bottom: var(--space-md);">Sign Up to Volunteer</h3>
-
-            <!-- Replace action URL with your Formspree endpoint -->
-            <form action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST">
-
-              <div style="margin-bottom: var(--space-md);">
-                <label for="volunteer-name" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Name *</label>
-                <input type="text" id="volunteer-name" name="name" required style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
-              </div>
-
-              <div style="margin-bottom: var(--space-md);">
-                <label for="volunteer-email" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Email *</label>
-                <input type="email" id="volunteer-email" name="email" required style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
-              </div>
-
-              <div style="margin-bottom: var(--space-md);">
-                <label for="volunteer-phone" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Phone (optional)</label>
-                <input type="tel" id="volunteer-phone" name="phone" style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem;">
-              </div>
-
-              <div style="margin-bottom: var(--space-md);">
-                <label style="display: block; font-weight: 600; margin-bottom: var(--space-sm);">Areas of Interest</label>
-                <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="interests" value="conservation-work" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Conservation work (scrub clearing, path maintenance)</span>
-                  </label>
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="interests" value="wildlife-surveying" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Wildlife surveying and recording</span>
-                  </label>
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="interests" value="events" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Helping with walks and events</span>
-                  </label>
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="interests" value="admin" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Admin and committee work</span>
-                  </label>
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="interests" value="social-media" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Social media and communications</span>
-                  </label>
-                </div>
-              </div>
-
-              <div style="margin-bottom: var(--space-md);">
-                <label style="display: block; font-weight: 600; margin-bottom: var(--space-sm);">Availability</label>
-                <div style="display: flex; flex-direction: column; gap: var(--space-xs);">
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="availability" value="weekends" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Weekends</span>
-                  </label>
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="availability" value="weekdays" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Weekdays</span>
-                  </label>
-                  <label style="display: flex; align-items: center; cursor: pointer;">
-                    <input type="checkbox" name="availability" value="evenings" style="margin-right: var(--space-xs); cursor: pointer;">
-                    <span>Evenings</span>
-                  </label>
-                </div>
-              </div>
-
-              <div style="margin-bottom: var(--space-md);">
-                <label for="volunteer-skills" style="display: block; font-weight: 600; margin-bottom: var(--space-xs);">Skills & Experience (optional)</label>
-                <textarea id="volunteer-skills" name="skills" rows="4" placeholder="Tell us about any relevant skills or experience – or just your enthusiasm!" style="width: 100%; padding: var(--space-sm); border: 2px solid #ddd; border-radius: var(--border-radius); font-family: var(--font-body); font-size: 1rem; resize: vertical;"></textarea>
-              </div>
-
-              <button type="submit" class="btn btn-primary btn-large" style="width: 100%;">
-                Sign Me Up!
-              </button>
-            </form>
-          </div>
+      <form action="https://formspree.io/f/[FORMSPREE_ID]" method="POST" class="form">
+        <div class="form-group">
+          <label for="volunteer-name">Name *</label>
+          <input type="text" id="volunteer-name" name="name" required>
         </div>
-
-        <!-- Volunteer Info & Image -->
-        <div>
-          <div style="background: var(--color-primary); color: var(--color-white); padding: var(--space-lg); border-radius: var(--border-radius); margin-bottom: var(--space-md);">
-            <h3 style="color: var(--color-white); margin-bottom: var(--space-md);">Why Volunteer?</h3>
-            <ul style="list-style: none; margin: 0;">
-              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
-                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
-                <span>Make a visible difference to your local environment</span>
-              </li>
-              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
-                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
-                <span>Learn new skills in conservation and ecology</span>
-              </li>
-              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
-                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
-                <span>Meet like-minded people who care about nature</span>
-              </li>
-              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
-                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
-                <span>Get exercise and fresh air in a beautiful setting</span>
-              </li>
-              <li style="padding: var(--space-xs) 0; display: flex; align-items: start;">
-                <span aria-hidden="true" style="margin-right: var(--space-sm);">✓</span>
-                <span>All tools, training, and tea provided!</span>
-              </li>
-            </ul>
-          </div>
-          <img src="https://images.unsplash.com/photo-1558008258-3256797b43f3?w=600&q=80" alt="Volunteers working outdoors" style="border-radius: var(--border-radius); box-shadow: 0 8px 25px rgba(0,0,0,0.15); width: 100%;">
+        <div class="form-group">
+          <label for="volunteer-email">Email *</label>
+          <input type="email" id="volunteer-email" name="email" required>
         </div>
-      </div>
-
-      <!-- Mobile responsive note: On small screens this will stack vertically -->
-      <style>
-        @media (max-width: 968px) {
-          #volunteer .container > div[style*="grid-template-columns"] {
-            grid-template-columns: 1fr !important;
-          }
-        }
-      </style>
+        <fieldset class="form-group">
+          <legend>What interests you?</legend>
+          <label><input type="checkbox" name="interest" value="conservation"> Conservation work days</label>
+          <label><input type="checkbox" name="interest" value="walks"> Leading guided walks</label>
+          <label><input type="checkbox" name="interest" value="events"> Event support</label>
+          <label><input type="checkbox" name="interest" value="digital"> Social media & website</label>
+          <label><input type="checkbox" name="interest" value="other"> Something else</label>
+        </fieldset>
+        <div class="form-group">
+          <label for="volunteer-availability">When are you usually free?</label>
+          <select id="volunteer-availability" name="availability">
+            <option value="">Select...</option>
+            <option value="weekday-am">Weekday mornings</option>
+            <option value="weekday-pm">Weekday afternoons</option>
+            <option value="weekend-am">Weekend mornings</option>
+            <option value="weekend-pm">Weekend afternoons</option>
+            <option value="flexible">Flexible</option>
+          </select>
+        </div>
+        <button type="submit" class="cta-button">Sign Up to Volunteer</button>
+      </form>
     </div>
   </section>
 

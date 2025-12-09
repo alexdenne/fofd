@@ -1,0 +1,568 @@
+{
+  "category": "fungi",
+  "description": "Fungi foray images from November 2014, recorded by Ray Tantram",
+  "source_directory": "site-2005-2025/Fungi-011114/",
+  "date_processed": "2025-12-09",
+  "foray_date": "2014-11-01",
+  "location": "Farthing Downs",
+  "grid_reference": "TQ304571",
+  "recorder": "Ray Tantram",
+  "total_species_found": 45,
+  "total_images": 29,
+  "images": [
+    {
+      "filename": "Fungi01.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi01.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi01s.jpg",
+      "species_scientific": "Coprinellus disseminatus",
+      "species_common": "Fairy bonnets",
+      "suggested_alt_text": "Tiny greyish fairy bonnet mushrooms clustered on rotting wood",
+      "suggested_caption": "Fairy Bonnets (Coprinellus disseminatus) - tiny mushrooms in clumps on rotting stumps",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi02.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi02.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi02s.jpg",
+      "species_scientific": "Unidentified",
+      "species_common": null,
+      "suggested_alt_text": "Cluster of tan-colored mushrooms on forest floor",
+      "suggested_caption": "Unidentified fungus - image too indistinct for field identification",
+      "quality_score": "medium",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": true,
+      "review_reason": "Noted as 'too indistinct to differentiate' in foray report"
+    },
+    {
+      "filename": "Fungi03.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi03.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi03s.jpg",
+      "species_scientific": "Lycoperdon pyriforme",
+      "species_common": "Puffball",
+      "suggested_alt_text": "Two pear-shaped puffball fungi held in hand showing tan coloration",
+      "suggested_caption": "Pear-shaped Puffball (Lycoperdon pyriforme) - grows on wood with branched mycelial cords at base",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi04.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi04.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi04s.jpg",
+      "species_scientific": "Daldinia concentrica",
+      "species_common": "King Alfred's Cakes / Cramp balls",
+      "suggested_alt_text": "Cross-section of black King Alfred's cakes fungus showing concentric rings",
+      "suggested_caption": "King Alfred's Cakes (Daldinia concentrica) - mature specimen, hard crumbly black balls on dead ash",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi05.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi05.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi05s.jpg",
+      "species_scientific": "Daldinia concentrica",
+      "species_common": "King Alfred's Cakes / Cramp balls",
+      "suggested_alt_text": "Young brown King Alfred's cakes fungi on mossy log",
+      "suggested_caption": "King Alfred's Cakes (Daldinia concentrica) - young material, brown color, works as tinder",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi06.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi06.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi06s.jpg",
+      "species_scientific": "Lycoperdon pyriforme",
+      "species_common": "Puffball",
+      "suggested_alt_text": "Cluster of white pear-shaped puffball mushrooms growing on dead wood",
+      "suggested_caption": "Pear-shaped Puffball (Lycoperdon pyriforme) - tan puffballs growing in cluster on wood",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi07.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi07.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi07s.jpg",
+      "species_scientific": "Chlorophyllum rhacodes",
+      "species_common": "Shaggy parasol",
+      "suggested_alt_text": "Large shaggy parasol mushroom held in hands showing white cap and gills",
+      "suggested_caption": "Shaggy Parasol (Chlorophyllum rhacodes) - grows under trees, flesh reddens when cut, edible but can cause digestive upset in some people",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi08.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi08.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi08s.jpg",
+      "species_scientific": "Delicatula integrella",
+      "species_common": null,
+      "suggested_alt_text": "Tiny white mushroom with primitive decurrent gills held in hand",
+      "suggested_caption": "Delicatula integrella - tiny white mushrooms with primitive decurrent gills, found in damp areas near willow and alder",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi09.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi09.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi09s.jpg",
+      "species_scientific": "Agaricus xanthodermus",
+      "species_common": "Yellow staining mushroom",
+      "suggested_alt_text": "White mushroom with yellow staining at stem base showing characteristic yellowing",
+      "suggested_caption": "Yellow Staining Mushroom (Agaricus xanthodermus) - POISONOUS - stains bright yellow when scratched, carbolic smell especially when cooking",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi10.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi10.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi10s.jpg",
+      "species_scientific": "Unidentified",
+      "species_common": null,
+      "suggested_alt_text": "Mass of white clustered mushrooms on fallen tree trunk",
+      "suggested_caption": "Unidentified fungus - image too indistinct for field identification",
+      "quality_score": "medium",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": true,
+      "review_reason": "Noted as 'too indistinct to differentiate' in foray report"
+    },
+    {
+      "filename": "Fungi11.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi11.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi11s.jpg",
+      "species_scientific": "Neobulgaria pura",
+      "species_common": null,
+      "suggested_alt_text": "Pink-lilac jelly-like fungi growing on fallen beech wood",
+      "suggested_caption": "Neobulgaria pura - pale pink-lilac crowded jelly buttons on fallen beech",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi12.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi12.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi12s.jpg",
+      "species_scientific": "Dacrymyces stillatus",
+      "species_common": "Jelly spot",
+      "suggested_alt_text": "Small yellow-orange jelly spots on bare fallen timber",
+      "suggested_caption": "Jelly Spot (Dacrymyces stillatus) - small yellow to orange gelatinous blobs on barkless fallen timber",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi13.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi13.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi13s.jpg",
+      "species_scientific": "Crepidotus mollis",
+      "species_common": "Peeling Oysterling",
+      "suggested_alt_text": "Creamy-brown shell-shaped fungi growing on fallen beech trunk",
+      "suggested_caption": "Peeling Oysterling (Crepidotus mollis) - soft creamy-brown 'shells' on dead wood, elastic cap skin peels off",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi14.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi14.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi14s.jpg",
+      "species_scientific": "Unidentified",
+      "species_common": null,
+      "suggested_alt_text": "Orange-brown bracket fungi and white mushrooms on rotting stump",
+      "suggested_caption": "Unidentified fungi - image too indistinct for field identification",
+      "quality_score": "medium",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": true,
+      "review_reason": "Noted as 'too indistinct to differentiate' in foray report"
+    },
+    {
+      "filename": "Fungi15.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi15.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi15s.jpg",
+      "species_scientific": "Coprinellus micaceus",
+      "species_common": "Glistening inkcap",
+      "suggested_alt_text": "Small tan mushroom caps with glistening particles in tufts on wood",
+      "suggested_caption": "Glistening Inkcap (Coprinellus micaceus) - small tan caps with glistening particles, growing in tufts on wood",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi16.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi16.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi16s.jpg",
+      "species_scientific": "Trametes versicolor",
+      "species_common": "Turkey tails / Many-coloured bracket",
+      "suggested_alt_text": "Thin overlapping bracket fungi growing in tiers on dead wood",
+      "suggested_caption": "Turkey Tails (Trametes versicolor) - old specimen lacking bright color bands, grows in tiers on dead wood",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi17.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi17.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi17s.jpg",
+      "species_scientific": "Laccaria laccata",
+      "species_common": "Deceiver",
+      "suggested_alt_text": "Pink-rose-brown mushrooms with distinctive gill pattern",
+      "suggested_caption": "Deceiver (Laccaria laccata) - pinky-rose-brown mushrooms with three different gill lengths, very variable in appearance",
+      "quality_score": "medium",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi18.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi18.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi18s.jpg",
+      "species_scientific": "Coprinellus micaceus",
+      "species_common": "Glistening inkcap",
+      "suggested_alt_text": "Cluster of tan glistening inkcap mushrooms growing from mossy stump",
+      "suggested_caption": "Glistening Inkcap (Coprinellus micaceus) - small tan caps with glistening particles, in tufts on wood",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi19.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi19.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi19s.jpg",
+      "species_scientific": "Ganoderma applanatum",
+      "species_common": "Artist's fungus",
+      "suggested_alt_text": "Lower surface of Artist's fungus showing white pores and layered tubes",
+      "suggested_caption": "Artist's Fungus (Ganoderma applanatum) - lower surface showing pore layer, tubes in distinct layers",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi20.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi20.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi20s.jpg",
+      "species_scientific": "Ganoderma applanatum",
+      "species_common": "Artist's fungus",
+      "suggested_alt_text": "Upper surface of old Artist's fungus bracket showing brown coloration with moss",
+      "suggested_caption": "Artist's Fungus (Ganoderma applanatum) - upper surface of old specimen, brown thick bracket",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi21.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi21.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi21s.jpg",
+      "species_scientific": "Lycoperdon perlatum",
+      "species_common": "Puffball",
+      "suggested_alt_text": "Fresh white puffballs with characteristic pearly texture in leaf litter",
+      "suggested_caption": "Puffball (Lycoperdon perlatum) - fresh specimens with small 'pearls' that rub off, grows in leaf litter, edible",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi22.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi22.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi22s.jpg",
+      "species_scientific": "Mycena pura",
+      "species_common": "Lilac mycena",
+      "suggested_alt_text": "Blurred pink-lilac mushroom specimen being handled",
+      "suggested_caption": "Lilac Mycena (Mycena pura) - medium-sized pink to lilac cap, smell of radish, found in beech litter, POISONOUS",
+      "quality_score": "low",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": true,
+      "review_reason": "Image is blurred and out of focus, may not be suitable for publication"
+    },
+    {
+      "filename": "Fungi23.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi23.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi23s.jpg",
+      "species_scientific": "Hypholoma fasciculare",
+      "species_common": "Sulphur tuft",
+      "suggested_alt_text": "Bright yellow sulphur tuft mushrooms growing in profusion on stump",
+      "suggested_caption": "Sulphur Tuft (Hypholoma fasciculare) - grows on stumps in profusion, sulphur-colored gills darken as spores mature, POISONOUS",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi24.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi24.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi24s.jpg",
+      "species_scientific": "Kuehneromyces mutabilis",
+      "species_common": null,
+      "suggested_alt_text": "Golden-brown mushrooms growing in cluster on tree stump",
+      "suggested_caption": "Kuehneromyces mutabilis - golden-brown viscous caps growing in tufts on stumps, in poor condition, can be confused with poisonous species",
+      "quality_score": "medium",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": true,
+      "review_reason": "Noted as 'in poor condition' in foray report"
+    },
+    {
+      "filename": "Fungi25.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi25.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi25s.jpg",
+      "species_scientific": "Ganoderma applanatum",
+      "species_common": "Artist's fungus",
+      "suggested_alt_text": "Large brown bracket fungus showing upper surface with concentric zones",
+      "suggested_caption": "Artist's Fungus (Ganoderma applanatum) - upper surface of large specimen, brown thick bracket on broadleaf wood",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi26.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi26.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi26s.jpg",
+      "species_scientific": "Neobulgaria pura",
+      "species_common": null,
+      "suggested_alt_text": "Close-up of pale pink-lilac jelly fungi with small dark insects",
+      "suggested_caption": "Neobulgaria pura - close-up showing pale pink-lilac jelly buttons on fallen beech, with insect visitors",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi27.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi27.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi27s.jpg",
+      "species_scientific": "Coprinellus disseminatus",
+      "species_common": "Fairy bonnets",
+      "suggested_alt_text": "Extreme close-up of tiny white fairy bonnet mushrooms showing delicate cap structure",
+      "suggested_caption": "Fairy Bonnets (Coprinellus disseminatus) - close-up showing tiny greyish caps with delicate structure",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi28.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi28.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi28s.jpg",
+      "species_scientific": "Sebacina incrustans",
+      "species_common": null,
+      "suggested_alt_text": "White waxy encrusting fungus growing over moss on decayed fallen tree",
+      "suggested_caption": "Sebacina incrustans - encrusting resupinate fungus forming creamy patches over moss on decayed broadleaf tree, waxy texture",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    },
+    {
+      "filename": "Fungi29.jpg",
+      "original_path": "site-2005-2025/Fungi-011114/Fungi29.jpg",
+      "category": "fungi",
+      "thumbnail": "Fungi29s.jpg",
+      "species_scientific": "Ganoderma applanatum",
+      "species_common": "Artist's fungus",
+      "suggested_alt_text": "Lower surface of Artist's fungus showing pores with exit holes from gall fly larvae",
+      "suggested_caption": "Artist's Fungus (Ganoderma applanatum) - lower surface showing pores with numerous exit holes of fungus gall fly larvae",
+      "quality_score": "high",
+      "suggested_pages": ["/gallery", "/explore/wildlife", "/explore/fungi"],
+      "needs_review": false,
+      "review_reason": null
+    }
+  ],
+  "metadata": {
+    "species_identified": [
+      {
+        "scientific_name": "Agaricus xanthodermus",
+        "common_name": "Yellow staining mushroom",
+        "edibility": "Poisonous",
+        "image_numbers": [9]
+      },
+      {
+        "scientific_name": "Chlorophyllum rhacodes",
+        "common_name": "Shaggy parasol",
+        "edibility": "Edible (can cause digestive upset in some)",
+        "image_numbers": [7]
+      },
+      {
+        "scientific_name": "Coprinellus disseminatus",
+        "common_name": "Fairy bonnets",
+        "edibility": "Not recommended",
+        "image_numbers": [1, 27]
+      },
+      {
+        "scientific_name": "Coprinellus micaceus",
+        "common_name": "Glistening inkcap",
+        "edibility": "Not recommended",
+        "image_numbers": [15, 18]
+      },
+      {
+        "scientific_name": "Crepidotus mollis",
+        "common_name": "Peeling Oysterling",
+        "edibility": "Not recommended",
+        "image_numbers": [13]
+      },
+      {
+        "scientific_name": "Dacrymyces stillatus",
+        "common_name": "Jelly spot",
+        "edibility": "Not recommended",
+        "image_numbers": [12]
+      },
+      {
+        "scientific_name": "Daldinia concentrica",
+        "common_name": "King Alfred's cakes / Cramp balls",
+        "edibility": "Not edible",
+        "image_numbers": [4, 5]
+      },
+      {
+        "scientific_name": "Delicatula integrella",
+        "common_name": null,
+        "edibility": "Not recommended",
+        "image_numbers": [8]
+      },
+      {
+        "scientific_name": "Ganoderma applanatum",
+        "common_name": "Artist's fungus",
+        "edibility": "Not edible",
+        "image_numbers": [19, 20, 25, 29]
+      },
+      {
+        "scientific_name": "Hypholoma fasciculare",
+        "common_name": "Sulphur tuft",
+        "edibility": "Poisonous",
+        "image_numbers": [23]
+      },
+      {
+        "scientific_name": "Kuehneromyces mutabilis",
+        "common_name": null,
+        "edibility": "Not recommended (can be confused with poisonous species)",
+        "image_numbers": [24]
+      },
+      {
+        "scientific_name": "Laccaria laccata",
+        "common_name": "Deceiver",
+        "edibility": "Edible",
+        "image_numbers": [17]
+      },
+      {
+        "scientific_name": "Lycoperdon perlatum",
+        "common_name": "Puffball",
+        "edibility": "Edible when young",
+        "image_numbers": [21]
+      },
+      {
+        "scientific_name": "Lycoperdon pyriforme",
+        "common_name": "Puffball",
+        "edibility": "Not recommended",
+        "image_numbers": [3, 6]
+      },
+      {
+        "scientific_name": "Mycena pura",
+        "common_name": "Lilac mycena",
+        "edibility": "Poisonous",
+        "image_numbers": [22]
+      },
+      {
+        "scientific_name": "Neobulgaria pura",
+        "common_name": null,
+        "edibility": "Not edible",
+        "image_numbers": [11, 26]
+      },
+      {
+        "scientific_name": "Sebacina incrustans",
+        "common_name": null,
+        "edibility": "Not edible",
+        "image_numbers": [28]
+      },
+      {
+        "scientific_name": "Trametes versicolor",
+        "common_name": "Turkey tails / Many-coloured bracket",
+        "edibility": "Not edible",
+        "image_numbers": [16]
+      },
+      {
+        "scientific_name": "Unidentified",
+        "common_name": null,
+        "edibility": "Unknown",
+        "image_numbers": [2, 10, 14]
+      }
+    ],
+    "image_quality_breakdown": {
+      "high_quality": 23,
+      "medium_quality": 3,
+      "low_quality": 1,
+      "needs_review": 4
+    },
+    "edibility_breakdown": {
+      "edible": 2,
+      "edible_with_caution": 1,
+      "poisonous": 3,
+      "not_edible": 5,
+      "not_recommended": 7,
+      "unidentified": 3
+    },
+    "notable_specimens": [
+      {
+        "image_number": 7,
+        "reason": "Large, clear specimen of Shaggy Parasol showing diagnostic features"
+      },
+      {
+        "image_number": 21,
+        "reason": "Fresh puffball specimens in excellent condition, as noted by recorder"
+      },
+      {
+        "image_number": 29,
+        "reason": "Shows rare fungus gall fly larvae exit holes in Artist's fungus"
+      }
+    ],
+    "conservation_notes": "This foray documented 45 species total (only 29 photographed). Represents healthy fungal diversity in mature woodland habitat at Farthing Downs.",
+    "additional_species_list": "Full species list includes 45 species found during the foray. Complete list available in original HTML document (Fungi-011114.html) with detailed descriptions by Ray Tantram."
+  }
+}

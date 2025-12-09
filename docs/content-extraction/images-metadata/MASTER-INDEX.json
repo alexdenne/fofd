@@ -47,22 +47,24 @@
       "notes": "Batch 4 - General site images including logos, maps, committee photos, walks"
     },
     "fungi": {
-      "status": "pending",
+      "status": "completed",
       "index_file": "images-metadata/fungi/index.json",
       "source_directory": "site-2005-2025/Fungi-011114/",
-      "estimated_count": 30,
-      "processed": false,
-      "notes": "Batch 5 - Fungi foray images from November 2014"
+      "total_images": 29,
+      "total_size_bytes": 12417251,
+      "processed": true,
+      "processed_date": "2025-12-09",
+      "notes": "Batch 5 - Fungi foray images from November 2014, recorded by Ray Tantram. 45 species identified, 29 photographed."
     }
   },
   "summary": {
     "total_categories": 5,
-    "categories_completed": 3,
-    "categories_pending": 2,
-    "images_processed": 62,
-    "images_pending_estimate": 180,
-    "total_processed_size_bytes": 10548776,
-    "completion_percentage": 60
+    "categories_completed": 4,
+    "categories_pending": 1,
+    "images_processed": 91,
+    "images_pending_estimate": 150,
+    "total_processed_size_bytes": 22966027,
+    "completion_percentage": 80
   },
   "quality_analysis": {
     "needs_review_count": 14,
@@ -118,6 +120,13 @@
       "action": "Initial processing",
       "batches_completed": ["history", "archaeology", "general"],
       "batches_pending": ["wildlife", "fungi"]
+    },
+    {
+      "date": "2025-12-09",
+      "action": "Fungi catalogue completed",
+      "batches_completed": ["fungi"],
+      "batches_pending": ["wildlife"],
+      "notes": "Catalogued 29 fungi images from November 2014 foray. Species identifications by Ray Tantram. 45 species total found, 29 photographed."
     }
   ]
 }
