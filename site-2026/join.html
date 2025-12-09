@@ -161,7 +161,10 @@
       <h2>Volunteer With Us</h2>
       <p>Join our friendly team for practical conservation work, guided walks, or help behind the scenes.</p>
 
-      <form action="https://formspree.io/f/[FORMSPREE_ID]" method="POST" class="form">
+      <form action="https://formsubmit.co/hello@farthingdowns.org.uk" method="POST" class="form">
+        <input type="hidden" name="_subject" value="New Volunteer Signup">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://alexdenne.github.io/fofd/join.html?thanks=volunteer">
         <div class="form-group">
           <label for="volunteer-name">Name *</label>
           <input type="text" id="volunteer-name" name="name" required>
@@ -202,8 +205,10 @@
         <p class="text-light" style="font-size: 1.125rem; margin-bottom: var(--space-md);">Join 200+ nature lovers receiving quarterly updates about wildlife sightings, upcoming events, and conservation news from the Downs.</p>
 
         <div style="background: var(--color-white); padding: var(--space-lg); border-radius: var(--border-radius); box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-          <!-- Replace action URL with your Formspree or Mailchimp endpoint -->
-          <form action="https://formspree.io/f/YOUR_NEWSLETTER_FORMSPREE_ID" method="POST" style="display: flex; flex-direction: column; gap: var(--space-sm);">
+          <form action="https://formsubmit.co/hello@farthingdowns.org.uk" method="POST" style="display: flex; flex-direction: column; gap: var(--space-sm);">
+            <input type="hidden" name="_subject" value="Newsletter Signup">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://alexdenne.github.io/fofd/join.html?thanks=newsletter">
 
             <div>
               <label for="newsletter-name" style="display: block; font-weight: 600; margin-bottom: var(--space-xs); text-align: left;">Name</label>
