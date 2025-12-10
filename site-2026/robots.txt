@@ -1,4 +1,7 @@
 User-agent: *
-Allow: /
+Disallow: /
+
+# Prevent indexing until site is ready for launch
+# Remove the Disallow line when ready to go live
 
 Sitemap: https://alexdenne.github.io/fofd/sitemap.xml
